@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="iso-8859-1"?><exam id_exam="107" title="Departamento de Idiomas. Escuela de Guerra | INGLÉS" fecha="NIVEL FUNCIONAL  2013" tipo="Listening">
+<intro1><![CDATA[En las sucesivas presentaciones usted encontrará preguntas de tipo test relacionadas con la conversación que debe escuchar previamente en la parte izquierda de la misma.]]></intro1>
+<intro2><![CDATA[Después de escuchar la conversación en inglés deberá responder a una de las preguntas de la parte derecha.]]></intro2>
+<intro3><![CDATA[Gracias por su colaboración. A continuación podrá <strong>imprimir</strong> las respuestas que han sido seleccionadas, o bien imprimirlas en un archivo <strong>pdf</strong> para su entrega al profesor correspondiente.]]></intro3>
+<tiempoGlobal><![CDATA[75]]></tiempoGlobal>
+<timeOver><![CDATA[Su tiempo ha terminado. Pulse finalizar e imprima sus respuestas]]></timeOver>
+<user id= "1">LABRADO GOMEZ, CARLOS TIM: 11111111#</user>
+
+<user id= "2">LAGUNA PEREZ, JAVIER TIM: 51652408#</user>
+
+<user id= "3">CAP TOVAR HERNÁNDEZ, GERARDO TIM: 09279594#</user>
+
+<user id= "4">MERINO TORO, LA BEGO TIM: 52104944#</user>
+
+<user id= "5">TCOL. D. ANTONIO PIÑA SANCHEZ TIM: 43012165#</user>
+
+<user id= "6">TCOL. D. ANGEL FERNANDEZ TUR TIM: 45068182#</user>
+
+<user id= "7">T TE. D. ANDRES TORRES CASO TIM: 28800128#</user>
+
+<user id= "8">CAP. ART.  JOSE  FRANCISCO   CAMPOS  BARBERO TIM: 06965997#</user>
+
+<user id= "9">CAP. CAB.  GABRIEL     ECHEVERRIA  URQUIZU TIM: 15992562#</user>
+
+<user id= "10">CAP. ABSTO.  MANUEL  JOSE    CEREZO       LOPEZ TIM: 30499977#</user>
+
+<user id= "11">JAVIER CANDAU ROMERO TIM: 28696353#</user>
+
+<user id= "12">TCOL. ANGEL MURILLO GÓMEZ TIM: 50701438#</user>
+
+<user id= "13">CTE. D. JOSÉ ALFONSO ROMÁN BIENES TIM: 11735404#</user>
+
+<user id= "14">TCOL. D. FRANCISCO JOSÉ LUGO PÉREZ TIM: 03824117#</user>
+
+<user id= "15">TCOL. D. BALTASAR BONILLA MORALES TIM: 78074909#</user>
+
+<user id= "16">TCOL. D. PABLO FERNANDO LESTAU MORELL TIM: 31648311#</user>
+
+<user id= "17">CTE. D. MANUEL CARRASCO GÓMEZ TIM: 50843117#</user>
+
+<user id= "18">CTE. D. AGUSTÍN FÉLIX AHEDO PELLITERO TIM: 21500338#</user>
+
+<user id= "19">CAP. D. ANTONIO Mª CLARET IBÁÑEZ TARRADELLAS TIM: 33934211#</user>
+
+<user id= "20">CTE. D. FRANCISCO GÓMEZ PAREDES TIM: 32678655#</user>
+
+<user id= "21">CTE. D. BONIFACIO DE LA VIUDA LOZANO TIM: 09259803#</user>
+
+<user id= "22">CAP. D. JUAN JERÓNIMO VILLALÓN CARBELLIDO TIM: 75757745#</user>
+
+<user id= "23">CAP. D. ÁNGEL LUIS PIÑEIRO BUSTABAD TIM: 32633576#</user>
+
+<user id= "24">CAP. D. PEDRO GARCÍA AGUADO TIM: 00379813#</user>
+
+<user id= "25">CTE. D. DANIEL DONOSO RODRÍGUEZ TIM: 07525490#</user>
+
+<user id= "26">CAP. D. MIGUEL A. ESTEVE AGUILAR TIM: 73770475#</user>
+
+<user id= "27">TTE. D. JOSÉ OCTAVIO BOIRA MORENO TIM: 52887029#</user>
+
+<user id= "28">TTE. D. CARLOS CLARAMONTE MARZO TIM: 72985673#</user>
+
+<user id= "29">TTE. D. ALBERTO RUÍZ BIELSA TIM: 03913140#</user>
+
+<user id= "30">TTE. D. ENRIQUE SÁNCHEZ DÍAZ TIM: 44352647#</user>
+
+<user id= "31">TTE. D. JOAQUÍN PELLEGRÍN GAYÁN TIM: 72998617#</user>
+
+<user id= "32">TCOL. D. SANTIAGO ÁLVAREZ HERRERO TIM: 09758017#</user>
+
+<user id= "33">CAP. D. LEOPOLDO SANTOS SANTOS TIM: 07512351#</user>
+
+<user id= "34">CAP. D. LUIS MARTÍNEZ THOMAS TIM: 09419326#</user>
+
+<user id= "35">TCOL. D. RODOLFO MARTÍNEZ AZOFRA TIM: 32033891#</user>
+
+<user id= "36">CTE. D. DARÍO DE JULIÁN FRÍAS TIM: 29119215#</user>
+
+<user id= "37">CTE. D. JAVIER VÁZQUEZ HERMOSO TIM: 03457112#</user>
+
+<user id= "38">TCOL. D. ALBERTO JAVIER GARCÍA ROMERA TIM: 24225777#</user>
+
+<user id= "39">TCOL. D. PABLO MORA BURBANO TIM: 50828592#</user>
+
+<user id= "40">CTE. D. MIGUEL DUEÑAS GONZÁLEZ TIM: 11821590#</user>
+
+<user id= "41">TCOL. D. BENJAMÍN RIVED LEDESMA TIM: 25140809#</user>
+
+<user id= "42">TCOL. D. CARLOS GALLEGO REMIRO TIM: 25442191#</user>
+
+<user id= "43">CTE. D. ÁNGEL TOMÉ CARRILLO TIM: 45279892#</user>
+
+<user id= "44">CTE. D. JOSÉ MANUEL FERNÁNDEZ MELÓN TIM: 09337260#</user>
+
+<user id= "45">TCOL. D. JULIO JAVIER CARDERO ESCOS TIM: 13113534#</user>
+
+<user id= "46">TTE. D. FERNANDO VIDALES BERROYA TIM: 51460093#</user>
+
+<user id= "47">CTE. D. RODRIGO JOSÉ HERNÁNDEZ NAVARRO TIM: 29113542#</user>
+
+<user id= "48">CAP. D. PEDRO ANTONIO MARTÍNEZ IRANZO TIM: 11846830#</user>
+
+<user id= "49">CAP. D. CONSUELO DELAGE GARCÍA DE ÁNGULO TIM: 47768761#</user>
+
+<user id= "50">TTE. D. VÍCTOR MONREAL GUMIEL TIM: 29133751#</user>
+
+<user id= "51">COR. D. JOSÉ MANUEL SIABA PORTELA TIM: 33246623#</user>
+
+<user id= "52">TCOL. D. JOSÉ ANTONIO ARAUZO MARTÍNEZ TIM: 13117909#</user>
+
+<user id= "53">TCOL. D. MARCOS ÁNGEL SANZ OBERBERGER TIM: 25143730#</user>
+
+<user id= "54">CTE. D. JUAN CARLOS MILLÓN PINTOS TIM: 35324071#</user>
+
+<user id= "55">CAP. D. ÁLVARO LOMAS CARDONA TIM: 25079402#</user>
+
+<user id= "56">TTE. D. ESTEBAN VICENTE BOISSEAU TIM: 29170771#</user>
+
+<user id= "57">TTE. D. FRANCISCO JOSÉ OSUNA LOZANO TIM: 41507482#</user>
+
+<user id= "58">TTE. D. SERGIO VILLAESCUSA GONZÁLEZ TIM: 78918065#</user>
+
+<user id= "59">TTE. D. JOSÉ ANTONIO PEREA ÁLVAREZ TIM: 75890640#</user>
+
+<user id= "60">TTE. D. MARIO LOZANO BENITO TIM: 20262808#</user>
+
+<user id= "61">BG. D. ANTONIO DURAN CARRILLO DURAN CARRILLO TIM: 02872622#</user>
+
+<user id= "62">BG. D. MOISES BARRANCO SERRANOS BARRANCO SERRANOS TIM: 25456698#</user>
+
+<user id= "63">BG. D. MANUEL MARIA GARCIA VICENTE GARCIA VICENTE TIM: 30577814#</user>
+
+<user id= "64">BG. D. JOSE JAVIER  ALOS VELERT  ALOS VELERT TIM: 22553148#</user>
+
+<user id= "65">BG. D. JOSE LUIS  SALGADO DE DIEGO  SALGADO DE DIEGO TIM: 05264084#</user>
+
+<user id= "66">BG. D. GABRIEL MARTINEZ SECALL MARTINEZ SECALL TIM: 38113350#</user>
+
+<user id= "67">BG. D. JOSE LUIS DE LAS PEÑAS PLANA DE LAS PEÑAS PLANA TIM: 00413049#</user>
+
+<user id= "68">SBTE. D. JACINTO JOSE CALABOR ALONSO CALABOR ALONSO TIM: 22539187#</user>
+
+<user id= "69">SGTO 1º. D. JUAN IGNACIO HERNANDEZ LEAL HERNANDEZ LEAL TIM: 29115714#</user>
+
+<user id= "70">BG. D. ANTONIO PEREZ GOMEZ PEREZ GOMEZ TIM: 27297055#</user>
+
+<user id= "71">SGTO 1º. D. JAVIER IRANZO GARCIA IRANZO GARCIA TIM: 25423055#</user>
+
+<user id= "72">SGTO 1º. D. FELIX ORTEGA PRIETO ORTEGA PRIETO TIM: 04595120#</user>
+
+<user id= "73">SGTO 1º. D. FRANCISCO POLO GONZÁLEZ POLO GONZÁLEZ TIM: 30817212#</user>
+
+<user id= "74">SGTO 1º. D. MANUEL  BARBOSA ROVIGO BARBOSA ROVIGO TIM: 10900268#</user>
+
+<user id= "75">BG. D. JOAQUIN GONZALEZ LOPEZ GONZALEZ LOPEZ TIM: 50708673#</user>
+
+<user id= "76">BG. D. FRANCISCO JESUS PEÑA DIAZ PEÑA DIAZ TIM: 33502596#</user>
+
+<user id= "77">BG. D. CARLOS TIMOTEO VEGA MARTIN VEGA MARTIN TIM: 11935408#</user>
+
+<user id= "78">BG. D. LUIS ALBERTO GUERRA SANZO GUERRA SANZO TIM: 09797900#</user>
+
+<user id= "79">BG. D. LUIS  CAMPILLO BAREZ CAMPILLO BAREZ TIM: 45075011#</user>
+
+<user id= "80">SGTO. D. JOSE ANTONIO CACERES BAENA CACERES BAENA TIM: 50988746#</user>
+
+<user id= "81">CTE. JUARROS LAFUENTE, BERNARDINO TIM: 13304139#</user>
+
+<user id= "82">CTE. GOMEZ RAMOS, ANTONIO VICTORIANO TIM: 50092021#</user>
+
+<user id= "83">CTE. PEREZ DE LUCAS, CESAR TIM: 03469246#</user>
+
+<user id= "84">SGT1º. GATON MIGUELSANZ, RAUL TIM: 12379098#</user>
+
+<user id= "85">TCOL. CORPAS RUIZ, ANTONIO TIM: 30498869#</user>
+
+<user id= "86">CTE. GARCES MENDUIÑA, JOSE MIGUEL TIM: 30806026#</user>
+
+<user id= "87">TCOL. GUASCH AGUILAR, MARIANO TIM: 22546098#</user>
+
+<user id= "88">CTE. HERRANZ SANZ, JAVIER TIM: 51075280#</user>
+
+<user id= "89">TCOL. MORENO SANTOS, MANUEL TIM: 31234018#</user>
+
+<user id= "90">CTE. SAN SEGUNDO CAMPO, MIGUEL ANGEL TIM: 06568918#</user>
+
+<user id= "91">CTE. VALCAZAR ALONSO, CESAR TIM: 12758488#</user>
+
+<user id= "92">CTE. MARTIN HERRERA, RAUL TIM: 50701152#</user>
+
+<user id= "93">CTE. MUÑIZ BASCUAS, JOSE DANIEL TIM: 52683894#</user>
+
+<user id= "94">CTE. NIEVAS GUTIERREZ, JOSE MIGUEL TIM: 24167228#</user>
+
+<user id= "95">CTE. SANTE ABAL, MANUEL TIM: 52493903#</user>
+
+<user id= "96">TCOL. DE LUCAS LOBO, RAFAEL TIM: 50416386#</user>
+
+<user id= "97">CTE. GARCIA SERON, PEDRO JOSE TIM: 22988923#</user>
+
+<user id= "98">CTE. MARQUEZ DE LA CALLEJA, FERNANDO TIM: 02902556#</user>
+
+<user id= "99">SGT1º. MORENO HERRANZ, DANIEL TIM: 50189566#</user>
+
+<user id= "100">CTE. RIVAS CASTEL, DANIEL TIM: 51684560#</user>
+
+<user id= "101">STTE. D. JUAN FERNANDO SILVA MARTINEZ TIM: 08797742#</user>
+
+<user id= "102">STTE. D. RAMON JIMENEZ HUESO TIM: 27264940#</user>
+
+<user id= "103">STTE. D. ANDRES CARDEÑOSA RIVERO TIM: 01107556#</user>
+
+<user id= "104">STTE. D. JUAN LUIS BERENGUER DE DIEGO TIM: 00804792#</user>
+
+<user id= "105">STTE. D. JUAN JOSE INES DE DIEGO TIM: 14594214#</user>
+
+<user id= "106">STTE. D. JOSE CAROLLO RAÑA TIM: 30552550#</user>
+
+<user id= "107">STTE. D. ANGEL GALVEZ URREA TIM: 05170310#</user>
+
+<user id= "108">BG. D. FRANCISCO JAVIER MARTINEZ GONZALEZ TIM: 50042602#</user>
+
+<user id= "109">BG. D. SANTIAGO A. SERRANO DIAZ TIM: 25073773#</user>
+
+<user id= "110">BG. D. JUAN VALLEJO RUIZ TIM: 52542807#</user>
+
+<user id= "111">BG. D. PEDRO JOSE MANCHEÑO CARPINTERO TIM: 05385260#</user>
+
+<user id= "112">BG. D. JESUS ANGEL MUÑOZ ZAPATA TIM: 50164553#</user>
+
+<user id= "113">BG. D. JAIME SANCHEZ ALONSO TIM: 11772183#</user>
+
+<user id= "114">BG. D. JOSE ANTONIO CHAVES ARIZA TIM: 25069497#</user>
+
+<user id= "115">BG. D. AURELIO SALVADOR LUJAN TIM: 04578156#</user>
+
+<user id= "116">BG. D. LUIS ANTONIO GOMEZ LOPEZ TIM: 32767933#</user>
+
+<user id= "117">BG. D. FRANCISCO JAVIER AVELLANEDA GARCIA TIM: 45274051#</user>
+
+<user id= "118">BG. D. MANUEL RUIZ FERNANDEZ TIM: 07521230#</user>
+
+<user id= "119">SGTO 1º. D. SANTIAGO CRESPO GUTIERREZ TIM: 31254450#</user>
+
+<user id= "120">SGTO 1º. D. ANTONIO CUADRADO TOLEDO TIM: 45283372#</user>
+
+<user id= "121">SGTO 1º. D. ALONSO ANTONIO MORENO ALMAGRO TIM: 52816995#</user>
+
+<user id= "122">SGTO 1º. D. FRANCISCO DIAZ ARRIERO TIM: 04194064#</user>
+
+<user id= "123">SGTO 1º. D. VALENTIN RODOLFO SANTAMARIA GALEA TIM: 50454111#</user>
+
+<user id= "124">SGTO 1º. D. FRANCISCO MANUEL VILLA MATEO TIM: 52693767#</user>
+
+<user id= "125">SGTO 1º. D. LUIS UCETA GARCIA TIM: 52501920#</user>
+
+<user id= "126">SGTO 1º. D. ENRIQUE SANCHO DEL BARRIO TIM: 13786571#</user>
+
+<user id= "127">SGTO 1º. D. JOSE Mª HERNANDEZ ALDEHUELO TIM: 02898566#</user>
+
+<user id= "128">SGTO 1º. D. JUAN CARLOS GONZALEZ VAZQUEZ TIM: 16300776#</user>
+
+<user id= "129">SGTO 1º. D. JOSE PIGUEIRAS FERNANDEZ TIM: 33996143#</user>
+
+<user id= "130">SGTO 1º. D. JOSE ROMERO TORRENTE TIM: 32662507#</user>
+
+<user id= "131">SGTO 1º. D. FRANCISCO HUERTA ESTRUGA TIM: 03861914#</user>
+
+<user id= "132">SGTO 1º. D. BENJAMIN CANTILLO MORENO TIM: 52468216#</user>
+
+<user id= "133">SGTO 1º. D. RAFAEL BAENA LOPEZ TIM: 31864651#</user>
+
+<user id= "134">SGTO 1º. D. MANUEL BARANGUA AZNAR TIM: 34857955#</user>
+
+<user id= "135">SGTO 1º. D. J IGNACIO SANCHEZ DE VENA TIM: 13153854#</user>
+
+<user id= "136">SGTO 1º. D. JUAN A GUTIERREZ SOBRADO TIM: 28952241#</user>
+
+<user id= "137">SGTO 1º. D. ALBERTO COLOMO LOECHES TIM: 08998551#</user>
+
+<user id= "138">SGTO 1º. D. JOSE PINO CAMACHO TIM: 25587217#</user>
+
+<user id= "139">SGTO 1º. D. EDUARDO JOSE ALVAREZ MONTES TIM: 11427316#</user>
+
+<user id= "140">SGTO 1º. D. SERGIO CALZADO PEREZ TIM: 09804963#</user>
+
+<user id= "141">SGTO 1º. D. JUAN ANTONIO GALLEGO RUIZ TIM: 80063549#</user>
+
+<user id= "142">SGTO 1º. D. MARCO ANTONIO ANTUNEZ DIAZ TIM: 28758203#</user>
+
+<user id= "143">SGTO 1º. D. JOAQUIN MIGUEL MIRANDA MARTINEZ TIM: 34859515#</user>
+
+<user id= "144">SGTO 1º. D. DAVID MARTINEZ HERNANDEZ TIM: 30835741#</user>
+
+<user id= "145">SGTO 1º. D. DAVID VICENTE BARROSO TIM: 12388692#</user>
+
+<user id= "146">SGTO. D. MANUEL SAEZ CORCHERO TIM: 08878219#</user>
+
+<user id= "147">SGTO. D. PEDRO MARTIN DE ARCO TIM: 45300855#</user>
+
+<user id= "148">SGTO. D. CARLOS TERRIZA TORRES TIM: 05699503#</user>
+
+<user id= "149">CTE. D. PEDRO LUIS GUTIERREZ ALCALA TIM: 52547742#</user>
+
+<user id= "150">CAP. D. EMILIO HIDALGO MAQUEDA TIM: 28481712#</user>
+
+<user id= "151">CAP. D. JUAN PERALES BALLESTEROS TIM: 45633196#</user>
+
+<user id= "152">TTE. D. VICENTE JOSE PEREZ NAVARRO TIM: 75264290#</user>
+
+<user id= "153">TTE. D. LUIS PEÑA LOPEZ TIM: 50127639#</user>
+
+<user id= "154">CTE. D. JAVIER PLACER SANTOS TIM: 20195219#</user>
+
+<user id= "155">TCOL. D. VICENTE  HUERTA RUIZ TIM: 05240361#</user>
+
+<user id= "156">TTE. D. JOAQUIN RIVERA CHAMORRO TIM: 52102782#</user>
+
+<user id= "157">TCOL. D. JOSE DAMIAN GOMEZ GUTIERREZ TIM: 09171300#</user>
+
+<user id= "158">CAP. D. LUIS REIG TORRES TIM: 17151172#</user>
+
+<user id= "159">CAP. D. CARLOS A. FERNANDEZ MOLINA TIM: 44287468#</user>
+
+<user id= "160">TTE. D. DANIEL RODRIGUEZ RODRIGUEZ TIM: 71130634#</user>
+
+<user id= "161">TTE. D. SANTIAGO MARTINEZ ECHEVARRIA TIM: 17453262#</user>
+
+<user id= "162">CTE. D. GONZALO JOSE DE JUAN NOVOA TIM: 34992687#</user>
+
+<user id= "163">CAP. D. LUIS EMILIO BELLO SANTANA TIM: 42068430#</user>
+
+<user id= "164">CAP. D. JAVIER  OLMEDO CHECA TIM: 25079222#</user>
+
+<user id= "165">CAP. D. ROBERTO MORENO SANCHEZ DEL AGUILA TIM: 51089709#</user>
+
+<user id= "166">CAP. D. CARLOS ARRIBAS ARAGUAS TIM: 18169459#</user>
+
+<user id= "167">CAP. D. OSCAR ANTONIO MUÑOZ ARCOS TIM: 28959402#</user>
+
+<user id= "168">CAP. D. DAVID GARCIA  SEDANO TIM: 25183884#</user>
+
+<question nquest="1">
+	<Text><![CDATA[1.  The Mobile Phone.  ……Listen to a <u>conversation</u> about a mobile phone.What is the man <b>trying to do</b> with the mobile phone?<br><span style="color:#63C">DEPARTAMENTO</span><br>]]></Text>
+	<url>EXAMEN 107/MP3/Q-1.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      Take a photo</answ1>
+	<answ2>b)      Phone somebody</answ2>
+	<answ3>c)       Check his emails</answ3>
+	<answ4>d)      Iron his shirt</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="2">
+	<Text><![CDATA[2.  The Weekend.      ……Listen to a dialogue betweem two friends about the weekendWhat did Bill, the second speaker, do on the weekend?]]></Text>
+	<url>EXAMEN 107/MP3/Q-2.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      He read ‘Harry Potter’.</answ1>
+	<answ2>b)      He went out to dinner</answ2>
+	<answ3>c)       He saw a film</answ3>
+	<answ4>d)      He stayed at home</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="3">
+	<Text><![CDATA[3.  A motivated worker ……Listen to a woman talking about her jobWhich statement is correct about the speaker?]]></Text>
+	<url>EXAMEN 107/MP3/Q-3.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      She is very happy in her job</answ1>
+	<answ2>b)      She dislikes  travelling</answ2>
+	<answ3>c)       She has a small sales territory</answ3>
+	<answ4>d)      She is in the same place every day</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="4">
+	<Text><![CDATA[4.  The Jumper. ……Listen to a conversation about a jumper.How does the woman feel about the jumper?]]></Text>
+	<url>EXAMEN 107/MP3/Q-4.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      She thinks it is very expensive</answ1>
+	<answ2>b)      She likes its style</answ2>
+	<answ3>c)       She believes it is old fashioned</answ3>
+	<answ4>d)      She dislikes the color</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="5">
+	<Text><![CDATA[5.  Living in Colleta di Castelbianco ……In the following extract, a speaker talks about the place in which she livesFor the interviewee, what is the most important thing about Colleta?]]></Text>
+	<url>EXAMEN 107/MP3/Q-5.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      There are lots of graphic designers</answ1>
+	<answ2>b)      Her husband’s clients are nearby</answ2>
+	<answ3>c)       Flats are cheap</answ3>
+	<answ4>d)       It is a good place to work in</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="6">
+	<Text><![CDATA[6.  Sporting event ……Listen to this commentator at a sporting eventWhich sentence is correct according to what you have heard?]]></Text>
+	<url>EXAMEN 107/MP3/Q-6.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      It is very windy</answ1>
+	<answ2>b)      The weather is favourable</answ2>
+	<answ3>c)       The men’s singles is on court one</answ3>
+	<answ4>d)      Belarus have lost their match</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="7">
+	<Text><![CDATA[7.  Palm Springs.   ……Listen to an extract from a report about the American city, Palm Springs.What is said about Palm Springs?]]></Text>
+	<url>EXAMEN 107/MP3/Q-7.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      Movies were made there</answ1>
+	<answ2>b)      People used to go there for health reasons</answ2>
+	<answ3>c)       Doctors warned against the heat there</answ3>
+	<answ4>d)      Many architects live there</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="8">
+	<Text><![CDATA[8.  Titanic.        ……The following is an extract from a report about the Titanic.What is said about Titanic’s passengers?]]></Text>
+	<url>EXAMEN 107/MP3/Q-8.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      Most of them were famous</answ1>
+	<answ2>b)      Most travelled in modest conditions</answ2>
+	<answ3>c)       Most were from New York</answ3>
+	<answ4>d)      Most were first class passengers</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="9">
+	<Text><![CDATA[9.   Paul Stewart and Chris Riddell.      ……The following is an extract from an interview with a writer.Which activity did the speaker enjoy when he was young?]]></Text>
+	<url>EXAMEN 107/MP3/Q-9.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      Reading</answ1>
+	<answ2>b)      Writing</answ2>
+	<answ3>c)       Drawing</answ3>
+	<answ4>d)      Walking</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="10">
+	<Text><![CDATA[10. Team Meeting.          ……The following dialogue takes place at an office team meeting.What happened to the man?]]></Text>
+	<url>EXAMEN 107/MP3/Q-10.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      He missed the meeting</answ1>
+	<answ2>b)      He opened the meeting</answ2>
+	<answ3>c)       He arrived late for the meeting</answ3>
+	<answ4>d)      He forgot about the meeting</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="11">
+	<Text><![CDATA[11.  A black family in Coventry……In the following extract, the speaker talks about being black in CoventryWhich statement is correct according to what you have heard?]]></Text>
+	<url>EXAMEN 107/MP3/Q-11.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      Rare sights were frequent in Coventry</answ1>
+	<answ2>b)      The speaker was the only black student in his school</answ2>
+	<answ3>c)       It was common to see black children in schools</answ3>
+	<answ4>d)      Traffic jams were usual in Coventry in the 1960s</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="12">
+	<Text><![CDATA[12.  Discussing a film  ……Listen to the following conversationWhere can be said about the speakers?]]></Text>
+	<url>EXAMEN 107/MP3/Q-12.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      They all have the same opinion</answ1>
+	<answ2>b)      They are having an argument</answ2>
+	<answ3>c)       They are discussing a film</answ3>
+	<answ4>d)      They are discussing an actor’s performance</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="13">
+	<Text><![CDATA[13.  The colour of  food  ……Listen to the following extract about the colour of foodWhich statement is correct according to what you have heard?]]></Text>
+	<url>EXAMEN 107/MP3/Q-13.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      The natural colour of food is not good</answ1>
+	<answ2>b)      People prefer food that’s colourful</answ2>
+	<answ3>c)       Food companies add colouring to products</answ3>
+	<answ4>d)      Yellow margarine tastes better</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="14">
+	<Text><![CDATA[14. In the Office.         ……Listen to the following dialogue between office workers.What doesn’t Anna want to do?]]></Text>
+	<url>EXAMEN 107/MP3/Q-14.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      Take a message</answ1>
+	<answ2>b)      Answer the phone</answ2>
+	<answ3>c)       Make a phone call</answ3>
+	<answ4>d)      Teach a lesson</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="15">
+	<Text><![CDATA[15.  Being on TV  ……Listen to a man talk about being on tvWhat does the man say about being on TV?]]></Text>
+	<url>EXAMEN 107/MP3/Q-15.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      He dislikes being noticed</answ1>
+	<answ2>b)      People recognise him everywhere</answ2>
+	<answ3>c)       Old ladies follow him around</answ3>
+	<answ4>d)      He looks younger</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="16">
+	<Text><![CDATA[16.  Commentary ……Listen to this commentary from a football stadiumWhich statement is correct?]]></Text>
+	<url>EXAMEN 107/MP3/Q-16.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      The match hasn’t started yet</answ1>
+	<answ2>b)      The match is in Japan</answ2>
+	<answ3>c)       It is a calm, sunny day</answ3>
+	<answ4>d)      The speaker feels cold</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="17">
+	<Text><![CDATA[17.  Psychic powers  ……The following is an extract about psychic powersWhat is said about psychic powers?]]></Text>
+	<url>EXAMEN 107/MP3/Q-17.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      Practice can develop  psychic abilities</answ1>
+	<answ2>b)      Few people can develop them</answ2>
+	<answ3>c)       You need expert help to develop them</answ3>
+	<answ4>d)      It is easy to write about them</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="18">
+	<Text><![CDATA[18.  Barbara Martinsons  ……Listen to an extract about Barbara Martinsons  What can we say about Barbara Martinsons?]]></Text>
+	<url>EXAMEN 107/MP3/Q-18.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      She has spent time in prison</answ1>
+	<answ2>b)      She wants to help ex-prisoners</answ2>
+	<answ3>c)       She wants to be admitted to a university</answ3>
+	<answ4>d)      She freed a lot of women prisoners</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="19">
+	<Text><![CDATA[19.  Bio-gas systems  ……You are going to hear a woman talk about building bio-gas systems in IndiaWhich statement is correct about the project?]]></Text>
+	<url>EXAMEN 107/MP3/Q-19.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      It is  run in all national parks</answ1>
+	<answ2>b)      Its  bio-gas systems are very up-to-date</answ2>
+	<answ3>c)       Bio-gas produced can be used for fuel and fertilizer</answ3>
+	<answ4>d)      The technology used is expensive</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="20">
+	<Text><![CDATA[20.  Scottish Military History.……The following is a report on Scottish military history.What is said about the military in Scotland?]]></Text>
+	<url>EXAMEN 107/MP3/Q-20.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      It has always been important</answ1>
+	<answ2>b)      It has lost its influence</answ2>
+	<answ3>c)       It is no longer respected</answ3>
+	<answ4>d)      It is opposed to the union</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="21">
+	<Text><![CDATA[21.  Dull and Boring. ……The following is a report about a Scottish village called ‘Dull’.What is said about the village ‘Dull’ ?]]></Text>
+	<url>EXAMEN 107/MP3/Q-21.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      It is an interesting place to live</answ1>
+	<answ2>b)      It  is still a religious village</answ2>
+	<answ3>c)       It is not very exciting</answ3>
+	<answ4>d)      No-one lives there now</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="22">
+	<Text><![CDATA[22.  US Army specialist  ……Listen to a US Army specialist  Which statement is correct about the man interviewed?]]></Text>
+	<url>EXAMEN 107/MP3/Q-22.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      He had been a journalist in Iraq</answ1>
+	<answ2>b)      He did not see war first hand</answ2>
+	<answ3>c)       He understands how the troops feel</answ3>
+	<answ4>d)      He would love to return to Iraq</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="23">
+	<Text><![CDATA[23.  China’s population……The following is an extract about ChinaWhat can we say about China?]]></Text>
+	<url>EXAMEN 107/MP3/Q-23.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      The birth rate is increasing</answ1>
+	<answ2>b)      The birth rate has decreased</answ2>
+	<answ3>c)       The one-child policy was a failure</answ3>
+	<answ4>d)      Couples can now have more children</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="24">
+	<Text><![CDATA[24.  First career 1+/-2 B……Listen to a woman describe her first careerWhy did the speaker want to be interpreter?]]></Text>
+	<url>EXAMEN 107/MP3/Q-24.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      To  learn more languages</answ1>
+	<answ2>b)       To  learn a lot about different subjects</answ2>
+	<answ3>c)       To  get a superficial  notion of things</answ3>
+	<answ4>d)      To be able to express opinions</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="25">
+	<Text><![CDATA[25.  Immunization in New Zealand                                                              ……Listen to an extract about Immunization in New Zealand What is said about immunization in New Zealand?]]></Text>
+	<url>EXAMEN 107/MP3/Q-25.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      The rates surpass those in other developed nations.</answ1>
+	<answ2>b)      There is ‘herd immunity’ for most diseases.</answ2>
+	<answ3>c)       The rates are still not sufficient.</answ3>
+	<answ4>d)      NZ has a 95% immunization rate.</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="26">
+	<Text><![CDATA[26.  Teaching science to teenagers ……Listen to an passage about Teaching teenagers scienceWhat impression do we get from the extract?]]></Text>
+	<url>EXAMEN 107/MP3/Q-26.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      Pupils organize question and answer sessions</answ1>
+	<answ2>b)      Teenage  pupils are extremely curious about science</answ2>
+	<answ3>c)       The speaker does not like  pupils to question him</answ3>
+	<answ4>d)      In science class the teacher has no weak points</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="27">
+	<Text><![CDATA[27.  Jerome Kerviel  ……The following is an extract about banker Jerome KervielWhich statement is correct about Jerome Kerviel?]]></Text>
+	<url>EXAMEN 107/MP3/Q-27.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      He is going to  appeal again</answ1>
+	<answ2>b)      He has paid back the bank</answ2>
+	<answ3>c)       He will spend three years in jail</answ3>
+	<answ4>d)      He lost six thousand dollars</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="28">
+	<Text><![CDATA[28.  Skydiving ……Listen to the following conversationWhat is the conversation about?]]></Text>
+	<url>EXAMEN 107/MP3/Q-28.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      A parachute jump by Sean Connery</answ1>
+	<answ2>b)      Skydiving without a parachute</answ2>
+	<answ3>c)       Squirrels that skydive</answ3>
+	<answ4>d)      Special outfits for skydiving</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="29">
+	<Text><![CDATA[29.  Oil.                               ……Listen to an extract from a report on oil.Which aspect of oil is the report concerned with?]]></Text>
+	<url>EXAMEN 107/MP3/Q-29.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      Damage to the environment caused by drilling</answ1>
+	<answ2>b)      Western relations with oil producing countries</answ2>
+	<answ3>c)       Recently discovered sources of oil</answ3>
+	<answ4>d)      Humanity’s dependency on oil</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="30">
+	<Text><![CDATA[30.  Fainting  ……You will now hear a  woman speak about faintingWhich statement is correct?]]></Text>
+	<url>EXAMEN 107/MP3/Q-30.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      Being in a contest</answ1>
+	<answ2>b)      Having to make a big effort</answ2>
+	<answ3>c)       Insufficient oxygen to the brain</answ3>
+	<answ4>d)      High blood pressure</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="31">
+	<Text><![CDATA[31.  Wind Turbines  ……The following is an extract about Wind TurbinesWhat can be said about the speaker’s wind turbines?]]></Text>
+	<url>EXAMEN 107/MP3/Q-31.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      They are still inefficient</answ1>
+	<answ2>b)      They are bigger than conventional ones</answ2>
+	<answ3>c)       They do not vibrate</answ3>
+	<answ4>d)      They are economical at the moment</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="32">
+	<Text><![CDATA[32.  Minimalist house  ……Listen to an extract about the home of architect, Gary Chang According to the speaker:]]></Text>
+	<url>EXAMEN 107/MP3/Q-32.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      Mr. Chang has modified his apartment.</answ1>
+	<answ2>b)      Mr. Chang has bought wheels to decorate his house</answ2>
+	<answ3>c)       He has just painted his apartment walls.</answ3>
+	<answ4>d)      Renovating his apartment took a long time.</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="33">
+	<Text><![CDATA[33.  Iraq ten years on……The following is an extract from a report on IrakWhat can be understood from the text?]]></Text>
+	<url>EXAMEN 107/MP3/Q-33.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      The iraquis laugh at their problems</answ1>
+	<answ2>b)      A positive view of the Iraqui people</answ2>
+	<answ3>c)       There is lasting peace in Iraq now</answ3>
+	<answ4>d)      There has been an Arab Spring</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="34">
+	<Text><![CDATA[34.  Aviation ……Listen to this extract about aviation after the Second World WarWhat impression do we get about aviation after WW II ?]]></Text>
+	<url>EXAMEN 107/MP3/Q-34.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      Jet technology was very advanced</answ1>
+	<answ2>b)      Many  passenger planes crashed</answ2>
+	<answ3>c)       Fatal  accidents were not very common</answ3>
+	<answ4>d)      Accidents were usual in military training</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="35">
+	<Text><![CDATA[35.  Hair implants ……The following is an extract from a report on tourism in TurkeyWhich sentence is correct about Turkey?]]></Text>
+	<url>EXAMEN 107/MP3/Q-35.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      It is difficult  to sell holidays there</answ1>
+	<answ2>b)      Plastics surgery is cheap there</answ2>
+	<answ3>c)       Plastic  surgery and holidays are combined</answ3>
+	<answ4>d)      Tourists  shop for the cheapest operation</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="36">
+	<Text><![CDATA[36.  Flying  ……Listen to this extract about Felix BaumgartnerWhat is inferred about Felix?]]></Text>
+	<url>EXAMEN 107/MP3/Q-36.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      He parachuted as a child</answ1>
+	<answ2>b)      He did his first jump at twelve</answ2>
+	<answ3>c)       He dreamed of skydiving as a child</answ3>
+	<answ4>d)      His Mum drew a picture of his first jump</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="37">
+	<Text><![CDATA[37.  The internet ……Listen to two people discuss the InternetWhat do the speakers say?]]></Text>
+	<url>EXAMEN 107/MP3/Q-37.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      They had computers when they were at school</answ1>
+	<answ2>b)      They had internet in university</answ2>
+	<answ3>c)       They are too old to use computers</answ3>
+	<answ4>d)      They remember when there was no internet</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="38">
+	<Text><![CDATA[38.  A train journey  ……Sirou told Matthew Bannister about the fateful night he boarded a train with his brother.Which statement is correct?]]></Text>
+	<url>EXAMEN 107/MP3/Q-38.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      Two brothers went on a trip to Calcutta</answ1>
+	<answ2>b)      A small boy got on a train and fell asleep</answ2>
+	<answ3>c)       A man saw the boy in the train station</answ3>
+	<answ4>d)      Little boys always sleep in train stations</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="39">
+	<Text><![CDATA[39.  US clothing trends  ……Listen to an extract about clothing trendsWhich statement is correct according to the extract?]]></Text>
+	<url>EXAMEN 107/MP3/Q-39.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      Consumers prefer designer clothes</answ1>
+	<answ2>b)      Clothes made outside the US are more in demand</answ2>
+	<answ3>c)       Consumers now want clothes made in the US</answ3>
+	<answ4>d)      Textile companies do not want to change</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="40">
+	<Text><![CDATA[40.  Being a student in Japan ……Listen to part of an interview with a student from JapanWhat can be said about students in Japan?]]></Text>
+	<url>EXAMEN 107/MP3/Q-40.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a)      They get bank loans to study</answ1>
+	<answ2>b)      Many work as well as study</answ2>
+	<answ3>c)       The families don’t pay</answ3>
+	<answ4>d)      A majority get scholarships</answ4>
+	<answ5></answ5>
+	</answers></question>
+</exam>

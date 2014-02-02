@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?><exam id_exam="10" title="Departamento de Idiomas. Escuela de Guerra | INGLÉS" fecha="EXAMEN DPTº 2013" tipo="Listening">
+<intro1><![CDATA[En las sucesivas presentaciones usted encontrará preguntas de tipo test relacionadas con la conversación que debe escuchar previamente en la parte izquierda de la misma.]]></intro1>
+<intro2><![CDATA[Después de escuchar la conversación en inglés deberá responder a una de las preguntas de la parte derecha.]]></intro2>
+<intro3><![CDATA[Gracias por su colaboración. A continuación podrá <strong>imprimir</strong> las respuestas que han sido seleccionadas, o bien imprimirlas en un archivo <strong>pdf</strong> para su entrega al profesor correspondiente.]]></intro3>
+<tiempoGlobal><![CDATA[3]]></tiempoGlobal>
+<timeOver><![CDATA[Su tiempo ha terminado. Pulse finalizar e imprima sus respuestas]]></timeOver><autoCheck>1</autoCheck>
+<user id= "1">LABRADO GOMEZ, CARLOS TIM: 11111111#</user>
+
+
+<question nquest="1">
+	<Text><![CDATA[<b><span style="color:#63C">1.- SYRIA</span><br></b><br>From a discussion about U.S. intervention in the Syrian civil war:  <br><br><b>The United States finds itself in a pretty unenviable position. So did the Syrians. I mean, this war, when you look at it, could not have worse timing. It really couldn't. It came sort of, if you will, into the public consciousness at the tail-end of the Arab Spring, after, you know, the intervention in Libya had gone not so well.<br>It came during, you know, it really rose in the, you know, in the public discourse and in terms of the application of violence, really accelerated in 2012, an election year in the United States where the electorate was exhausted by war financially. Emotionally exhausted by war. And had no interest in being involved in another one, or very little interest in being involved in another one. <br>The speaker suggests that an early U.S. intervention ...</b>]]></Text>
+	<url>datos/EXAMEN1/MP3/Q-01EXAMEN1.mp3</url>
+	<repeat>1</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1><![CDATA[a)    would have been counterproductive.]]></answ1>
+	<answ2><![CDATA[<b>b)    would have been politically risky.</b>]]></answ2>
+	<answ3>c)    would have been a repetition of past mistakes.</answ3>
+	<answ4>d)    would have had unpredictable results.</answ4>
+	<answ5>A. a)    would have been counterproductive.</answ5>
+	</answers>		<rightAnsw>b</rightAnsw></question>
+
+</exam>

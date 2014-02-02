@@ -1,0 +1,97 @@
+
+<!doctype html><html><head><title>CSV Viewer</title>
+<style>
+body { font-family: Calibri, Arial, sans-serif; }
+#table td, th  { border: 1px solid #aaf; padding: 1px 5px; width: 10em; }
+#table th      { background-color: #ccf; }
+#table input   { width: 100%; margin: 0; padding:0; border: 0; }
+#table table   { border-collapse: collapse; }
+#url { width: 20em; }
+</style>
+<title></title>
+
+<script>
+var data = [
+  [ "Tag", "Count" ],
+  [ "DIV", 100     ],
+  [ "A",   90      ],
+  [ "IMG", 80      ]
+];
+
+// Show this table on the <div id="table"> element
+jQuery("div#table").table(data);
+
+// Show a CSV file
+jQuery.get(csvfile, function(data) {
+    jQuery("div#table").table(jQuery.csv()(data));
+});
+</script>
+
+
+
+
+
+</head><body>
+<h1>CSV Viewer</h1>
+<form action="/csv" method="get">
+    URL of a CSV file:
+    <input name="url" id="url" value=""/>
+    <input id="go" type="submit" value="Go" />
+</form>
+<a target="_blank" href="http://www.google.com/search?q=data+ext%3Acsv">Find CSVs on the Web</a>
+
+<p>Search using regular expressions. Note: table is incrementally loaded as you scroll down.
+(<a href="http://code.google.com/p/js-tables/">source</a>).</p>
+<div id="table"></div>
+
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>-->
+<script src="jquery.min.js"></script>
+<script src="jquery.csv.js"></script>
+<script src="jquery.table.js"></script>
+<script>
+function showCSV(url) {
+    $("#table").html("<img src='loading-big.gif' alt='Loading...' />");
+    $.getJSON("http://pipes.yahoo.com/pipes/pipe.run?_id=tjQdGky93BGl8_s0EpPZnA&url=" +
+              (encodeURIComponent||escape)(url) +
+              "&_render=json&_callback=?",
+              function(data) {
+        var csv = $.map(data.value.items, function(v) { return v.data; }).join("\n");
+        $("#table").table($.csv()(csv));
+    });
+}
+$(function() {
+
+    var duc = decodeURIComponent || unescape;
+    // http://html5.googlecode.com/svn/trunk/data/tokens.csv
+		var url = duc(window.location.search.substr(5)) || "tokens.csv";
+    if (url) {
+        $("#url").val(url);
+        showCSV(url);
+    }
+});
+</script>
+
+<pre>
+<script src="jquery.csv.js"></script>
+<script>
+// Convert CSV data into array of arrays
+jQuery.csv()("1,2,3\n4,5,6\n7,8,9\n"); // = [ [1,2,3], [4,5,6], [7,8,9] ]
+
+// It handles quotes
+jQuery.csv()('a,"b,c",d'); // = [ ['a', 'b,c', 'd'] ]
+
+// You can use any delimiter, e.g. tab
+jQuery.csv("\t")("a\tb\nc\td\n"); // = [ ['a','b'], ['c','d'] ]
+
+// Quick usage with AJAX:
+jQuery.get(csvfile, function(data) { array = jQuery.csv()(data); });
+
+// Using across multiple files
+var getTSV = jQuery.csv("\t");
+jQuery.get(csvfile1, function(data) { array1 = getTSV(data); });
+jQuery.get(csvfile2, function(data) { array2 = getTSV(data); });
+...
+</script>
+</pre>
+
+</body></html>

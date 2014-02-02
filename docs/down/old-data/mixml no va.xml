@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="iso-8859-1"?><exam id_exam="106" title="Departamento de Idiomas. Escuela de Guerra | INGLÉS" fecha="NIVEL FUNCIONAL ABRIL 2013" tipo="Listening">
+<intro1><![CDATA[En las sucesivas presentaciones usted encontrará preguntas de tipo test relacionadas con la conversación que debe escuchar previamente en la parte izquierda de la misma.]]></intro1>
+<intro2><![CDATA[Después de escuchar la conversación en inglés deberá responder a una de las preguntas de la parte derecha.]]></intro2>
+<intro3><![CDATA[Gracias por su colaboración. A continuación podrá <strong>imprimir</strong> las respuestas que han sido seleccionadas, o bien imprimirlas en un archivo <strong>pdf</strong> para su entrega al profesor correspondiente.]]></intro3>
+<tiempoGlobal><![CDATA[75]]></tiempoGlobal>
+<timeOver><![CDATA[Su tiempo ha terminado. Pulse finalizar e imprima sus respuestas]]></timeOver>
+<user id= "1">LABRADO GOMEZ, CARLOS TIM: 51358887#</user>
+
+<user id= "2">LAGUNA PEREZ, JAVIER TIM: 51652408#</user>
+
+<user id= "3">CAP TOVAR HERNÁNDEZ, GERARDO TIM: 09279594#</user>
+
+<user id= "4">MERINO TORO, LA BEGO TIM: 52104944#</user>
+
+<user id= "5">TCOL. D. ANTONIO PIÑA SANCHEZ TIM: 43012165#</user>
+
+<user id= "6">TCOL. D. ANGEL FERNANDEZ TUR TIM: 45068182#</user>
+
+<user id= "7">T TE. D. ANDRES TORRES CASO TIM: 28800128#</user>
+
+<user id= "8">CAP. ART.  JOSE  FRANCISCO   CAMPOS  BARBERO TIM: 06965997#</user>
+
+<user id= "9">CAP. CAB.  GABRIEL     ECHEVERRIA  URQUIZU TIM: 15992562#</user>
+
+<user id= "10">CAP. ABSTO.  MANUEL  JOSE    CEREZO       LOPEZ TIM: 30499977#</user>
+
+<user id= "11">TCOL. D. GABRIEL AIZPURU DIAZ DE TERAN TIM: 17870902#</user>
+
+<user id= "12">TCOL. JERÓNIMO DELGADO DE LUQUE TIM: 28683622#</user>
+
+<user id= "13">COL. ALFONSO CHILLÓN MODREGO TIM: 17203922#</user>
+
+<user id= "14">Alférez Alumno Antonio Manuel Martínez Heredia TIM: 74853567#</user>
+
+<user id= "15">Alférez Alumno Daniel Arribas Ríos TIM: 72889244#</user>
+
+<user id= "16">Alférez Alumno Saúl Álvarez Vinuesa TIM: 71144861#</user>
+
+<user id= "17">Alférez Alumno Gerardo García Hernanz TIM: 50551189#</user>
+
+<user id= "18">Alférez Alumno Carlos González Bustamante TIM: 74942106#</user>
+
+<user id= "19">Alférez Alumno David Juan Tudela TIM: 48432952#</user>
+
+<user id= "20">Alférez Alumno Juan Antonio Tena Uliaque TIM: 72979246#</user>
+
+<user id= "21">Alférez Alumno Carlos Peñalba Luna TIM: 75796891#</user>
+
+<user id= "22">Alférez Alumno Juan Luis Martínez Lázaro TIM: 04614680#</user>
+
+<user id= "23">Alférez Alumno José Antonio Cobo Sánchez TIM: 70885005#</user>
+
+<question nquest="1" Question="1.- Living abroad……...What does Rajab say about living in York?">
+	<url>EXAMEN106/MP3/Q-1.mp3</url>
+	<repeat>0</repeat>
+	<delay>2</delay>
+	<answers>
+	<answ1>a. He is not happy there</answ1>
+	<answ2>b. There are too many Syrians</answ2>
+	<answ3>c. Things are not cheap there</answ3>
+	<answ4>d. He and his wife have no friends</answ4>
+	<answ5>a. a. He is not happy there</answ5>
+	</answers></question>
+<question nquest="2" Question="2.- A job description……... Which statement is correct about the speaker?">
+	<url>EXAMEN106/MP3/Q-2.mp3</url>
+	<repeat>0</repeat>
+	<delay>2</delay>
+	<answers>
+	<answ1>a. She is very happy in her job</answ1>
+	<answ2>b. She dislikes travelling</answ2>
+	<answ3>c. She has a small sales territory</answ3>
+	<answ4>d. She is in the same place every day</answ4>
+	<answ5>a. a. She is very happy in her job</answ5>
+	</answers></question>
+<question nquest="3" Question="3.- Harry Houdini ……...Which statement is correct about Houdini?">
+	<url>EXAMEN106/MP3/Q-3.mp3</url>
+	<repeat>0</repeat>
+	<delay>20</delay>
+	<answers>
+	<answ1>a. He came from a rich family</answ1>
+	<answ2>b. Houdini is his real name</answ2>
+	<answ3>c. He spent some time in a circus</answ3>
+	<answ4>d. He liked to fly</answ4>
+	<answ5>a. a. He came from a rich family</answ5>
+	</answers></question>
+
+</exam>

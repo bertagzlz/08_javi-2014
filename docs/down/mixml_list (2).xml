@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<exam id_exam="1" title="Central de Idiomas. Empresa XXXX | INGLÉS" fecha="EXAMEN DE 21/09/2010" tipo="listening">
+<intro1>En las sucesivas presentaciones usted encontrará preguntas de tipo test relacionadas con la conversación que debe escuchar previamente en la parte izquierda de la misma.</intro1>
+<intro2>Después de escuchar la conversación en inglés deberá responder a una de las preguntas de la parte derecha.</intro2>
+<intro3>Gracias por su colaboración. A continuación podrá <strong>imprimir</strong> las respuestas que han sido seleccionadas, o bien imprimirlas en un archivo <strong>pdf</strong> para su entrega al profesor correspondiente.</intro3>
+<tiempoGlobal>60</tiempoGlobal>
+<timeOver>Su tiempo ha terminado. Pulse finalizar e imprima sus respuestas</timeOver>
+<user id= "1">Arquímides Cano, Alejandro DIM: 12345678#</user>
+
+<user id= "2">Martínez Martínez, Jose Andrés DNI: 45224466#</user>
+
+<user id= "3">Martínez Martínez, Jose Andrés DNI: 45224466#</user>
+
+<user id= "4">Bilbao Martínez, Juan Carlos DNI: 23432366#</user>
+
+<user id= "5">Pérez Pérez, Miguel DNI: 23748392#</user>
+
+<user id= "6">Hermida de Juan, Jose DNI: 62681482#</user>
+
+<user id= "7">Sánchez Pantoja, Fernando DNI: 92841887#</user>
+
+<question nquest="1" Question="1. Choose the correct statement">
+	<url>EXAMEN 1/MP3/Q-1 EXAMEN 1.mp3</url>
+	<repeat>1</repeat>
+	<delay>5</delay>
+	<answers>
+	<answ1>A. It was okay where I left my car</answ1>
+	<answ2>B. It was not okay where I left my car</answ2>
+	<answ3>C. I left my car and walked</answ3>
+	<answ4>D. I always drive on the left</answ4>
+	</answers>
+</question>
+<question nquest="2" Question="2. Choose the correct statement">
+	<url>EXAMEN 1/MP3/Q-2 EXAMEN 1.mp3</url>
+	<repeat>1</repeat>
+	<delay>5</delay>
+	<answers>
+	<answ1>A. We helped the bulldog</answ1>
+	<answ2>B. The Bulldog was feeble.</answ2>
+	<answ3>C. The Bulldog was lying in the middle of the road.</answ3>
+	<answ4>D. The Bulldog was a week old pup.</answ4>
+	</answers>
+</question>
+<question nquest="3" Question="3. Choose the correct statement">
+	<url>EXAMEN 1/MP3/Q-3 EXAMEN 1.mp3</url>
+	<repeat>1</repeat>
+	<delay>5</delay>
+	<answers>
+	<answ1>A. I haven’t drunk too much coffee.</answ1>
+	<answ2>B. I would feel nervous if I didn’t drink so much coffee.</answ2>
+	<answ3>C. I wouldn’t be nervous if I drank coffee.</answ3>
+	<answ4>D. I have drunk a lot of coffee.</answ4>
+	</answers>
+</question>
+<question nquest="4" Question="4. Choose the correct statement">
+	<url>EXAMEN 1/MP3/Q-4 EXAMEN 1.mp3</url>
+	<repeat>1</repeat>
+	<delay>5</delay>
+	<answers>
+	<answ1>A. Motivation and experience determine success.</answ1>
+	<answ2>B. Motivation doesn’t determine success.</answ2>
+	<answ3>C. Experience alone often determines success.</answ3>
+	<answ4>D. Motivation usually determines success.</answ4>
+	</answers>
+</question>
+<question nquest="5" Question="5. Choose the correct statement">
+	<url>EXAMEN 1/MP3/Q-5 EXAMEN 1.mp3</url>
+	<repeat>1</repeat>
+	<delay>5</delay>
+	<answers>
+	<answ1>A. I’m dying to get the new Harry Potter book.</answ1>
+	<answ2>B. I’ll wait to get the new Harry Potter book.</answ2>
+	<answ3>C. I couldn’t wait to buy the new Harry Potter book.</answ3>
+	<answ4>D. I have just bought the new Harry Potter book.</answ4>
+	</answers>
+</question>
+<question nquest="6" Question="6. Choose the correct statement">
+	<url>EXAMEN 1/MP3/Q-6 EXAMEN 1.mp3</url>
+	<repeat>1</repeat>
+	<delay>5</delay>
+	<answers>
+	<answ1>A. Before long it will be summer.</answ1>
+	<answ2>B. You can tell it will be a long summer.</answ2>
+	<answ3>C. We will have to wait for the long days of summer.</answ3>
+	<answ4>D. I long for the days of summer</answ4>
+	</answers>
+</question>
+<question nquest="7" Question="7. What can be deduced from this conversation?">
+	<url>EXAMEN 1/MP3/Q-7 EXAMEN 1.mp3</url>
+	<repeat>1</repeat>
+	<delay>5</delay>
+	<answers>
+	<answ1>A. John has forgotten the man</answ1>
+	<answ2>B. John will be back for the man</answ2>
+	<answ3>C. John is waiting for the man.</answ3>
+	<answ4>D. John is holding the man up.</answ4>
+	</answers>
+</question>
+</exam>

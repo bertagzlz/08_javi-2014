@@ -1,0 +1,49 @@
+/* ::::: http://www.pixy.cz/lib_home/style.css ::::: */
+
+body { margin: 0pt; padding: 0pt; font: 100%/1.4 Calibri,'Microsoft Sans Serif',sans-serif; background: url('hdr_bkgr.png') repeat-x scroll center top rgb(241, 225, 196); color: black; border-bottom: 15px solid rgb(255, 181, 21); }
+.hide, h1 em { display: none; }
+a { color: rgb(204, 0, 0); text-decoration: underline; }
+a[href^="http"] { padding-right: 10px; background: url('link-out.gif') no-repeat scroll right top transparent; }
+a[href^="mailto"] { padding-right: 10px; background: url('link-mail.gif') no-repeat scroll right top transparent; }
+a:visited { color: rgb(153, 102, 102); }
+a:hover { background-color: rgb(255, 245, 224); }
+abbr { border-bottom: 1px dotted rgb(153, 102, 102); cursor: help; }
+p { margin: 0.5em 0pt; }
+h4 { margin: 1.5em 0pt 0.5em; }
+ul, ol { margin: 0.75em 0pt 0.75em 1em; padding: 0pt; }
+li { margin: 0.33em 0pt; padding: 0pt; list-style-position: outside; list-style-type: square; }
+dl { font-size: 90%; }
+dt { float: left; clear: left; width: 8.5em; margin: 0pt; padding: 0.7em 0pt 0pt; font-weight: bold; text-align: right; }
+dd { margin: 0pt 0pt 0pt 9em; padding: 0.7em 0pt 0pt; }
+.fotoleft { float: left; margin: 0.3em 1em 1em 0pt; }
+#main { position: relative; width: 780px; margin: 0pt auto; padding: 206px 0pt 0pt; background: url('hdr.png') no-repeat scroll center top rgb(255, 245, 224); }
+h1 { position: absolute; top: 0pt; left: 0pt; width: 670px; height: 205px; margin: 0pt; background: url('hdr_foto.png') no-repeat scroll right bottom transparent; }
+h1 a, h1 a:hover { display: block; width: 280px; height: 100%; text-decoration: none; background: none repeat scroll 0% 0% transparent; }
+#content { margin: 0pt 90px 0pt 165px; padding: 1px 0pt; min-height: 440px; background: url('hdr_foto_refl.png') no-repeat scroll 274px 0pt white; color: rgb(43, 81, 109); font-size: 95%; }
+#content hr { margin: 1em 0pt; padding: 0pt; height: 1px; border-right: medium none; border-width: 1px medium medium; border-style: dotted none none; border-color: rgb(153, 153, 153) -moz-use-text-color -moz-use-text-color; }
+#menu { position: absolute; top: 230px; left: -14px; width: 160px; margin: 0pt; padding: 0pt; list-style-type: none; }
+#menu li { height: 2em; margin: 0pt; padding: 1px 7px 1px 14px; list-style-type: none; background: url('menus.png') no-repeat scroll -200px 50% transparent; font-size: 100%; }
+#menu li.sel { background-position: 0pt 50%; }
+#menu a { display: block; height: 100%; margin: 0pt; padding: 0pt 15px; background: none repeat scroll 0% 0% rgb(242, 211, 154); color: rgb(51, 51, 51); text-decoration: none; text-align: left; line-height: 2em; }
+#menu a:hover, #menu #collapse a:hover, .submenu a:hover, #lang-menu a:hover { background: none repeat scroll 0% 0% rgb(193, 200, 203); color: black; }
+#menu .sel a, .submenu .sel a { background: none repeat scroll 0% 0% rgb(94, 120, 137); color: white; }
+#menu #collapse { height: 1.667em; margin-top: 7px; font-size: 75%; }
+#menu #collapse a { background: none repeat scroll 0% 0% rgb(241, 225, 196); line-height: 1.667em; }
+.submenu { position: absolute; top: 100px; left: 449px; width: 180px; margin: 0pt; padding: 0pt; list-style-type: none; }
+.submenu li { height: 1.667em; margin: 0pt; padding: 1px 14px 1px 7px; list-style-type: none; background: url('menus.png') no-repeat scroll -600px 50% transparent; font-size: 75%; }
+.submenu a { display: block; height: 100%; margin: 0pt; padding: 0pt 0.75em; background: none repeat scroll 0% 0% rgb(242, 211, 154); color: rgb(51, 51, 51); text-decoration: none; text-align: right; line-height: 1.667em; }
+#lang-menu { position: absolute; top: 165px; left: 700px; margin: 0pt; padding: 0pt; width: 100px; list-style-type: none; }
+#lang-menu li { height: 1.667em; margin: 0pt; padding: 1px 20px 1px 0pt; list-style-type: none; background: url('menus.png') no-repeat scroll -800px 50% transparent; font-size: 70%; }
+#lang-menu a { display: block; padding: 0pt 1em; background: none repeat scroll 0% 0% rgb(242, 211, 154); color: rgb(51, 51, 51); text-decoration: none; text-align: center; text-transform: uppercase; line-height: 1.667em; }
+.chapter { position: relative; margin: 0pt; padding: 50px 120px 30px 40px; }
+.chapter.nomenu { padding-left: 50px; padding-right: 40px; }
+.subchapter { margin: 0pt 0pt 2em; }
+.chttl { margin: 0pt 0pt 0.5em; }
+.subchttl { margin: 0pt 0pt 0.5em; font: bold 200%/1.1 Cambria,Palatino,serif; letter-spacing: -1px; }
+.perex { font-size: 100%; font-weight: bold; }
+.note { margin: 0.3em 0pt 0.6em; font-size: 85%; line-height: 1.1; }
+li.hl-on {  }
+li.hl-off, li.hl-off a { color: rgb(130, 143, 152); }
+#footer { position: absolute; bottom: 0pt; left: -48px; width: 180px; height: 175px; background: url('ftr_foto.png') no-repeat scroll center bottom transparent; }
+#copyright { display: none; }
+#quote { position: absolute; top: 5px; left: 2px; width: 105px; height: 60px; margin: 0pt; font-size: 70%; line-height: 60px; text-align: center; font-style: italic; }

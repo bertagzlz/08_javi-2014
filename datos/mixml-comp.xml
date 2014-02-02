@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="iso-8859-1"?><exam id_exam="1" title="Departamento de Idiomas. Escuela de Guerra | INGLÉS" fecha="16/09/2013" tipo="Composition">
+<intro1>En las siguiente presentación usted encontrará contenidos relacionados con un tema.</intro1>
+<intro2>Después de leer y comprender el texto presentado deberá realizar una composión de 400 palabras.</intro2>
+<intro3>Gracias por su colaboración. A continuación podrá <strong>imprimir</strong> su composición o imprimirla en un archivo <strong>pdf</strong> para su entrega al profesor correspondiente.</intro3>
+<tiempoGlobal>90</tiempoGlobal>
+<timeOver>Su tiempo ha terminado. Pulse finalizar e imprima sus respuestas</timeOver>
+<user id= "1">ARGUESO CANO ALEJANDRO TIM: 25375454#</user>
+
+<user id= "2">MARTINEZ HERCULES DE SOLAS PEDRO LUIS TIM: 11111111#</user>
+
+<user id= "3">FERNANDEZ FERNANDEZ JUAN CARLOS TIM: 31320901#</user>
+
+<user id= "4">ARIAS FERNANDEZ JESUS TIM: 39675809#</user>
+
+<user id= "5">ORAA SANCHEZ-CANO LUIS TIM: 05637886#</user>
+
+<user id= "6">ARENAS GARCIA JESUS TIM: 03817506#</user>
+
+<user id= "7">CARRASCO HUEROS JUAN LUIS TIM: 00679471#</user>
+
+<user id= "8">VERA SIBAJAS CARLOS TIM: 27517451#</user>
+
+<user id= "9">RUIZ LAPRESTA CARLOS TIM: 04543058#</user>
+
+<user id= "10">DE MIGUEL DE LUCAS JUAN CARLOS TIM: 03433039#</user>
+
+<user id= "11">QUINTERO VILLARROYA JOSE LUIS TIM: 01099820#</user>
+
+<user id= "12">SOTO RODIL JUAN CARLOS TIM: 34247774#</user>
+
+<user id= "13">DE LUCAS LOBO RAFAEL TIM: 50416386#</user>
+
+<user id= "14">GIL GONZALEZ JOSE RAMON TIM: 10810287#</user>
+
+<user id= "15">GARCIA SANSON JOSE LUIS TIM: 76231421#</user>
+
+<user id= "16">HERRAIZ REYES JOSE ANTONIO TIM: 45270414#</user>
+
+<user id= "17">HERMOSA BARRIOS ANDRES IGNACIO TIM: 42989353#</user>
+
+<user id= "18">ESPEJO ROIG JOSE FRANCISCO TIM: 27271949#</user>
+
+<user id= "19">DE PABLOS EPALZA JOSE MARIA TIM: 00690728#</user>
+
+<user id= "20">PORRAS GIL LOPE JUAN TIM: 01103166#</user>
+
+<user id= "21">FERNANDEZ LOPEZ JOSE MANUEL TIM: 00687927#</user>
+
+<user id= "22">RODRIGO DE AZPIAZU JOSE JAVIER TIM: 50700002#</user>
+
+<user id= "23">CARRASCO LLOPIS LUIS RAMON TIM: 24306459#</user>
+
+<user id= "24">JUSTE PEREZ-SLOCKER LUIS JAVIER TIM: 45063168#</user>
+
+<user id= "25">VELAZQUEZ PEREZ MANUEL AGUISTIN TIM: 51365168#</user>
+
+<user id= "26">GARCIA DEL CASTILLO CESAR TIM: 51372361#</user>
+
+<user id= "27">ATIENZA RODRIGUEZ EMILIO TIM: 05245186#</user>
+
+<user id= "28">PEREZ-VILLACASTIN DOMINGUEZ FRANCISCO TIM: 15952169#</user>
+
+<user id= "29">GUITART LORENTE JOSE LUIS TIM: 02617278#</user>
+
+<user id= "30">ACITORES GARCIA MIGUEL ANGEL TIM: 32651506#</user>
+
+<user id= "31">CREGO CASCON VICTOR JOSE TIM: 08105217#</user>
+
+<user id= "32">MONTILLA JIMENEZ FRANCISCO TIM: 51364283#</user>
+
+<user id= "33">DE LA PISA PEREZ DE LOS COBOS PEDRO TIM: 51374685#</user>
+
+<user id= "34">TENORIO CAMINO MANUEL TIM: 22947716#</user>
+
+<user id= "35">MARTIN ARIAS JOSE MIGUEL TIM: 11069636#</user>
+
+<user id= "36">DORDA ECHAVARRI JOSE MARIA TIM: 03822555#</user>
+
+<user id= "37">PEREZ AGUADO JOSE MARIA TIM: 11941725#</user>
+
+<user id= "38">RECIO GONZALEZ LUIS TIM: 07218043#</user>
+
+<user id= "39">GARRIS MOZOTA JORGE TIM: 25437989#</user>
+
+<user id= "40">LESTAU MORELL PABLO FERNANDO TIM: 31648311#</user>
+
+<user id= "41">RODRIGUEZ GALAN JOSE ANTONIO TIM: 25141402#</user>
+
+<user id= "42">DIZ MONJE EMILIO TIM: 50820284#</user>
+
+<user id= "43">CORTES DELGADO RAFAEL TIM: 31246713#</user>
+
+<user id= "44">LAGO ESPEJO SAAVEDRA JOSE RAMON TIM: 03831447#</user>
+
+<user id= "45">PALMERO MOLINE FERNANDO TIM: 50827308#</user>
+
+<user id= "46">DE PADURA Y DIEGUEZ JUAN ANTONIO TIM: 00819566#</user>
+
+<user id= "47">CERCENADO SORANDO GABRIEL TIM: 50432593#</user>
+
+<user id= "48">DIAZ CRUZ FRANCISCO JAVIER TIM: 03800136#</user>
+
+<user id= "49">DE MIGUEL SEBASTIAN TIM: 42956311#</user>
+
+<user id= "50">LABRADO GOMEZ, CARLOS TIM: 51358887#</user>
+
+<composition ncomp="1">
+	<Text>The case of Private Bradley Manning, who leaked thousands of documents to Wikileaks in 2010, and more recently, that of former CIA analyst E. Snowden, who revealed the US's massive surveillance programs, have been compared and in some cases equated as ”whistle-blowers” acting in the interest of the public's right to government transparency. Yet some would argue that the two cases are not all comparable due to the type of information revealed. What is your view on this issue? Write an opinion essay comparing the two cases. Give reasons to support your opinion.</Text>
+	<questions>
+	<Question1>Is it a crime?</Question1>
+	<Question2>Is it a crime?</Question2>
+	<Question3>Is it a crime?</Question3>
+	</questions>
+</composition>
+</exam>

@@ -1,0 +1,269 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<!-- Creado con el generador de cuestionarios de Francisco J. Calzado -->
+<!-- http://www.fcalzado.net -->
+<!-- Utilice y modifique libremente manteniendo intactos estos comentarios -->
+<!-- Condiciones de uso enumeradas en la licencia Creative Commons -->
+<!-- http://creativecommons.org/licenses/by-nc-sa/2.1/es/ -->
+
+<title></title>
+<style type="text/css">
+body {
+font: normal 12px "Lucida Grande", Verdana, Helvetica, Arial, Sans-serif;
+}
+p {
+margin: 5px 0;
+}
+#contenedor {
+background-color: #FFC;
+margin: 25px;
+padding: 15px;
+text-align: center;
+border: black solid 1px;
+}
+/*Rojizo*/
+.numero {
+display: inline;
+float: left;
+color: white;
+width: 30px;
+margin-left: 10%;
+padding: 3px;
+background-color: #C00;
+text-align: center;
+font-weight: bolder;
+font-size: 20px;
+font-family: Tahoma, Verdana, Helvetica, Arial, "sans-serif";
+}
+.pregunta {
+margin: 0 10%;
+border-top: #C00 solid 10px;
+border-right: #C00 solid 1px;
+border-bottom: #C00 solid 1px;
+border-left: #C00 solid 10px;
+padding: 0 10px 2px 35px;
+background-color: #F6D1A7;
+text-align: left;
+}
+ol {
+margin: 0 0 5px 20px;
+border-left: #E88B6F solid 10px;
+border-top: #E88B6F solid 1px;
+border-right: #E88B6F solid 1px;
+border-bottom: #E88B6F solid 1px;
+list-style-type: lower-alpha;
+background-color: #FAE8B9;
+}
+.mal {
+margin: 0 0 0 20px;
+font: bold 16px monaco, courier, verdana, helvetica, arial, sans-serif;
+color: red;
+}
+.bien {
+margin: 0 0 0 20px;
+font: bold 16px monaco, courier, verdana, helvetica, arial, sans-serif;
+color: green;
+}
+#borrarimprimir {
+text-align: center;
+margin: 10px auto;
+width: 90%;
+padding: 10px;
+background-color: #F6D1A7;
+border-left: #C00 solid 1px;
+border-top: #C00 solid 1px;
+border-right: #C00 solid 10px;
+border-bottom: #C00 solid 10px;
+}
+.notas {
+text-align: center;
+font: bold 16px monaco, courier, verdana, helvetica, arial, sans-serif;
+color: black;
+}
+</style>
+<script type="text/javascript">
+<!-- Original:  Monichar -->
+<!-- Modificación: Francisco J. Calzado Fernández http://fcalzado.net/blog/?q=generador-de-cuestionarios-con-evaluacion -->
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+<!-- Begin 
+var ans = new Array;
+var done = new Array;
+var score = 0;
+ans[1] = 'a';
+ans[2] = 'a';
+ans[3] = 'a';
+ans[4] = 'a';
+ans[5] = 'a';
+ans[6] = 'a';
+ans[7] = 'a';
+ans[8] = 'a';
+ans[9] = 'a';
+ans[10] = 'a';
+function Engine(question, answer) {
+if (answer != ans[question]) {
+if (!done[question]) {
+done[question] = -1;
+var mal='<span class="mal' + '">Incorrecto&nbsp;' + score + '&nbsp;puntos acumulados</span>'
+document.getElementById('resp' + (question)).innerHTML = mal;
+}
+else {
+alert("Ya has contestado a esta pregunta!");
+   }
+}
+else {
+if (!done[question]) {
+done[question] = -1;
+score++;
+var bien='<span class="bien' + '">Correcto&nbsp;' + score + '&nbsp;puntos acumulados</span>'
+document.getElementById('resp' + (question)).innerHTML = bien;
+}
+else {		
+alert("Ya has contestado a esta pregunta!");
+      }
+   }
+}
+function notaFinal() {
+document.getElementById('puntuacionfinal').innerHTML = '<span class="notas">Puntuaci&oacute;n:&nbsp;' + score + '</span>';
+	if (score> 9) {document.getElementById('notafinal').innerHTML = '<span class="notas">Calificaci&oacute;n:&nbsp;Matr&iacute;cula de Honor</span>';}
+   else if (score > 8) {document.getElementById('notafinal').innerHTML = '<span class="notas">Calificaci&oacute;n:&nbsp;Sobresaliente</span>';}
+   else if (score > 7) {document.getElementById('notafinal').innerHTML = '<span class="notas">Calificaci&oacute;n:&nbsp;Notable alto</span>';}
+   else if (score > 6) {document.getElementById('notafinal').innerHTML = '<span class="notas">Calificaci&oacute;n:&nbsp;Notable bajo</span>';}
+   else if (score > 5) {document.getElementById('notafinal').innerHTML = '<span class="notas">Calificaci&oacute;n:&nbsp;Bien</span>';}
+   else if (score > 4) {document.getElementById('notafinal').innerHTML = '<span class="notas">Calificaci&oacute;n:&nbsp;Suficiente</span>';}
+   else {document.getElementById('notafinal').innerHTML = '<span class="notas">Calificaci&oacute;n:&nbsp;Insuficiente</span>';}
+}
+
+// End -->
+</script>
+</head><body>
+<div id="contenedor">
+<form name="test" action="">
+<h1></h1>
+<p>Contesta a las siguientes preguntas marcando la respuesta correcta:</p>
+<div class="numero">1</div>
+<div class="pregunta">
+<p></p>
+<div id="resp1">&nbsp;</div>
+<ol>
+<li><input value="a" onclick="Engine(1, this.value)" type="radio"></li>
+<li><input value="b" onclick="Engine(1, this.value)" type="radio"></li>
+<li><input value="c" onclick="Engine(1, this.value)" type="radio"></li>
+<li><input value="d" onclick="Engine(1, this.value)" type="radio"></li>
+</ol>
+</div>
+<div class="numero">2</div>
+<div class="pregunta">
+<p></p>
+<div id="resp2">&nbsp;</div>
+<ol>
+<li><input value="a" onclick="Engine(2, this.value)" type="radio"></li>
+<li><input value="b" onclick="Engine(2, this.value)" type="radio"></li>
+<li><input value="c" onclick="Engine(2, this.value)" type="radio"></li>
+<li><input value="d" onclick="Engine(2, this.value)" type="radio"></li>
+</ol>
+</div>
+<div class="numero">3</div>
+<div class="pregunta">
+<p></p>
+<div id="resp3">&nbsp;</div>
+<ol>
+<li><input value="a" onclick="Engine(3, this.value)" type="radio"></li>
+<li><input value="b" onclick="Engine(3, this.value)" type="radio"></li>
+<li><input value="c" onclick="Engine(3, this.value)" type="radio"></li>
+<li><input value="d" onclick="Engine(3, this.value)" type="radio"></li>
+</ol>
+</div>
+<div class="numero">4</div>
+<div class="pregunta">
+<p></p>
+<div id="resp4">&nbsp;</div>
+<ol>
+<li><input value="a" onclick="Engine(4, this.value)" type="radio"></li>
+<li><input value="b" onclick="Engine(4, this.value)" type="radio"></li>
+<li><input value="c" onclick="Engine(4, this.value)" type="radio"></li>
+<li><input value="d" onclick="Engine(4, this.value)" type="radio"></li>
+</ol>
+</div>
+<div class="numero">5</div>
+<div class="pregunta">
+<div id="apolo"></div>
+<p></p>
+<div id="resp5">&nbsp;</div>
+<ol>
+<li><input value="a" onclick="Engine(5, this.value)" type="radio"></li>
+<li><input value="b" onclick="Engine(5, this.value)" type="radio"></li>
+<li><input value="c" onclick="Engine(5, this.value)" type="radio"></li>
+<li><input value="d" onclick="Engine(5, this.value)" type="radio"></li>
+</ol>
+</div>
+<div class="numero">6</div>
+<div class="pregunta">
+<div id="vulcano"></div>
+<p></p>
+<div id="resp6">&nbsp;</div>
+<ol>
+<li><input value="a" onclick="Engine(6, this.value)" type="radio"></li>
+<li><input value="b" onclick="Engine(6, this.value)" type="radio"></li>
+<li><input value="c" onclick="Engine(6, this.value)" type="radio"></li>
+<li><input value="d" onclick="Engine(6, this.value)" type="radio"></li>
+</ol>
+</div>
+<div class="numero">7</div>
+<div class="pregunta">
+<p></p>
+<div id="resp7">&nbsp;</div>
+<ol>
+<li><input value="a" onclick="Engine(7, this.value)" type="radio"></li>
+<li><input value="b" onclick="Engine(7, this.value)" type="radio"></li>
+<li><input value="c" onclick="Engine(7, this.value)" type="radio"></li>
+<li><input value="d" onclick="Engine(7, this.value)" type="radio"></li>
+</ol>
+</div>
+<div class="numero">8</div>
+<div class="pregunta">
+<p></p>
+<div id="resp8">&nbsp;</div>
+<ol>
+<li><input value="a" onclick="Engine(8, this.value)" type="radio"></li>
+<li><input value="b" onclick="Engine(8, this.value)" type="radio"></li>
+<li><input value="c" onclick="Engine(8, this.value)" type="radio"></li>
+<li><input value="d" onclick="Engine(8, this.value)" type="radio"></li>
+</ol>
+</div>
+<div class="numero">9</div>
+<div class="pregunta">
+<p></p>
+<div id="resp9">&nbsp;</div>
+<ol>
+<li><input value="a" onclick="Engine(9, this.value)" type="radio"></li>
+<li><input value="b" onclick="Engine(9, this.value)" type="radio"></li>
+<li><input value="c" onclick="Engine(9, this.value)" type="radio"></li>
+<li><input value="d" onclick="Engine(9, this.value)" type="radio"></li>
+</ol>
+</div>
+<div class="numero">10</div>
+<div class="pregunta">
+<p></p>
+<div id="resp10">&nbsp;</div>
+<ol>
+<li><input value="a" onclick="Engine(10, this.value)" type="radio"></li>
+<li><input value="b" onclick="Engine(10, this.value)" type="radio"></li>
+<li><input value="c" onclick="Engine(10, this.value)" type="radio"></li>
+<li><input value="d" onclick="Engine(10, this.value)" type="radio"></li>
+</ol>
+</div>
+<div id="borrarimprimir">
+<input value="Calificación final" onclick="notaFinal()" type="button">
+<div id="puntuacionfinal">&nbsp;</div><div id="notafinal">&nbsp;</div>
+<br>
+<input value="Imprimir" onclick="window.print()" accesskey="p" title="Pulsa este botón para imprimir la página. &lt;p&gt;" type="button">
+<br>
+<input value="Inténtalo de nuevo" onclick="location.reload()" type="button">
+<input value="Borrar todo" onclick="location.reload()" type="reset">
+</div>
+</form>
+</div>
+</body></html>

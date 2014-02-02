@@ -1,0 +1,7 @@
+http://colorschemedesigner.com/	index
+http://www.pixy.cz/index-en.html	index-en
+http://colorschemedesigner.com/previous/	default
+http://shop.colorschemedesigner.com/	default_001
+http://colorschemedesigner.com/previous	previous
+http://www.vistaprint.com/logo-design/add-text.aspx	add-text
+http://www.wix.com/start/matrix?utm_campaign=ma_colorschemedesigner.com&experiment_id=ma_colorschemedesigner.com	matrix

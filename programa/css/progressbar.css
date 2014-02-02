@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* progress bar container */
+#progressbar{
+	border:1px solid #AAAAAA;
+	color:#222222;
+	-moz-border-radius:4px 4px 4px 4px;
+	width:160px;
+	/*height:20px;
+	position:absolute;*/
+	color:black;
+	/*left:595px;
+	top:375px;*/
+	font-family:Verdana,Arial,sans-serif;
+	font-size:1.1em;
+	height:1.5em;
+	text-align:left;
+	background-attachment: scroll;
+	background-color: #FFFFFF;
+	background-image: url(../images/ui-bg_flat_75_ffffff_40x100.png);
+	background-repeat: repeat-x;
+	background-position: 50% 50%;
+}
+/* color bar */
+#progressbar div.progress{
+	margin:-1px;
+	position:absolute;
+	width:0;
+	height:85%;
+	overflow:hidden;
+	/*background-color:#838383;*/
+	background:url(../images/ui-bg_highlight-soft_75_cccccc_1x100.png) repeat-x scroll 50% 50% #CCCCCC;
+border:1px solid #AAAAAA;color:#222222;font-weight:bold;
+-moz-border-radius-bottomleft:4px;-moz-border-radius-topleft:4px;
+}
+/* text on bar */
+#progressbar div.progress .text{
+        position:absolute;
+        text-align:center;
+        color:white;
+}
+/* text off bar */
+#progressbar div.text{
+        position:absolute;
+        width:100%;
+        height:100%;
+        text-align:center;
+}
+
+/*progressbar de http://docs.jquery.com/UI/API/1.8/Progressbar
+<div id="progressbar" class="ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="37">
+<div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 37%;"></div>
+</div>
+*/
+.ui-corner-all {-moz-border-radius:4px 4px 4px 4px;}
+.ui-widget-content {
+background:url("images/ui-bg_flat_75_ffffff_40x100.png") repeat-x scroll 50% 50% #FFFFFF;
+border:1px solid #AAAAAA;color:#222222;}
+.ui-widget {font-family:Verdana,Arial,sans-serif;font-size:1.1em;}
+.ui-progressbar {height:2em;text-align:left;}
+.ui-progressbar .ui-progressbar-value {height:100%;margin:-1px;}
+.ui-corner-left {-moz-border-radius-bottomleft:4px;-moz-border-radius-topleft:4px;}
+.ui-widget-header {
+background:url("images/ui-bg_highlight-soft_75_cccccc_1x100.png") repeat-x scroll 50% 50% #CCCCCC;
+border:1px solid #AAAAAA;color:#222222;font-weight:bold;}

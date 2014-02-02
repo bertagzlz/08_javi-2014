@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?><exam id_exam="1000" title="Departamento de Idiomas. Escuela de Guerra | INGLÉS" fecha="EXAMEN DE SEP/2011" tipo="Listening">
+<intro1>En las sucesivas presentaciones usted encontrará preguntas de tipo test relacionadas con la conversación que debe escuchar previamente en la parte izquierda de la misma.</intro1>
+<intro2>Después de escuchar la conversación en inglés deberá responder a una de las preguntas de la parte derecha.</intro2>
+<intro3>Gracias por su colaboración. A continuación podrá <strong>imprimir</strong> las respuestas que han sido seleccionadas, o bien imprimirlas en un archivo <strong>pdf</strong> para su entrega al profesor correspondiente.</intro3>
+<tiempoGlobal>75</tiempoGlobal>
+<timeOver>Su tiempo ha terminado. Pulse finalizar e imprima sus respuestas</timeOver>
+<user id= "1">LABRADO GOMEZ, CARLOS TIM: 51358887#</user>
+
+<user id= "2">LAGUNA PEREZ, JAVIER TIM: 51652408#</user>
+
+<user id= "3">CAP TOVAR HERNÁNDEZ, GERARDO TIM: 09279594#</user>
+
+<user id= "4">MERINO TORO, LA BEGO TIM: 52104944#</user>
+
+<question nquest="1" Question="1. She is a cousin of my uncle Percy, who comes from Wales.">
+	<url>EXAMEN1/MP3/Q-1.mp3</url>
+	<repeat>1</repeat>
+	<delay>6</delay>
+	<answers>
+	<answ1>A. My Uncle Percy is married to a Welsh woman.</answ1>
+	<answ2>B. My cousin is also Welsh</answ2>
+	<answ3>C. She is related to a Welsh uncle of mine.</answ3>
+	<answ4>D. Both her uncle and his son come from Wales</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="2" Question="2. The disease spread faster than the authorities thought it would.">
+	<url>EXAMEN1/MP3/Q-02 EXAMEN 1.mp3</url>
+	<repeat>5</repeat>
+	<delay>3</delay>
+	<answers>
+	<answ1>A. The authorities kept the disease under control</answ1>
+	<answ2>B. The authorities' predictions about the disease were wrong.</answ2>
+	<answ3>C. The authorities were fast to find the source of the disease.</answ3>
+	<answ4>D. The authorities were quick to inform the population about the disease.</answ4>
+	<answ5></answ5>
+	</answers></question>
+<question nquest="3" Question="3. Mrs. Peters was offered $500 for her family heirloom.">
+	<url>EXAMEN1/MP3/Q-03 EXAMEN 1.mp3</url>
+	<repeat>5</repeat>
+	<delay>3</delay>
+	<answers>
+	<answ1>A. Mrs. Peters made an offer of $500 for the grandfather clock</answ1>
+	<answ2>B. Mrs. Peters wanted to buy the grandfather clock for her family</answ2>
+	<answ3>C. The grandfather clock Mrs. Peters inherited was sold for five hundred dollars</answ3>
+	<answ4>D. Mrs. Peters was asked to sell her grandfather clock for five hundred dollars.</answ4>
+	<answ5></answ5>
+	</answers></question>
+
+</exam>

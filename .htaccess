@@ -1,0 +1,90 @@
+AddDefaultCharset utf-8
+# Force UTF-8 for certain file formats.
+#<IfModule mod_mime.c>
+#    AddCharset utf-8 .atom .css .js .json .jsonld .rss .vtt .webapp .xml
+#</IfModule>
+
+AuthName "localhost ingles user"
+AuthType Basic
+AuthUserFile "D:\xampp\security\ingles.users"
+require valid-user
+
+
+
+
+ServerSignature Off
+
+<IfModule mod_rewrite.c>
+  Options +FollowSymlinks
+  # Options +SymLinksIfOwnerMatch
+  RewriteEngine On
+  #RewriteBase /
+</IfModule>
+
+#Gracias a esta sentencia obtendremos un “Forbiden” si hacemos un: http://www.miweb.com/cache
+RewriteRule ^(cache|includes|logs|tmp|compositions|resultados)/ - [F]
+#RewriteRule ^(.xml)$ http://localhost/web/08_javi/index.html $1 [L,R=301]
+#“L” indicates that it’s the last instruction and “R” means redirect, and “301” means a permanent redirect.
+
+
+
+#No navegacion
+Options All -Indexes
+
+
+#Bloquear el acceso a determinados archivos
+# http://localhost/web/08_javi/resultados/textos.csv
+#Una técnica un poco mas refinada que la anterior. Se basa en la posibilidad de restringir el acceso directo a ciertos archivos de nuestra web en función de su extensión: php, xml, tpl, etc
+
+
+
+#RewriteCond %{REQUEST_FILENAME} -f
+#  RewriteCond %{REQUEST_URI} \.php|\.ini|\.xml|\.csv [NC]
+#  RewriteCond %{REQUEST_URI} \/programa\/ [OR]
+#  RewriteCond %{REQUEST_URI} \/images\/ [OR]
+#  RewriteCond %{REQUEST_URI} \/docs\/ [OR]
+#  RewriteCond %{REQUEST_URI} \/resultados\/ [OR]
+#  RewriteCond %{REQUEST_URI} \/cache\/
+#  RewriteRule ^(.*)$ index.html [R=404]
+
+# Bloquea cualquier acceso a un fichero que termine con la extensión .xml 
+# Pero entonces no lo puede leer la web
+#<Files ~ "\.xml$">
+#  Order allow,deny
+#  Deny from all
+#  Satisfy all
+#  </Files>
+
+
+
+# <files "mixml.xml"> order allow,deny deny from all </files>
+# esto no deja abrir la web
+
+#Redirect 301 http://localhost/web/08_javi/datos/mixml.xml http://localhost/web/08_javi/index.html
+
+
+<Files ".mi*">
+	Require all denied
+</Files>
+#order allow,deny
+#deny from all
+
+ 
+# Aunque suene raro, el archivo htaccess también es vulnerable, a pesar de preocuparnos por nuestro sitio y nuestros ficheros, también debemos hacerlo por htaccess.
+<Files ~ “^.*\.([Hh][Tt][Aa])”>
+order allow,deny
+deny from all
+satisfy all
+</Files>
+
+#El siguiente snippet no va a incrementar directamente la velocidad de carga del sitio en general, pero sí va a cargar más rápido cuando el mismo usuario 
+#vuelva #a visitarlo, al enviar un status 304 cuando se pidan elementos que no han sido modificados. Puedes cambiar la frecuencia de cacheo al cambiar 
+#el número de segundos (en este ejemplo se da una vez al día):
+
+<ifmodule mod_expires.c>
+ExpiresActive On
+ExpiresDefault A604800
+<filesmatch “.(jpg|JPG|gif|GIF|png|PNG|css|CSS|ico|ICO|js|JS)$”>
+ExpiresDefault “access plus 7 day”;
+</filesmatch>
+</ifmodule>

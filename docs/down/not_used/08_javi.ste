@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<site>
+<localinfo sitename="08_javi" ftporrdsserver="FALSE" localroot="D:\01home\web\08_javi\" assetfolder="D:\01home\web\08_javi\SpryAssets\" imagefolder="" spacerfilepath="" refreshlocal="TRUE" autouploadfiles="FALSE" maintainsyncinfo="TRUE" rewritedocrellinks="FALSE" cache="TRUE" httpaddress="http://localhost/web/08_javi/" relativeTo="SITE" caseSensitiveLinks="FALSE" curserver="webserver"/>
+<remoteinfo accesstype="ftp" host="ftp.restaurantemannix.com" remoteroot="/examen/" user="analopez@restaurantemannix.com" pw="4164383734363637727B" checkoutname="" emailaddress="" enablecheckin="FALSE" checkoutwhenopen="TRUE" usefirewall="FALSE" usepasv="FALSE" useSFTP="FALSE" useIpv6="FALSE" useftpoptimization="TRUE" usealternaterename="TRUE" pathNameCharacterSet="Windows-1252"/>
+<designnotes usedesignnotes="TRUE" sharedesignnotes="FALSE"/>
+<sitemap homepage="" pagesperrow="200" columnwidth="125" showdependentfiles="FALSE" showpagetitles="FALSE" showhiddenfiles="FALSE"/>
+<fileviewcolumns sharecolumns="TRUE">
+    <column name="Local Files" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="80" remotewidth="180" />
+    <column name="Notes" align="center" show="FALSE" share="FALSE" builtin="TRUE" localwidth="36" remotewidth="36" />
+    <column name="Size" align="right" show="TRUE" share="FALSE" builtin="TRUE" localwidth="-2" remotewidth="-2" />
+    <column name="Type" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="60" remotewidth="60" />
+    <column name="Modified" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="102" remotewidth="102" />
+    <column name="Checked Out By" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="-1" remotewidth="-1" />
+</fileviewcolumns>
+<appserverinfo servermodel="PHP MySQL" urlprefix="http://localhost/web/08_javi/" connectionsmigrated="FALSE" serverobjectsversion="1" defaultdoctype="HTML" accesstype="lan" remoteroot="d:/01home/web/08_javi/" refreshremote="FALSE" testsvrbinaccesstype="none"/>
+<cloaking enabled="TRUE" patterns="TRUE">
+    <cloakedfolder folder="Templates/"/>
+    <cloakedfolder folder="richEditor/"/>
+    <cloakedfolder folder="old/"/>
+    <cloakedfolder folder="admin/"/>
+    <cloakedfolder folder="texteditor/"/>
+    <cloakedfolder folder="wordpress blog/"/>
+    <cloakedfolder folder="fotosmannixrestaurante/"/>
+    <cloakedfolder folder="ltimomohicano/"/>
+    <cloakedfolder folder="assets/images/mohicano/"/>
+    <cloakedfolder folder="univvalenc/"/>
+    <cloakedpattern pattern=".fla"/>
+    <cloakedpattern pattern=".psd"/>
+    <cloakedpattern pattern=".doc"/>
+    <cloakedpattern pattern=".url"/>
+    <cloakedpattern pattern=".as"/>
+    <cloakedpattern pattern=".dwt"/>
+</cloaking>
+<contributorintegration enabled="FALSE"/>
+</site>

@@ -1,0 +1,1549 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Escuela de Guerra</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Bootstrap -->
+		<link href="programa/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+
+		<!--<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />-->
+		<meta content="text/html charset=iso-8859-1" />
+		<!--utf-8-->
+		<link rel="shortcut icon" href="images/favicon.gif" />
+
+		<script type="text/javascript" src="programa/js/tamanoletra.js"></script>
+		<!--<script type="text/javascript" src="programa/js/float.js"></script>-->
+		<script type="text/javascript" src="programa/js/swfobject.2.2.js"></script>
+		<!--<script type="text/javascript" src="programa/js/jquery.min.js"></script>-->
+
+		<script type="text/javascript" src="programa/js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="programa/js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="programa/js/jquery.ennui.contentslider.js"></script>
+		<script type="text/javascript" src="programa/js/jquery.pagination.js"></script>
+		<!--<script type="text/javascript" src="programa/js/jquery.progressbar.js"></script>-->
+		<script type="text/javascript" src="programa/js/tooltip.js" charset="utf-8"></script>
+		<script type="text/javascript" src="programa/js/textgrow.js" charset="utf-8"></script>
+		<!-- ___ OJO PUT ALWAYS AFTER JQUERY -->
+		<script type="text/javascript" src="programa/js/bootbox.min.js"></script>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<!--<script src="https://code.jquery.com/jquery.js"></script>-->
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="programa/bootstrap/js/bootstrap.min.js"></script>
+		<!--<script type="text/javascript" src="programa/js/word-and-character-counter.min.js"></script>-->
+		<script type="text/javascript" src="programa/bootstrap/bootstrap-progressbar.js"></script>
+		<link href="programa/css/pagination.css" rel="stylesheet" type="text/css" media="screen" />
+		<link href="programa/css/default.css" rel="stylesheet" type="text/css" media="screen,projection,print" />
+		<!--<link media="screen" href="programa/css/progressbar.css" type="text/css" rel="stylesheet">-->
+		<!--<link media="all" href="programa/css/jquery-ui-1.8.1.mycustom.css" type="text/css" rel="stylesheet">-->
+		<link rel="stylesheet" type="text/css" href="programa/bootstrap/css/bootstrap-progressbar-3.0.0-rc2.css" />
+		<!--<script type="text/javascript" src="programa/js/jquery.textareaCounter.plugin.js"></script>-->
+		<script type="text/javascript">
+			//$("textarea").textareaCounter();
+			function countChar(este) {
+				var len = este.value.length;
+				//if (len >= 500) { val.value = val.value.substring(0, 500); } else {
+				numWords = countWord(getCleanedWordString(este.value));
+				// en vez de $('textarea#data').val()
+				//numChars=500-len;
+				$('#textareaCallBack').text(numWords + ' words / 400');
+				$('#feedBackComp').fa.fadeOut('9000');
+				$('#saveComposition').html('Save composition&raquo;');
+				$('#saveComposition').attr('disabled', false);
+				$('#exitComposition').attr('disabled', true);
+				//}
+			};
+
+			function getCleanedWordString(content) {
+				var fullStr = content + " ";
+				var initial_whitespace_rExp = /^[^A-Za-z0-9]+/gi;
+				var left_trimmedStr = fullStr.replace(initial_whitespace_rExp, "");
+				var non_alphanumerics_rExp = rExp = /[^A-Za-z0-9]+/gi;
+				var cleanedStr = left_trimmedStr.replace(non_alphanumerics_rExp, " ");
+				var splitString = cleanedStr.split(" ");
+				return splitString;
+			}
+
+			function countWord(cleanedWordString) {
+				var word_count = cleanedWordString.length - 1;
+				return word_count;
+			}
+
+			/* 	http://www.example.com/index.php?id=1&image=awesome.jpg
+			 Calling getQueryVariable("id") - would return "1".
+			 Calling getQueryVariable("image") - would return "awesome.jpg".
+			 */
+			function getQueryVariable(variable) {
+				var query = window.location.search.substring(1);
+				var vars = query.split("&");
+				for (var i = 0; i < vars.length; i++) {
+					var pair = vars[i].split("=");
+					if (pair[0] == variable) {
+						return pair[1];
+					}
+				}
+				return (false);
+			}
+		</script>
+
+		<script>
+			var pref = '<li><input type="radio" name ="P';
+			var file = "datos/mixml.xml";
+			var totalPreguntas = 0;
+			var intro3 = "";
+			// necesita verse fuera
+			var idExam;
+			var tipo = "";
+			// necesita verse fuera
+			var fecha;
+			var users;
+			var txtComposition = "";
+			var okDni_img;
+			var timeoutID;
+			var respOk = "Su respuesta ha sido validada.";
+			var respNoOk = "<span id=\'mal\'>No validada todav&iacute;a. Por favor, seleccione una opción.</span>";
+			var optInit;
+			var arrRespondidas = new Array(totalPreguntas);
+			var arrRespondidas2 = new Array(totalPreguntas);
+			var arrCorrectas = new Array(totalPreguntas);
+			var arrCorrectas2 = new Array(totalPreguntas);
+			var rightAnsws = new Array(totalPreguntas);
+			var rightAnsws2 = new Array(totalPreguntas);
+			var notaMediaFinal = 0;
+			//var arrPreguntasTextos=[];
+			var arrReproducida = new Array(totalPreguntas);
+			// de momento no conocemos todav�a totalPreguntas
+			/*for (h=1; h<=totalPreguntas; h++) {
+			 arrRespondidas[h]=0; arrReproducida[h]=0;
+			 arrCorrectas[h]="";
+			 }*/
+			var tiempoGlobal = 0;
+
+			var timeOver = "";
+			var autoCheck = 0;
+			var subtipo = "";
+			var currentDate = new Date();
+			var strDate = currentDate.getDate() + "/" + (currentDate.getMonth() + 1) + "/" + currentDate.getFullYear();
+			var info;
+			var fileToSave = '';
+			var imagenOk = '&nbsp;&nbsp;<img src="programa/images/check.png" class="imgOkAnsw" style="display: inline; position:absolute">';
+			var infoAutoCheck = 'En este ex&aacute;men se podr&aacute; ver la nota obtenida al final';
+
+			file = 'datos/' + getQueryVariable("fileToLoad");
+			//alert(file);
+			if (file == 'datos/false')
+				file = 'datos/mixml.xml';
+
+			// _________________________ FULL SCREEN MODE, ONLY WORKS IF DISABLEDTEXT IS NOT PRESENT ________________
+			var f11_par = false;
+			$(document).keyup(function(event) {
+				if (event.keyCode == 122) {
+					f11_par = !f11_par;
+					//alert('F11!');
+					if (f11_par) {
+						$(".fullscreen").fadeOut(4000);
+						//$(".fullscreen").val("F11 para volver");
+						//$(".fullscreen").animate( { width:0, padding:0 }, { queue:true, duration:4000 } );
+					} else {
+						$(".fullscreen").fadeIn(4000);
+						//$(".fullscreen").animate( { width:671, padding:5 }, { queue:true, duration:1000 } );
+					}
+				}
+			});
+			// _________________________ TEXT GROW __________________________________________________________________
+			if ($.browser.msie) {
+				$("input.ctlTextGrowExample").css('width', '300px');
+			} else {
+				$(function() {
+					$("input.ctlTextGrowExample").textGrow({
+						pad : 25,
+						min_width : 25,
+						max_width : 300
+					});
+				});
+			}//$('.input2').Autoexpand(800);	//$('.ctlTextGrowExample').Autoexpand(50);
+			// _________________________ HIDE SHOW HEADER ___________________________________________________________
+			function hideHeader() {
+				$("#hdr").animate({
+					height : 40
+				}, {
+					queue : true,
+					duration : 1000
+				});
+			}
+
+			function showHeader() {
+				$("#hdr").animate({
+					height : 130
+				}, {
+					queue : true,
+					duration : 1000
+				});
+			}
+
+			// _________________________ SALIR ______________________________________________________________________
+			function clickSalir() {
+				//window.opener = self;
+				//var ok=alert('ï¿½Seguro que desea salir?');
+				//if (ok) 			//self.
+				// POR SEGURIDAD LOS EXPLORADORES DESHABILITAN window.close()
+				windows.parent.close();
+				this.window.close();
+				// esto s�lo cierra la pesta�a actual. Si s�lo hay una �niica pesta�a con la aplicaci�n NO se cierra
+			}
+
+			// _________________________ AL RECARGAR LA P�GINA ______________________________________________________________________
+			// CONVIENE INDICAR que se est� en un ex�men y pueden perderse los datos.
+			/*$(window).bind('beforeunload',function(){
+			return 'Guardar los datos antes de continuar, de lo contrario se perder�n los cambios';
+
+			});*/
+			// _________________________ IMPRESI�"N DEL RESULTADO OBTENIDO ___________________________________________
+			var i = 0;
+			var f1 = "";
+			var f2 = "";
+			var dbr = "";
+			var bootbox;
+			function finExamen(idObj) {
+				saveData();
+			}// end function
+
+			/* _____ Adds califications to #notas Tabuled way */
+			function addTableNotas() {
+				var cad = "";
+				//var i=1;
+				var addedStr = '';
+				if (autoCheck)
+					addedStr = '<span class="alert-info"><strong>&nbsp;/&nbsp;respuesta correcta&nbsp;</strong></span>';
+				$('#notas').append('Sus respuestas' + addedStr + ':<br>');
+				cad += '<div class="table table-condensedtable-responsive"><table class="table table-condensed"><thead><tr>';
+				for ( j = 1; j <= 10; j++) {
+					cad += '<th>' + j + '</th>';
+				}
+				cad += '</tr></thead><tbody><tr>';
+
+				for ( i = 1; i <= 10; i++) {
+					cad += '<td>' + getCalificacionCell(i) + '</td>';
+				}//end for i
+				cad += '</tr></tbody></table></div>';
+				//__________________________________________________________________________________________________________
+				cad += '<div class="table table-condensedtable-responsive"><table class="table table-condensed"><thead><tr>';
+				for ( j = 11; j <= 20; j++) {
+					cad += '<th>' + j + '</th>';
+				}
+				cad += '</tr></thead><tbody><tr>';
+
+				for ( i = 11; i <= 20; i++) {
+					cad += '<td>' + getCalificacionCell(i) + '</td>';
+				}
+				cad += '</tr></tbody></table></div>';
+				//_________________________________________________________________________________________________________
+				cad += '<div class="table table-condensedtable-responsive"><table class="table table-condensed"><thead><tr>';
+				for ( j = 21; j <= 30; j++) {
+					cad += '<th>' + j + '</th>';
+				}
+				cad += '</tr></thead><tbody><tr>';
+
+				for ( i = 21; i <= 30; i++) {
+					cad += '<td>' + getCalificacionCell(i) + '</td>';
+				}
+				cad += '</tr></tbody></table></div>';
+				$('#notas').append(cad);
+			}// end function
+
+			function getCalificacionCell(i) {
+				var a = "";
+				var rA2 = "";
+				var f2 = "";
+				if ($('#feedback' + i).length > 0) {
+					if (tipo == 'Textos') {
+						if ($('#feedback' + i + '-B').length > 0) {
+							rA2 = '/' + rightAnsws2[i].toLowerCase();
+						}
+					}
+					if (autoCheck) {
+						a = '&nbsp;<span class="alert-info"><strong>&nbsp;' + rightAnsws[i].toLowerCase() + rA2 + '&nbsp;</strong></span>';
+					}
+					// esto seguro que lo habr� rellenado
+					var f1 = ($('#feedback' + i).val() == "") ? "-" : $('#feedback' + i).val().toLowerCase();
+
+					if ((autoCheck) && (arrCorrectas[i] != 'undefined')) {
+						if (arrCorrectas[i] != $('#feedback' + i).val().toLowerCase()) {
+							f1 = '<span class="negativo">' + f1 + '</span>';
+						} else {
+							f1 = '<span class="positivo">' + f1 + '</span>';
+						}
+					}// end autocheck
+					if (tipo == 'Textos') {
+						if (arrRespondidas2[i] != 999) {
+							f2 = ($('#feedback' + i + '-B').val() == "") ? "-" : $('#feedback' + i + '-B').val().toLowerCase();
+
+							if ((autoCheck) && (arrCorrectas2[i] != 'undefined')) {
+								if (arrCorrectas2[i] != $('#feedback' + i + '-B').val().toLowerCase()) {
+									f2 = '/<span class="negativo">' + f2 + '</span>';
+								} else {
+									f2 = '/<span class="positivo">' + f2 + '</span>';
+								}
+							}
+						}
+					}
+					//if (f2!="") { f2='/'+f2;}
+					return f1 + f2 + a;
+				} else {
+					//
+					return '-/-' + a;
+				}
+			}
+
+			function saveData() {
+				var notaPercentage;
+				$('#preloader').fadeIn();
+				notaMediaFinal = getNotaMediaFinal();
+				var w = notaMediaFinal.toString() + '%';
+				var arr = $('#txtDni').val().split('TIM:');
+				nota = tipo + ' de ' + arr[0] + '\n\n\FECHA DE REALIZACI&Oacute;N: ' + strDate + '<hr>' + notaMediaFinal;
+				$.ajax({
+					type : "POST",
+					url : "programa/appendcsv.php",
+					data : {
+						idExam : idExam,
+						name : arr[0],
+						fecha : strDate,
+						data : notaMediaFinal,
+						folder : 'resultados/' + fileToSave,
+						type : 'csv'
+					},
+					/*______________ ON SUCCESS _____________________________________*/
+					success : function(data) {
+						// setTimeout added to show loading
+						/*setTimeout(function () {
+						//$('#loading').html('<img src="' + data.avatar_url + '"><br>' + data.login);
+						$('#loading').html('<img src="programa/images/check.png"><br>' + 'Tu texto se ha guardado correctamente!');
+						}, 2000);*/
+						//alert(data);
+					},
+					/*______________ ON COMPLETE _____________________________________*/
+					complete : function(xhr, status) {
+						$('#preloader').fadeOut(2000);
+						//$('#formComposicion').remove();
+						$('#notas').append(mostrarBarraGuardado());
+						//if (autoCheck) {
+						addTableNotas();
+						//}
+						// ___ No activo esto para no meter en el csv datos repetidos de un mismo usuario
+						// ___ Por eso es mejor usar BD, evita que cada vez que el usuario guarde, se actualice y no se a��ada nuevo registro
+						activateBtnVerRespuestas(false);
+						if (autoCheck) {
+							mostrarBarraNotaMediaFinal();
+						}
+					},
+					error : function(xhr, status, error) {
+						alert('ERROR: ' + status);
+						alert(xhr.responseText);
+					}
+				});
+				// end ajax
+				return false;
+			}
+
+			/* _____ �LTIMA SLIDE: ACTIVA O DESACTIVA EL BOT�N VER RESPUESTAS. SI se hace click en alguna pregunta se vuelve a activar,
+			 ________ permitiendo volver a guardar los datos */
+			function activateBtnVerRespuestas(b) {
+				if ((b) == 'undefined')
+					b = true;
+				if (b) {
+					$('#btnVerRespuestas').html('Finalizar ex&aacute;men');
+				} else {
+					$('#btnVerRespuestas').html('Ya est&aacute; guardado');
+				}
+				$('#btnVerRespuestas').attr('disabled', !b);
+			}
+
+			function checkFinished() {
+				var ok = false;
+				/*bootbox.dialog({
+				 message: "Are you sure you want to finish this exam?",
+				 title: "Finishing the exam",
+				 buttons: {
+				 success: {
+				 label: "Success!",className: "btn-success",	callback: function() {checkFinished=true;	ok=true;
+				 //return true;
+				 //Example.show("finishing...");
+				 }
+				 },
+				 danger: {	label: "Danger!",	className: "btn-danger", callback: function() {	ok=false;return false;
+				 //Example.show("uh oh, look out!");
+				 }
+				 },
+				 main: {	label: "Click ME!",className: "btn-primary",callback: function() {Example.show("Primary button");	}	}
+				 }
+				 });*/
+				var ok = window.confirm("Quedan preguntas por responder." + "\n" + "Si desea terminar pulse Aceptar," + "\n" + "En otro caso pulse Cancelar.");
+				return ok;
+			}
+
+			function printAnswers() {
+				$(".fullscreen").addClass('hidden-print');
+				if (tipo == 'Composition') {
+
+					//document.getElementById(idObj).innerHTML+=$('textarea#data').val();
+					$('#printAnswers').html('<br><br><br><br>' + mostrarBarraGuardado() + '<br>' + txtComposition);
+				} else if (tipo == 'Listening') {
+					$('#printAnswers').html('<br><br><br>' + $('#notas').html());
+				} else if (tipo == 'Textos') {
+					$('#printAnswers').html('<br><br><br>' + $('#notas').html());
+				} else {
+				}
+			}
+
+			function mostrarBarraGuardado() {
+				var s = '<br><div class="alert alert-warning"><strong>Guardado</strong> su documento con fecha ' + strDate + '<br>';
+				s += 'Tipo de ex&aacute;men: ' + subtipo + '<br>';
+				s += 'Nombre: ' + $('#txtDni').val().split('TIM:')[0] + '<br></div>';
+				//$('#notas').append('<br><br><ul class="nav nav-pills nav-stacked hidden-print"><li class="active"><a href="#"><span class="badge pull-right">'+$('#txtDni').val().split('TIM:')[0]+'</span>'+s+'</a></li></ul>');
+				return s;
+			}
+
+			function mostrarBarraNotaMediaFinal() {
+				$('#backGroundProgressBar').css('height', '30');
+				$('#backGroundProgressBar').css('display', 'block');
+				$('#txtProgressBarNota').css('line-height', '30px');
+				$('#txtProgressBarNota').css('font-size', '16px');
+				$('#progressBarNota').fadeIn(5000);
+				notaMediaFinal = getNotaMediaFinal();
+				var w = notaMediaFinal.toString() + '%';
+				$('#progressBarNota').attr('aria-valuenow', notaMediaFinal);
+				//$('#progressBarNota').attr('width',w); 	f�jate en la diferencia, esto le mete un nuevo atributo width:xx%,
+				//																				pero contin�a habiendo un style="width:60%"
+				$('#progressBarNota').css('width', w);
+				//		por eso meto esta sentencia....para que modifique el style y no meta atributo duplicado
+				//$("[name='progressBarNota']").css('display','inline-block');
+
+				$('#txtProgressBarNota').css('position', 'relative');
+				//var obtenido="Obtenido el "+w;
+				$('#txtProgressBarNota').text("Obtenido el " + w);
+				if (notaMediaFinal < 16) {
+					/*$('#progressBarNota').css('background-color','#fff');
+					 $('#txtProgressBarNota').css('color','#f00'); */
+					$('#txtProgressBarNota').html(w);
+				}
+				$('#notas').append($('#backGroundProgressBar'));
+				// use $('.collapse').collapse('hide') to hide
+				// use $('.collapse').collapse('show') to show
+				// use $('.collapse').collapse('toggle') to change
+				// ESTO S� FUNCIONA
+				//$('#btnVerRespuestas').text('Ocultar respuestas');
+			}
+
+			function getNotaMediaFinal() {
+				var n = 0;
+				for ( i = 1; i <= totalPreguntas; i++) {
+					if (arrCorrectas[i] != "x") {
+						n++;
+					}
+					if (tipo == 'Textos') {
+						if (arrCorrectas2[i] != "x") {
+							n++;
+						}
+					}
+				}
+				return Math.round(n / ($('ul').length - 1) * 100);
+				// herramientas ya lleva ul
+			}
+
+			function showRespondidas() {
+				var respondidas = "";
+				var c = "\t";
+				for ( k = 1; k <= totalPreguntas; k++) {
+					if (arrRespondidas[k] == 'undefined')
+						arrRespondidas[k] = 0;
+					if (arrRespondidas2[k] == 'undefined')
+						arrRespondidas2[k] = 0;
+					if ((k % 10) == 0)
+						c = "\n";
+					else
+						c = "\t";
+					if (tipo == 'Textos') {
+						respondidas += arrRespondidas[k] + ", ";
+						respondidas += arrRespondidas2[k] + c;
+					} else {
+						respondidas += arrRespondidas[k] + c;
+					}
+				}
+				alert("Quedan preguntas por responder." + "\n" + respondidas + "Si desea terminar pulse Aceptar," + "\n" + "En otro caso pulse Cancelar.");
+			}
+
+			/**______Viene de pagination.js, para detectar sui el usuario pulso FIN sin terminar el test **/
+			function notYetFinished() {
+				var f;
+				for ( i = 1; i <= totalPreguntas; i++) {
+					if (tipo == 'Listening') {
+						f = document.getElementById('feedback' + i).value;
+						if (f == "")
+							return true;
+					} else if (tipo == 'Textos') {
+						if (arrRespondidas2[i] == 999) {
+							f = document.getElementById('feedback' + i).value;
+							if (f == "")
+								return true;
+						} else {
+							var f = document.getElementById('feedback' + i).value;
+							var f2 = document.getElementById('feedback' + i + '-B').value;
+							if ((f == "") || (f2 == ""))
+								return true;
+						}
+					} else {
+					}
+				}
+				return false;
+			}
+
+			function fadeInImage() {
+				okDni_img.fadeIn(2000);
+				//, function() { //Animation complete });
+				//setAutoStart(2);
+			}
+
+			function cboAdminChange(parent, selObj, restore) {
+				file = selObj.value;
+				loadYa($.trim($('#cboAdmin').val()));
+			}
+
+			function disableCbo() {
+				document.getElementById('cboUsers').disabled = true;
+			}
+
+			function getFlashMovieObject(movieName) {
+				if (window.document[movieName]) {
+					return window.document[movieName];
+				}
+				if (navigator.appName.indexOf("Microsoft Internet") == -1) {
+					if (document.embeds && document.embeds[movieName])
+						return document.embeds[movieName];
+				} else// if (navigator.appName.indexOf("Microsoft Internet")!=-1)
+				{
+					return document.getElementById(movieName);
+				}
+			}
+
+			var cual = 0;
+			var sld = 0;
+			// _________________________ ENVIANDO DATOS A FLASH setStartFromJS pertenece a flash____________________
+			function setAutoStart(cualSlide) {
+				sld = parseInt(cualSlide);
+				var browser = "";
+				//var mov='singlemp3player'+sld;
+				//var s=getFlashMovieObject(mov);
+				if ($.browser.mozilla) {
+					browser = "moz"
+				} else {
+					browser = "ie"
+				}
+				//Esto sï¿½lo va bien en MSIE o Safari
+				var s = window.document.getElementById('singlemp3player' + sld);
+				if (s != null)
+					var msg = s.setStartFromJS(sld, browser);
+				// después de 5 seg empieza el sonido
+
+			}
+
+			// _________________________ RECIBIENDO DATOS DESDE FLASH ______________________________________________
+			// En flash tenemos: ExternalInterface.call("onSoundComplete", "setTimeout a 20");
+			function onSoundComplete(txt) {
+				// toda slide debe reproducirse al menos una vez, luego cuando esto ocurre es cuando la pongo como reproducida,
+				// es decir, que el usuario ya ha pasado por esa slide, haya o no contestado
+				arrReproducida[sld] = 1;
+				setCronom(20);
+				// y justo en ese momento le pongo un crono por si en 20 seg no se responde a nada
+			}
+
+			/** ________________________ RECIBIENDO DATOS DESDE FLASH ______________________________________________
+			 Si pasan 20 seg. después de escuchar el mp3, y no se ha pulsado respuesta se pasa automáticamente a la
+			 siguiente slide, esto sólo ocurre en la PRIMERA reproducción del mp3 **/
+			function setCronom(d) {
+				timeoutID = window.setTimeout(slowAlert, d * 1000);
+			}
+
+			function slowAlert() {
+				// esto es lo que tengo en el documento para avanzar a la siguiente slide:
+				// <a href="#" class="next">Siguiente</a>
+				$('#Pagination').find('.next').click();
+				/*$('.current').bind('mouseover', function(e) {
+				e.target=tooltip.show('Haga click en 1 para empezar');
+				}); NO ME FUNCIONA */
+				//alert("No ha habido actividad en "+20+" segundos!"+"\n"+"Seleccione una respuesta o pase a la siguiente pregunta");
+			}
+
+			function clearSetCrono() {
+				window.clearTimeout(timeoutID);
+			}
+
+			/** ________________________ RECIBIENDO DATOS DESDE FLASH ______________________________________________
+			 ________________________ Muestra (1) o esconde (0) la barra de paginación tras 1 SEGUNDO ___________**/
+			function showPagination(n) {
+				var v = (n == 1 ? 50 : 0);
+				var p = (n == 1 ? 10 : 0);
+				var o = (n == 1 ? 1 : 0);
+				$("#Pagination").animate({
+					opacity : o
+				}, {
+					queue : true,
+					duration : 1000
+				});
+				/*if (n==0) {$("#Pagination").css('visibility','hidden');}
+				 else {$("#Pagination").css('visibility','visible');}*/
+			}
+
+			/** ________________________ Est� ya respondida la pregunta cuya p�gina es page_id? _______________________
+			 ________________________ Devuelve true o false _____________________________________________________**/
+			function estaRespondida(page_id) {
+				var r1 = false;
+				var r2 = false;
+				if (tipo == 'Textos') {
+					r2 = (arrRespondidas2[page_id] == 999 && arrRespondidas[page_id] == 1) ? true : false;
+					r1 = (arrRespondidas[page_id] == 1 && arrRespondidas2[page_id] == 1) ? true : false;
+					r = r1 || r2;
+				} else {
+					r = (arrRespondidas[page_id] == 1) ? true : false;
+				}
+				return r;
+			}
+
+			/** ________________________ Est� visitada la pregunta cuya p�gina es page_id? ____________________________
+			 ________________________ Devuelve true o false _____________________________________________________**/
+			function estaVisitada(page_id) {
+				var r = false;
+				if (tipo == 'Textos') {
+					r = (arrRespondidas[page_id] == 1 && arrRespondidas2[page_id] == 1) ? true : false;
+				} else {
+					r = (arrReproducida[page_id] == 1) ? true : false;
+				}
+				return r;
+			}
+
+			function alMenosUnaVezReproducida(page_id) {
+				var r = false;
+				if (tipo == 'Listening') {
+					r = (arrReproducida[page_id] == 1) ? true : false;
+				}
+				return r;
+			}
+
+			/** ________________________ Para el tipo Textos Est�n las dos preguntas contestadas? _________________
+			 ________________________ Cada p�gina tiene dos grupos de respuestas, est�n las dos ok? _____________**/
+			function estaPaginaNormalContestada() {
+			}
+
+			function getOptionsFromForm() {
+				var opt = {
+					callback : pageselectCallback,
+					estaVisitada : estaVisitada,
+					estaRespondida : estaRespondida,
+					alMenosUnaVezResproducida : alMenosUnaVezReproducida,
+					finTest : notYetFinished,
+					showPagination : showPagination,
+					tipo : tipo,
+					setCronom : setCronom
+				};
+				opt['items_per_page'] = 1;
+				opt['num_display_entries'] = totalPreguntas;
+				//para ver las 40 preguntas
+				opt['num_edge_entries'] = 2;
+				opt['prev_text'] = "<";
+				opt['next_text'] = ">";
+				// Avoid html injections in this app
+				var htmlspecialchars = {
+					"&" : "&amp;",
+					"<" : "&lt;",
+					">" : "&gt;",
+					'"' : "&quot;"
+				}
+				$.each(htmlspecialchars, function(k, v) {
+					opt.prev_text = opt.prev_text.replace(k, v);
+					opt.next_text = opt.next_text.replace(k, v);
+				})
+				return opt;
+			}
+
+			/*** Callback function that displays the content. Gets called every time the user clicks on a pagination link.
+			 * @param {int}page_index New Page index
+			 * @param {jQuery} jq the container with the pagination links as a jQuery object
+			 */
+			function pageselectCallback(page_index, jq) {
+				//$('#one').find('.controller').click();
+				// Get number of elements per pagionation page from form
+				var items_per_page = 4;
+				//$('#items_per_page').val();
+				var max_elem = Math.min(totalPreguntas, totalPreguntas);
+				//(page_index+1) * items_per_page, totalPreguntas);
+				var newcontent = '';
+				alert(page_index);
+				// Iterate through a selection of the content and build an HTML string
+				/*for(var i=page_index*items_per_page;i<max_elem;i++) {
+				newcontent += '<dt>' + members[i][0] + '</dt>';
+				newcontent += '<dd class="state">' + members[i][2] + '</dd>';
+				newcontent += '<dd class="party">' + members[i][3] + '</dd>';
+				}*/
+				// Replace old content with new content
+				//$('#Searchresult').html(newcontent);
+				// Prevent click eventpropagation
+				return false;
+			}
+
+			//______________ PROCESANDO EL DOCUMENTO XML LE�DO _______________________________________________________
+			function processXMLDoc(xmlDoc) {
+				//alert (window.location.href);
+				okDni_img = $("body").find("#okDni_img");
+				var ruta = "";
+				if ($.browser.msie) {
+					var index = window.document.URL.substr(window.document.URL.length - 10, 10);
+					if (index == "index.html") {
+						ruta = window.document.URL.substr(0, window.document.URL.length - 10);
+					} else {
+						ruta = window.document.URL;
+					}
+				}
+				if (window.location.href.substr(0, 4) == "http") {// estoy en servidor
+				} else {//estoy en location.href="file:///D:/01home/web/08_javi/index.html" pero esto NO funciona en MSIE
+				}
+				//__________ BUCLE DE EX�MENES _____________________________________________________________________
+				$(xmlDoc).find('exam').each(function() {
+					//__________ id_exam _______________________________________________________________________________
+					idExam = $(this).attr('id_exam');
+					// sites fecha | site id | pregunta id texto | url respuestas brief
+					//__________ FECHA _________________________________________________________________________________
+					fecha = $(this).attr('fecha');
+					//$('<div id="ff"></div>').html(fecha).appendTo('#fecha');
+					$('#fecha').append(fecha);
+					//__________ TIPO DE EXAMEN: LISTENING / Textos / Composition _______________________________________
+					tipo = $(this).attr('tipo');
+					if (tipo == 'Textos') {
+						subtipo = "READING COMPREHENSION TEXTS";
+						fileToSave = 'textos';
+					}
+					if (tipo == 'Listening') {
+						subtipo = "LISTENING";
+						fileToSave = 'listening';
+					}
+					if (tipo == 'Composition') {
+						subtipo = "COMPOSITION";
+					}
+					if (tipo != 'Composition') {
+					}
+					//if ((tipo!='Listening') && (tipo!='Textos')) alert ("Revise el tipo del exámen");
+					//__________ TITLE____________________________ ESTO NO FUNCIONA EN IE ______________________________
+					var title = $(this).attr('title');
+					//$('title').text(title); //esto deber� funcionar...........
+					document.title = title;
+					//$('title').append(title); // SI LO A�ADO IE NO FUNCIONA, find TAMPOCO funciona en IE el server
+					var intro1 = $(this).find('intro1').text();
+					$('#intro1').append(intro1);
+					var intro2 = $(this).find('intro2').text();
+					$('#intro2').append(intro2);
+					intro3 = $(this).find('intro3').text();
+					tiempoGlobal = $(this).find('tiempoGlobal').text();
+
+					timeOver = $(this).find('timeOver').text();
+					autoCheck = parseInt($(this).find('autoCheck').text());
+
+					//__________ USUARIOS _____________________________________________
+					users = $(this).find('user').text().split('#');
+					//alert(users);
+					for ( i = 0; i < users.length; i++) {
+						//$('<option></option>').html(users[i]).appendTo('#cboUsers');
+					}
+					//_________________________________________________________________
+					//__________ TIPO LISTENING _______________________________________
+					//_________________________________________________________________
+					if (tipo == 'Listening') {
+						//____________________________________________________________________________________________________
+						$(this).find('question').each(function() {
+							totalPreguntas++;
+							var nquest = parseInt($(this).attr('nquest'));
+							// n�mero de pregunta
+							arrCorrectas[nquest] = 'x';
+							rightAnsws[nquest] = $(this).find('rightAnsw').text();
+							var strRespuestaCorrecta = '<br><div class="alert alert-success" name="rightAnsws" style="display:none;"><strong>La respuesta correcta es: </strong>' + rightAnsws[nquest] + '</div>';
+
+							$('#slider').append('<div class="cs_article" id="art' + nquest + '">' + '<div class="container">' + '<div class="wrap-container">' + '<div id="page-wrap' + nquest + '" class="page-wrap-listening"></div></div>' + '<div class="flash"><div id="flash' + nquest + '"></div>' + '<div id="repeat' + nquest + '"></div></div>' + '<div class="respuesta"><ul id="r' + nquest + '-1"></ul>' + '<div class="validation"><input type="text" id="feedback' + nquest + '" class="feedback" height="0" size="12" value=""/>' + '<span id="checked' + nquest + '"></span>' + strRespuestaCorrecta + '</div></div></div></div>');
+							//var question = $(this).attr('Question');
+							mitexto = $(this).find('Text').text();
+							//if (nquest==1) { alert("HTML: " + mitexto);	}
+							$('<div class="texto-normal"></div>').html(mitexto).appendTo('#page-wrap' + nquest);
+							var url = $(this).find('url').text();
+							//alert(url);
+							var repeat = $(this).find('repeat').text();
+							var del = $(this).find('delay').text();
+
+							var div = 'flash' + nquest;
+							var name = "singlemp3player" + nquest;
+							if (url == "") {
+								alert("url vacia en question: " + question);
+							} else {
+								var flashvars = {
+									id : name,
+									file : url,
+									autoStart : "false",
+									repeat : repeat,
+									delay : del,
+									backColor : "eeeeee",
+									frontColor : "333333",
+									songVolume : "90"
+								};
+								var params = {
+									play : "true",
+									movie : url,
+									wmode : "transparent",
+									width : "220",
+									height : "135",
+									allowScriptAccess : "always"
+								};
+								var attributes = {
+									id : "singlemp3player" + nquest
+								};
+								//if (nquest==1) var attributes = {  id: "singlemp3player"+344};
+								swfobject.embedSWF(ruta + "singlemp3player_as2.swf", div, 220, 135, "9.0.45", "", flashvars, params, attributes);
+								//alert(ruta+"singlemp3player_as2.swf");
+								//swfobject.switchOffAutoHideShow();
+							}
+
+							//_________QUESTION1_________________________________________________________
+							//var question1 = $(this).find('question1').text();
+							//$('<div class="preg-normal"></div>').html(question1).appendTo('#page-wrap'+nquest);
+							//$('<div class="preg"></div>').html(question).appendTo('#page-wrap'+nquest);
+
+							if (mitexto.length > 20) {//&& totalPreguntas < 2) {
+								//alert(question+"\n Longitud="+mitexto.length);
+								//$('.page-wrap').find('.preg').css('font', '110%/1.25em garamond,georgia, times new roman, serif');
+								// $('#one').find('.contentslider').css('height','950'); no hace nada
+							}
+							//_________RESPUESTAS___________________________________________________________________________________
+							$(this).find('answers').each(function() {
+								var c = "";
+								var s = "document.target.feedback" + nquest;
+								var resp1 = $(this).find('answ1').text();
+								//alert(resp1);
+								var resp2 = $(this).find('answ2').text();
+								var resp3 = $(this).find('answ3').text();
+								var resp4 = $(this).find('answ4').text();
+								c = "N� pregunta: " + nquest + "\n" + mitexto + "\n" + resp1 + "\n" + resp2 + "\n" + resp3 + "\n" + resp4;
+								//alert(c);
+								$('#r' + nquest + '-1').append(pref + nquest + '-1" id="P' + nquest + '-1"' + ' value=\'A\' />' + resp1 + '<span id="imgP' + nquest + '-1"></span></li>');
+								$('#r' + nquest + '-1').append(pref + nquest + '-1" id="P' + nquest + '-2"' + ' value=\'B\' />' + resp2 + '<span id="imgP' + nquest + '-2"></span></li>');
+								$('#r' + nquest + '-1').append(pref + nquest + '-1" id="P' + nquest + '-3"' + ' value=\'C\' />' + resp3 + '<span id="imgP' + nquest + '-3"></span></li>');
+								$('#r' + nquest + '-1').append(pref + nquest + '-1" id="P' + nquest + '-4"' + ' value=\'D\' />' + resp4 + '<span id="imgP' + nquest + '-4"></span></li>');
+								for ( i = 1; i <= 4; i++) {
+									$("#P" + nquest + "-" + i).bind("click", function() {
+										var value = $(this).attr('value');
+										// $('#P1-1').attr('id') devuelve P1-1 este objeto est� dentro de <li>
+										$('#feedback' + nquest).val(value);
+										// ten�a size=22 pero lo oculto para reducir espacio
+										arrRespondidas[nquest] = 1;
+										//activateBtnVerRespuestas(true);
+
+										/* _____ Each time we press an answer, an image is showed on the right side of the answer */
+										var id = $(this).attr('id');
+										for ( k = 1; k <= 4; k++) {
+											$('#imgP' + nquest + '-' + k).html('');
+										}
+										$('#img' + id).html(imagenOk);
+										if (rightAnsws[nquest].toLowerCase() == $('#feedback' + nquest).val().toLowerCase()) {
+											arrCorrectas[nquest] = rightAnsws[nquest].toLowerCase();
+										}
+										return true;
+									});
+									//end click
+								} // end for
+							});
+							// end answers
+						});
+						// end questions
+
+						var q = 0;
+						for ( k = 1; k <= totalPreguntas; k++) {
+							q = totalPreguntas - k;
+							if (totalPreguntas - k == 1) {
+								$('#quedan' + k).append("Queda " + q + " pregunta");
+							} else {
+								$('#quedan' + k).append("Quedan " + q + " preguntas");
+							}
+						} // end for
+					}// end tipo Listening
+					//_________________________________________________________________
+					//__________ TIPO Textos __________________________________________
+					//_________________________________________________________________
+					else if (tipo == 'Textos') {
+						//____________________________________________________________________________________________________
+						$(this).find('question').each(function() {
+							totalPreguntas++;
+							var nquest = parseInt($(this).attr('nquest'));
+							// nï¿½mero de pregunta
+							arrCorrectas[nquest] = 'x';
+							arrCorrectas2[nquest] = 'x';
+							rightAnsws[nquest] = $(this).find('rightAnsw').text();
+							var corr = '<div class="alert alert-success" name="rightAnsws" style="display:none;"><strong>La respuesta correcta es: </strong>' + rightAnsws[nquest] + '</div>';
+							var strRespuestaCorrecta = corr;
+							rightAnsws2[nquest] = $(this).find('rightAnsw2').text();
+							var corr2 = '<div class="alert alert-success" name="rightAnsws" style="display:none;"><strong>La respuesta correcta es: </strong>' + rightAnsws2[nquest] + '</div>';
+							if (rightAnsws2[nquest] != "") {
+								var strRespuestaCorrecta2 = corr2;
+							}
+
+							//alert(nquest);
+							$('#slider').append('<div class="cs_article" id="art' + nquest + '"><div class="container"><div class="wrap-container"><div id="page-wrap' + nquest + '"  class="page-wrap-normal"></div></div><div class="respuesta-normal"><ul id="r' + nquest + '-1"></ul><div class="validation"><input type="text" id="feedback' + nquest + '"  class="feedback" height="0" size="12" value=""/>' +
+							//'<span id="checked'+nquest+'"></span>'+ lo quito
+							strRespuestaCorrecta + '</div></div><div class="wrap-container"><div id="page-wrap' + nquest + '-B"  class="page-wrap-normal"></div></div><div class="respuesta-normal"><ul id="r' + nquest + '-2"></ul><div class="validation"><input type="text" id="feedback' + nquest + '-B" class="feedback" height="0" size="12" value=""/>' +
+							//'<span id="checked2'+nquest+'"></span>' lo quito
+							strRespuestaCorrecta2 + '</div></div></div></div>');
+
+							mitexto = $(this).find('Text').text();
+							//if (nquest==1) { alert("HTML: " + mitexto);	}
+							$('<div class="texto-normal"></div>').html(mitexto).appendTo('#page-wrap' + nquest);
+							//_________QUESTION1_________________________________________________________
+							var question1 = $(this).find('question1').text();
+							$('<div class="preg-normal"></div>').html(question1).appendTo('#page-wrap' + nquest);
+							//_________RESPUESTAS_________________________________________________________
+
+							$(this).find('answers1').each(function() {
+
+								var resp1 = $(this).find('answ1').text();
+								//alert(resp1);
+								var resp2 = $(this).find('answ2').text();
+								var resp3 = $(this).find('answ3').text();
+								var resp4 = $(this).find('answ4').text();
+								$('#r' + nquest + '-1').append(pref + nquest + '-1" id="P' + nquest + '-1"' + ' value=\'A\' />' + resp1 + '<span id="imgP' + nquest + '-1"></span></li>');
+								$('#r' + nquest + '-1').append(pref + nquest + '-1" id="P' + nquest + '-2"' + ' value=\'B\' />' + resp2 + '<span id="imgP' + nquest + '-2"></span></li>');
+								$('#r' + nquest + '-1').append(pref + nquest + '-1" id="P' + nquest + '-3"' + ' value=\'C\' />' + resp3 + '<span id="imgP' + nquest + '-3"></span></li>');
+								$('#r' + nquest + '-1').append(pref + nquest + '-1" id="P' + nquest + '-4"' + ' value=\'D\' />' + resp4 + '<span id="imgP' + nquest + '-4"></span></li>');
+								for ( i = 1; i <= 4; i++) {
+									$("#P" + nquest + "-" + i).bind("click", function() {
+										var value = $(this).attr('value');
+										// $('#P1-1').attr('id') devuelve P1-1 este objeto est� dentro de <li>
+										$('#feedback' + nquest).val(value);
+										// ten�a size=22 pero lo oculto para reducir espacio
+										arrRespondidas[nquest] = 1;
+										showPagination(1);
+										// $('#'+id).parent() devuelve li
+										var id = $(this).attr('id');
+										for ( k = 1; k <= 4; k++) {
+											$('#imgP' + nquest + '-' + k).html('');
+										}
+										$('#img' + id).html(imagenOk);
+
+										if (rightAnsws[nquest].toLowerCase() == $('#feedback' + nquest).val().toLowerCase()) {
+											arrCorrectas[nquest] = rightAnsws[nquest].toLowerCase();
+										}
+
+										return true;
+									});
+								} // end for
+							});
+							// end answers
+
+							//_________QUESTION2_________________________________________________________
+							var question2 = $(this).find('question2').text();
+							//alert ("question2 encntrada es ="+question2);
+							arrRespondidas2[nquest] = 999;
+							// Question1 ok pero Question 0 inicalmente a 0
+							if (question2 != "") {
+								arrRespondidas2[nquest] = 0;
+
+								$('<div class="preg-normal"></div>').html(question2).appendTo('#page-wrap' + nquest + '-B');
+								//_________ANSWERS2_________________________________________________________
+								$(this).find('answers2').each(function() {
+
+									var resp1 = $(this).find('answ1').text();
+									//alert(resp1);
+									var resp2 = $(this).find('answ2').text();
+									var resp3 = $(this).find('answ3').text();
+									var resp4 = $(this).find('answ4').text();
+									$('#r' + nquest + '-2').append(pref + nquest + '-2" id="P' + nquest + '-2-1"' + ' value=\'A\' />' + resp1 + '<span id="imgP' + nquest + '-2-1"></span></li>');
+									$('#r' + nquest + '-2').append(pref + nquest + '-2" id="P' + nquest + '-2-2"' + ' value=\'B\' />' + resp2 + '<span id="imgP' + nquest + '-2-2"></span></li>');
+									$('#r' + nquest + '-2').append(pref + nquest + '-2" id="P' + nquest + '-2-3"' + ' value=\'C\' />' + resp3 + '<span id="imgP' + nquest + '-2-3"></span></li>');
+									$('#r' + nquest + '-2').append(pref + nquest + '-2" id="P' + nquest + '-2-4"' + ' value=\'D\' />' + resp4 + '<span id="imgP' + nquest + '-2-4"></span></li>');
+									for ( i = 1; i <= 4; i++) {
+										$("#P" + nquest + "-2-" + i).bind("click", function() {
+											var value = $(this).attr('value');
+											$('#feedback' + nquest + '-B').val(value);
+											//activateBtnVerRespuestas(true);
+											arrRespondidas2[nquest] = 1;
+											//showPagination(1);
+											//$('#checked2'+nquest).text(respOk).show().fadeOut(8000); return true;
+
+											var id = $(this).attr('id');
+											//('#'+id).parent().append('&nbsp;&nbsp;<img src="programa/images/check.png" class="imgOkAnsw" style="display: inline; position:absolute">');
+											for ( k = 1; k <= 4; k++) {
+												$('#imgP' + nquest + '-2-' + k).html('');
+											}
+											$('#img' + id).html(imagenOk);
+
+											if (rightAnsws2[nquest].toLowerCase() == $('#feedback' + nquest + '-B').val().toLowerCase()) {
+												arrCorrectas2[nquest] = rightAnsws2[nquest].toLowerCase();
+											}
+
+											return true;
+										});
+									} // end for
+								});
+								// end answers
+							}
+							//_________END QUESTION2___________________________________________________
+
+						});
+						// end questions
+
+					}// end else normal
+					//_________________________________________________________________
+					//__________ TIPO COMPOSITION _____________________________________
+					//_________________________________________________________________
+					else if (tipo == 'Composition') {
+						$(this).find('composition').each(function() {
+							totalPreguntas++;
+							var ncomp = parseInt($(this).attr('ncomp'));
+							// n�mero de pregunta
+							var cadena = '<div class="cs_article" id="art' + ncomp + '"><div class="compcontainer"><div class="wrap-container"><div id="page-wrap' + ncomp + '"  class="page-wrap-composition"></div></div>';
+							var form = '<form id="formComposicion" method="post" role="form"><h1>Texto:</h1><textarea class="form-control" rows="30" name="data" id="data" placeholder="Escribe aqui tu composici&oacute;n..." onkeyup="countChar(this)"></textarea><div id="textareaCallBack" class="bs-callout bs-callout-info">0 words</div><form class="form-inline" role="form"><div class="form-group"><button type="button" id="saveComposition" class="btn btn-primary">Save composition&raquo;</button>&nbsp;<button type="button" id="exitComposition" class="btn btn-danger" disabled="disabled">Exit composition&raquo;</button></div></form></form>';
+							var validation = '<div class="validation"><span id="feedBackComp"></span></div>';
+
+							//<a class="btn btn-primary" id="feedbackComp" href="../examples/non-responsive/">View non-responsive example</a>
+							$('#slider').append(cadena + validation + form + '</div></div>');
+							mitexto = $(this).find('Text').text();
+							$('<h1></h1>').html(tipo).appendTo('#page-wrap' + ncomp)
+							$('<div class="texto-normal"></div>').html(mitexto).appendTo('#page-wrap' + ncomp);
+
+						});
+						// end composition
+					}// end else COMPOSITION
+					//__________ FIN TIPO COMPOSITION ______________________________________
+					else {
+					}
+					//$('#slider').append('<span>'+nquest+'</span>');
+					//_________________________________________________________________________________________________
+				});
+				// end exam
+				//__________ �LTIMA SLIDE RESPUESTAS DEL USUARIO __________________
+				$('#slider').append('<div class="cs_article" id="art_fin"><br><div class="respuestas"><div class="alert alert-info noPrint" id="intro3"><strong>Fin de la prueba! </strong></div><div class="noPrint"><div class="salir"><button type="button" id="btnVerRespuestas" class="btn btn-primary" accesskey="v" onmouseout="tooltip.hide();" onmouseover="tooltip.show(\'Ver las respuestas que usted ha introducido en el ex&aacute;men, en esta misma pantalla\');" onClick="finExamen(\'notas\')' + '">Finalizar Ex&aacute;men</button>' + '&nbsp;<button type="button" id="btnPrintAnswers" class="btn btn-primary" accesskey="p" onmouseout="tooltip.hide();" onmouseover="tooltip.show(\'Imprimir las respuestas en una impresora de su organizaci&oacute;n, o en formato pdf\');" onClick="printAnswers();window.print()' + '">Imprimir</button>' + '&nbsp;<button type="button" class="btn btn-danger" id="btnSalir" accesskey="p" onmouseout="tooltip.hide();" onmouseover="tooltip.show(\'Salir de esta aplicaci&oacute;n\');" onclick="clickSalir()"' + '>Salir</button>' + '</div></div>' + '<div id="resultados">' + '<div class="notas" id="notas"></div><div class="progress" id="backGroundProgressBar"><div class="progress-bar" id="progressBarNota" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only" id="txtProgressBarNota">60% Complete</span></div></div></div></div></div><div class="visible_print" id="printAnswers"></div>');
+
+				$('#backGroundProgressBar').css('display', 'none');
+				$('#progressBarNota').css('display', 'none');
+				$('#intro3').append(intro3);
+
+			}// end function XMLDoc
+
+			// $.noConflict();
+			var widthProgressBarTime = 0;
+			$(document).ready(function() {
+
+				var pbT = $('#progressBarTime');
+				var bgPbT = $('#bgProgressBarTime');
+				//var txtTime=pbT.find('#txtTime');
+
+				/*pbT.css('width',width+'%');
+				pbT.attr('aria-valuetransitiongoal',width);*/
+				//txtTime.html(width-width+'% completed');
+				//txtTime.css('position','relative');
+
+				/*$('.progress-bar').progressbar({
+				use_percentage: true,
+				display_text: 'center',
+				refresh_speed: 1000,
+				update: function(current_percentage) {
+				width+=2;//timeGlob al*60*1000/200;
+				//if (width==4)
+				alert (current_percentage);
+				pbT.css('width',width+'%');
+				pbT.attr('aria-valuenow',width);
+				//txtTime.html(width+'% completed');
+				//$('#m-callback-update').html(current_percentage);
+				},
+				done: function() {
+				//$('#progressBarTime').addClass( "progress-bar-danger" );
+				//
+				//alert("fin");
+				//$('#m-callback-done').html('yeah! done!');
+				}
+				});*/
+				//<a title="" data-toggle="tooltip" href="#" data-original-title="Default tooltip">you probably</a>
+				/*pbT.attr('data-toogle','tooltip');
+				 pbT.attr('data-original-title','tooltip');*/
+
+				function removeEvents() {
+					bgPbT.off('hover');
+					//bgPbT.off('mouseout');
+					bgPbT.css('height', '20px');
+					$('.herramientas').css('display', 'none');
+					$("#progressBarTime > span").text('TIEMPO FINALIZADO');
+					//$("#progressBarTime > span").css('color','#f00');
+				}
+
+				function updateWidth(millisec) {
+					if (widthProgressBarTime < 100) {
+						widthProgressBarTime += 100 / (tiempoGlobal * 60);
+						pbT.attr('aria-valuetransitiongoal', widthProgressBarTime).progressbar();
+					} else {
+						window.clearInterval(1000);
+						removeEvents();
+						$('#Pagination').find('.fin').click();
+					}
+				}
+
+
+				bgPbT.hover(function() {
+					$(this).stop(true).animate({
+						height : "20px"
+					}, 1000, function() {
+					});
+				}, function() {
+					$(this).stop(true).animate({
+						height : "5px"
+					}, 1000, function() {
+					});
+				});
+
+				//alert(ex);
+				/*$(document).on("click", ".alert", function(e) {
+				bootbox.alert("Hello world!", function() {
+				console.log("Alert Callback");
+				});
+				});*/
+				/*$("body").live('click', function() {
+				tooltip.hide();
+				//clearInterval(tt.timer);
+				//          tt.timer = setInterval(function(){tooltip.fade(-1)},timer);
+				});*/
+				// _______________________________________________________________________________________
+				// _____________ btnSaveComposition ______________________________________________________
+				// _______________________________________________________________________________________
+				$('#saveComposition').live('click', function() {
+					$('#preloader').fadeIn();
+					var arr = $('#txtDni').val().split('TIM:');
+					txtComposition = tipo + ' DE ' + arr[0] + '\n\n\FECHA DE REALIZACI�N: ' + strDate + '\n<hr>' + $('textarea#data').val();
+
+					$.ajax({
+						type : "POST",
+						url : "programa/writetxt.php",
+						data : {
+							data : txtComposition,
+							name : arr[0],
+							folder : 'compositions',
+							type : 'doc'
+						},
+						/*______________ ON SUCCESS _____________________________________*/
+						success : function(data) {
+							// setTimeout added to show loading
+							/*setTimeout(function () {
+							//$('#loading').html('<img src="' + data.avatar_url + '"><br>' + data.login);
+							$('#loading').html('<img src="programa/images/check.png"><br>' + 'Tu texto se ha guardado correctamente!');
+							}, 2000);*/
+							//alert(data);
+						},
+						/*______________ ON COMPLETE _____________________________________*/
+						complete : function(xhr, status) {
+							$('#preloader').fadeOut(2000);
+							//$('#formComposicion').remove();
+							var cad = '<br><div class="alert alert-warning"><strong>Bien hecho!</strong> Usted ha guardado con &eacute;xito este texto.</div>';
+							$('#feedBackComp').html(cad);
+							//+'<br><img src="programa/images/check.png">'+' Tu texto se ha guardado correctamente!<p><a href="javascript:close()" target="_blank">Salir</a></p>');
+							// append lo añade cada vez que guardo
+							//$('#feedbackComp').append('<p>Tu texto se ha guardado correctamente!</p><a href="data.txt" target="_blank">Ver</a>');
+							// <a id="saveComposition" href="#">Save Composition</a>
+							$('#saveComposition').html('Ya est&aacute; guardado');
+							$('#saveComposition').attr('disabled', true);
+							$('#exitComposition').attr('disabled', false);
+							$('#feedBackComp').fadeIn('9000');
+							//
+						},
+						error : function(xhr, status, error) {
+							alert('ERROR: ' + status);
+							alert(xhr.responseText);
+						}
+					});
+					// end ajax
+					return false;
+				});
+				$('#exitComposition').live('click', function() {// salir a l slide final
+					$('#Pagination').find('.next').click();
+				});
+				// _______________________________________________________________________________________
+				// _____________ btnBegin ________________________________________________________________
+				// _______________________________________________________________________________________
+				$("#btnBegin").css('visibility', 'hidden');
+				//$("#btnBegin").fadeOut(500);
+				$("#btnBegin").click(function() {
+					onBegin();
+					/*<div class="progress" id="bgProgressBarTime" style="height:5px; margin-bottom:5px; width:50%">
+					<div class="progress-bar" id="progressBarTime" role="progressbar" aria-valuetransitiongoal="75" style="width: 60%;">
+					</div></div>*/
+					//tiempoGlobal debe ser tiempoGlobal*60/100*1000, al estar en minutos
+					window.setInterval(updateWidth, 1000);
+					pbT.progressbar({
+						display_text : 'center',
+						use_percentage : true,
+						refresh_speed : 50,
+						transition_delay : 0,
+						percent_format : function(p) {
+							return p + ' % / ' + p * tiempoGlobal / 100 + ' min';
+						},
+						update : function(current_percentage) {
+							//$('#m-callback-update').html(current_percentage+' tiempoGlobal: '+tiempoGlobal);
+						},
+						done : function() {
+							//$('#m-callback-done').html('yeah! done!');
+							//pbT.attr('aria-valuetransitiongoal', 25).progressbar();
+						}
+					});
+				});
+				// end #btnBegin.click
+				$('#btnBegin').keyup(function(event) {
+					if (event.keyCode == 13) {
+						//alert ("keyup over the button onBegin");
+						//onBegin(); // esto pasa a la dos en vez de a la 1
+					}
+				});
+				/*
+				 <div style="visibility: visible; opacity: 0;" class="pagination" id="Pagination">
+				 <a class="prev" href="#">&lt;</a>
+				 <a class="" href="#">INICIO</a>
+				 <a class="resp" href="#">1</a>
+				 <a class="resp" href="#">2</a>
+				 <a class="" href="#">3</a>
+				 <a class="" href="#">4</a>
+				 ...
+				 <a class="" href="#">30</a>
+				 <span class="current">FIN</span>
+				 <span class="current next">&gt;</span>
+				 </div>
+				 */
+				function onBegin() {
+					$('#Pagination').find('.next').click();
+					//pct=0;
+					//$("#progressbar").reportprogress(0);
+					//handle=setInterval("update()",tiempoGlobal*60/100*1000);
+				}
+
+				// _______________________________________________________________________________________
+				// _____________ progressbar _____________________________________________________________
+				// _______________________________________________________________________________________
+				$("#progressbar").fadeOut(50);
+				$("#chkShowTime").bind("change", function(e) {
+					//var this=e.target; //if ($('#edit-checkbox-id:checked').val() !== null) {
+					if ($('#chkShowTime:checked').val() !== undefined) {
+						$("#progressbar").fadeIn(2000);
+						//alert($(this).val()); //$("#progressbar").css('visibility', 'hidden');
+					} else {
+						//$("#progressbar").css('visibility', 'visible');
+						$("#progressbar").fadeOut(1000);
+					}
+					return false;
+				});
+				// _______________________________________________________________________________________
+				// _____________ chkAutoCorrect __________________________________________________________
+				// _______________________________________________________________________________________
+				$('.alert-success').css('display', 'none');
+				$("#chkAutoCorrect").bind("change", function(e) {
+					if (this.checked == true) {
+						if ($('#chkAutoCorrect').is(":checked")) {
+							//alert ("is checked");
+						}
+
+						// uso esto en vez de lo siguiente que filtra m�s.......y mejor
+						$("[name='rightAnsws']").css('display', 'inline-block');
+						$("[name='rightAnsws']").css('padding', '5px');
+
+						/*$('.alert-success').css('display','inline-block');
+						$('.alert-success').css('padding','5px');	*/
+						//var strRespuestaCorrecta='<br><div class="alert alert-success"><strong>La respuesta correcta es: </strong>'+rightAnsw+'</div>'
+					} else {
+						$('.alert-success').css('display', 'none');
+						//$(":contains('La respuesta correcta es:')").css('display','none');
+					}
+				});
+				// _______________________________________________________________________________________
+				// _____________ txtDni __________________________________________________________________
+				// _______________________________________________________________________________________
+				$("#txtDni").val("");
+				$("#txtDni").css('width', '270px');
+				$("#txtDni").focus();
+				// PONEMOS EL FOCO
+				//Chrome doesn't work with "keypress" event and arrow keys.
+				$('#txtDni').keyup(function(event) {
+					checkDni(this, 0);
+				});
+				function activatebtnBegin() {
+					$("#btnBegin").css('visibility', 'visible');
+					//$("#btnBegin").css('visibility', 'hidden');
+					$("#btnBegin").animate({
+						width : "370"
+					}, {
+						queue : true,
+						duration : 4000
+					});
+					$("#btnBegin").focus();
+				}
+
+				// _____________ CHECK DNI ________________________________________________________________
+				function checkDni(selObj, restore) {
+					// IE parece que no detecta onchange
+					if ($('#txtDni').val().length == 8) {
+						var user = "";
+						var sign = $('#txtDni').val();
+						//prompt("Introduzca su DNI:");
+						if (sign == null || sign == "") {
+							return;
+						} else {
+							user = findDataUser(sign);
+							if (user == "no encontrado") {
+								alert("El DNI no existe, introduzca s�lo los 8 d�gitos de su DNI!");
+								$('#txtDni').val("");
+								return;
+							}
+						}
+						$("#txtDni").animate({
+							width : "370"
+						}, {
+							queue : true,
+							duration : 2000
+						});
+						timeoutImagen = window.setTimeout(fadeInImage, 3000);
+						// _____ Asigno el valor del nombre+dni al input box
+						$('#txtDni').val(user);
+						//okDni_img.animate({ 'opacity':'1' }, 20, 'easeOutQuad', function() { okDni_img.show(); });
+						activatebtnBegin();
+					}
+				}
+
+				function findDataUser(txtDni) {
+					for ( i = 0; i < users.length; i++) {
+						var dniConComa = users[i].substr(users[i].length - 9, 9);
+						//alert("txtDni era:"+"\n"+txtDni+"\n"+"dniConComa: "+dniConComa);
+						if ($.trim(dniConComa) == $.trim(txtDni)) {
+							// dniConComa.trim() is a javascript function Not working in IE, I use jquery
+							$('#txtDni').attr('disabled', "disabled");
+							// instead of document.getElementById('txtDni').disabled=false;
+							$('#Pagination').css("visibility", 'visible');
+							//alert("existe coincidencia");
+							return users[i];
+						}
+						//$('<option></option>').html(users[i]).appendTo('#cboUsers');
+					}
+					return "no encontrado";
+				}
+
+
+				$("#preloader").fadeIn("fast");
+				//hide preloader
+				//$("#txtDni").val("");
+				//function loadYa(file) {
+				$.ajax({
+					type : "GET",
+					url : file,
+					dataType : "xml",
+					cache : false,
+					/*______________ ON SUCCESS _______________________________________*/
+					success : function(xmlDoc, status) {
+						// The SUCCESS EVENT means that the xml document came down from the server AND got parsed successfully
+						// using the browser's own xml parsing caps.
+						processXMLDoc(xmlDoc);
+
+						$("ul.herramientas").css('display', 'none');
+						showPagination(0);
+						$('#chkAutoCorrect').attr('disabled', 'true');
+						$('#lblAutoCorrect').html('');
+						// _____ 	 TIPO  LISTENING _____
+						if (tipo == 'Listening') {
+							if (autoCheck) {
+								$('#lblAutoCorrect').html(infoAutoCheck);
+							}
+							$('#one').ContentSlider({
+								width : '900px',
+								height : '450px',
+								speed : 800,
+								easing : 'easeInOutBack',
+								tipo : tipo,
+								setAutoStart : setAutoStart,
+								clearSetCrono : clearSetCrono
+							});
+							// tenía height: '400px'
+						}
+						// _____ 	 TIPO  Textos _____
+						else if (tipo == 'Textos') {
+							if (autoCheck) {
+								$('#lblAutoCorrect').html(infoAutoCheck);
+							}
+							$('#one').ContentSlider({
+								width : '900px',
+								height : '950px',
+								speed : 800,
+								easing : 'easeInOutBack',
+								tipo : tipo
+							});
+						} else if (tipo == 'Composition') {
+							$('#btnVerRespuestas').addClass('hidden');
+							// http://getbootstrap.com/css/#helper-classes
+							$('#one').ContentSlider({
+								width : '900px',
+								height : '1000px',
+								speed : 800,
+								easing : 'easeInOutBack',
+								tipo : tipo
+							});
+						} else {
+						}
+						// Create pagination element with options from form
+						optInit = getOptionsFromForm();
+						$("#Pagination").pagination(totalPreguntas + 2, optInit);
+					},
+					/*______________ ON COMPLETE _____________________________________*/
+					complete : function(xhr, status) {
+						//alert( "COMPLETE.  You got:\n\n" + xhr.responseText ) ;
+						// si hay error
+						if (status == 'parsererror') {
+							alert("There was a PARSERERROR.  Luckily, we know how to fix that.\n\n" + "The complete server response text was " + xhr.responseText);
+							xmlDoc = null;
+							// Create the xml document from the responseText string.
+							// This uses the w3schools method.
+							// see also
+							if (window.DOMParser) {
+								parser = new DOMParser();
+								xmlDoc = parser.parseFromString(xhr.responseText, "text/xml");
+							} else {// Internet Explorer
+								xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+								xmlDoc.async = "false";
+								xmlDoc.loadXML(xhr.responseText);
+							}
+							$('#response').append('<p>Server status<br>complete event/xmlDoc: ' + xmlDoc + '</p>');
+							$('#response').append('<p>complete event/status: ' + status + '</p>');
+							//processXMLDoc( xmlDoc ) ;
+						}// end parseerror
+						//if ($.browser.mozilla)
+						$("#btnSalir").css("visibility", "hidden");
+						$("#preloader").fadeOut("fast");
+						// hide preloader
+					},
+					/*______________ ON ERROR ________________________________________*/
+					error : function(xhr, status, error) {
+						alert('ERROR: ' + status);
+						alert(xhr.responseText);
+					}
+				});
+				// end ajax
+
+			});
+			// end document ready
+			//} // end loadYa
+		</script>
+	</head>
+
+	<body>
+		<!-- ********************************************************* -->
+		<div style="text-align:center">
+			<div id="bsa">
+				<div class="bsap">
+					<div class="adhere" title="Defensa" >
+						<img width="125" height="125" alt="Ministerio de Defensa" src="programa/images/defensa.gif">
+					</div>
+				</div>
+			</div>
+
+			<div id="bsa2" style="float:right">
+				<div class="bsap">
+					<div class="adhere" title="ET" href="">
+						<img width="125" height="125" alt="Ej�rcito de Tierra" src="programa/images/escudo_et.gif">
+					</div>
+				</div>
+			</div>
+			<div id="fecha"></div>
+		</div>
+
+		<div id="preloader">
+			<!--<img align="absmiddle" src="programa/images/loading-big.gif">LOADING...-->
+		</div>
+		<!--<div id="loading"></div>-->
+		<form id="target" name ="target">
+			<div id="one" class="contentslider">
+				<div class="cs_wrapper">
+
+					<!-- ________________________________________________ MENU SUPERIOR _____________________________________________ -->
+					<!-- ________________________________________________ AUMENTA / DISMINUYE LETRA _____________________________________________ -->
+					<div class="mimenu">
+
+						<div class="progress hidden_print" id="bgProgressBarTime" style="height:5px; margin-bottom:5px; width:100%">
+							<!-- onmouseout="tooltip.hide();" onmouseover="tooltip.show('Tiempo remanente'+$(\'#progressBarTime\').attr(\'aria-valuenow\'));>-->
+							<!--<div class="progress-bar" id="progressBarTime" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">-->
+							<div class="progress-bar visible_print" id="progressBarTime" aria-valuetransitiongoal="0" aria-valuemin="0" aria-valuemax="100">
+								<!--<span class="sr-only" id="txtTime">60% Complete</span>-->
+							</div>
+						</div>
+						<!--<p>update: <span id="m-callback-update"></span></p>
+						<p>done: <span id="m-callback-done"></span></p>-->
+
+						<ul class="herramientas hidden_print">
+
+							<li class="disminuyeletra" onmouseout="tooltip.hide();" onmouseover="tooltip.show('Disminuye el tama�o de la letra');">
+								<a title="Disminuye el tama�o del texto" href="javascript:disminuyeLetra()">Disminuye el tama&ntilde;o del texto</a>
+							</li>
+							<li class="aumentaletra" onmouseout="tooltip.hide();" onmouseover="tooltip.show('Aumenta el tamaa�o de la letra');">
+								<a title="Aumenta el tamaa�o del texto" href="javascript:aumentaLetra()">Aumenta el tama&ntilde;o del texto</a>
+							</li>
+						</ul>
+
+						<!--<div class="fullscreen">presione F11 Pantalla completa</div>-->
+
+					</div><!--end menu -->
+
+					<!--<div class="showTime" onmouseout="tooltip.hide();" onmouseover="tooltip.show('Click para mostrar el tiempo global del ex�men');">
+					<input type="checkbox" id="chkShowTime" />
+					</div>--><!--end showTime -->
+					<div class="cs_slider" id="slider">
+						<!-- ________________________________________________ INTRODUCCI�N _____________________________________________ -->
+						<div id="art0" class="cs_article">
+							<div class="container">
+								<img id="ege" src="programa/images/ege.jpg"	alt="Introduction of application headline" />
+								<p style="font-size: 1.35em; margin-top: 30px;">
+									Instrucciones de cumplimentaci&oacute;n
+								</p>
+								<p id="intro1">
+									<strong><span style="color: #428BCA; font-size:1.35em">1 </span></strong>
+								</p>
+								<p id="intro2">
+									<strong><span style="color: #428BCA;font-size:1.35em;">2 </span></strong>
+								</p>
+								<br>
+								<!-- ______________________________________________ TEXTO DNI ________________________________________________ -->
+								<p id="dni">
+									<!--<input type="text" id="txtDni" maxlength="8" value="" style="min-width: 25px; max-width: 375px; width: 169px;" name="s"
+									class="ctlTextGrowExample" />-->
+									<input type="text" class="form-control" style="display:inline"; placeholder="Antes de empezar: introduzca su DNI" id="txtDni" onmouseout="tooltip.hide();" onmouseover="tooltip.show('Introduzca su dni sin letra, por ejemplo 12345678');"/>
+
+									<!--<input type="text" size="2" class="ctlTextGrowExample" value="limit 400px" />-->
+									<img id="okDni_img" src="programa/images/check.png" class="okDni" />
+								</p>
+								<div class="checkbox">
+									<label id="lblAutoCorrect">
+										<input type="checkbox" id="chkAutoCorrect">
+										Quiero revisar este ex�men (autocorrecci�n)</label>
+								</div>
+								<a class="btn btn-primary" id="btnBegin" role="button" href="#">Pulse aqu&iacute; para empezar</a>
+							</div>
+						</div>
+					</div><!-- End cs_slider -->
+				</div><!-- End cs_wrapper -->
+			</div>
+			<!-- End contentslider -->
+		</form>
+
+		<div id="Pagination" class="pagination" style="visibility:hidden"></div>
+
+		<!--esto sale en la impresi�n y tengo que ver qu� es-->
+		<!--<a href="programa/images/foto.jpg" id="fin"></a>-->
+		<p class="footer" id="footer">
+			DEPARTAMENTO DE IDIOMAS
+		</p>
+		<!--| <a href="http://validator.w3.org/check?uri=referer">Valid XHTML 1.0 Strict</a>-->
+	</body>
+</html>

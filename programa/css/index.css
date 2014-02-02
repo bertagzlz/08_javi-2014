@@ -1,0 +1,124 @@
+/* ::::: http://colorschemedesigner.com/css/default.css ::::: */
+
+/*body { margin: 0pt; background: none repeat scroll 0% 0% rgb(32, 32, 32); color: rgb(128, 128, 128); font: 11px/1.33 Verdana,sans-serif; }
+a { color: rgb(136, 136, 119); }
+a:hover { color: white; }
+input, select, button { font-size: 100%; vertical-align: middle; }
+select, button { background: none repeat scroll 0% 0% rgb(32, 32, 32); color: rgb(153, 153, 153); border: 1px dotted rgb(102, 102, 102); }
+#jscheck { margin: 20%; padding: 2em 4em; border: 1px dotted rgb(102, 102, 102); text-align: center; }
+#canvas { width: 980px; height: 710px; margin: 10px auto; position: relative; background: url('ui.png') no-repeat scroll 0pt 0pt transparent; }
+h1 { display: none; }
+h2 { position: absolute; top: 60px; left: 27px; margin: 0pt; font-size: 9px; font-weight: normal; color: rgb(85, 85, 85); }
+h2 a { color: rgb(85, 85, 85); }
+h2 a strong { color: rgb(102, 102, 85); font-weight: normal; }
+*/
+.pane { position: absolute; top: 205px; left: 25px; width: 380px; height: 380px; }
+#menu { position: absolute; top: 0pt; left: 440px; z-index: 1; width: 540px; background: none repeat scroll 0% 0% rgb(32, 32, 32); margin: 0pt; padding: 0pt; list-style: none outside none; font-size: 11px; line-height: 1.1; }
+#menu li { list-style: none outside none; margin: 0pt; padding: 0pt; float: left; position: relative; }
+#menu ul { display: none; position: absolute; left: 0pt; margin: 0pt; padding: 0pt; }
+#menu ul { border-left: 1px solid black; border-right: 2px solid black; border-bottom: 2px solid black; background: none repeat scroll 0% 0% rgb(32, 32, 32); }
+#menu ul a {  }
+#menu ul li { float: none; }
+#menu li.sep { padding: 5px; background: none repeat scroll 0% 0% rgb(32, 32, 32); font-size: 1px; }
+#menu hr { margin: 0pt; padding: 0pt; height: 1px; border-right: medium none; border-width: 1px medium medium; border-style: solid none none; border-color: rgb(64, 64, 64) -moz-use-text-color -moz-use-text-color; }
+#menu a { display: block; text-align: center; padding: 3px 15px 7px; text-decoration: none; color: rgb(128, 128, 128); background: none repeat scroll 0% 0% rgb(32, 32, 32); border-left: 1px solid rgb(51, 51, 51); white-space: nowrap; cursor: default; }
+#menu a:hover { background-color: rgb(153, 153, 153); color: rgb(0, 0, 0); }
+#menu ul a { padding: 8px 15px; text-align: left; border: medium none; background-color: rgb(32, 32, 32); color: rgb(204, 204, 204); cursor: pointer; }
+#menu ul a:hover { background-color: rgb(153, 153, 153); color: rgb(0, 0, 0); }
+#menu a.disabled { color: rgb(64, 64, 64); background: none repeat scroll 0% 0% rgb(32, 32, 32); cursor: default; }
+#menu #colorblind a { padding-left: 30px; }
+#tabs-color { position: absolute; top: 605px; left: 8px; width: 415px; height: 27px; }
+#tabs-preview { position: absolute; top: 606px; left: 430px; width: 542px; height: 27px; }
+.tabs a { display: block; position: absolute; top: 0pt; left: 0pt; background: none repeat scroll 0% 0% rgb(51, 51, 51); color: rgb(128, 128, 128); font-size: 11px; line-height: 27px; text-align: center; text-decoration: none; white-space: nowrap; }
+.tabs a.sel { background: none repeat scroll 0% 0% transparent; }
+.tabs a:hover { color: rgb(204, 204, 204); }
+.tabs a.sel:hover { color: rgb(128, 128, 128); }
+#tab-wheel { left: 0pt; width: 137px; }
+#tab-vars { left: 138px; width: 138px; }
+#tab-info { left: 277px; width: 138px; }
+#tab-preview { left: 0pt; width: 180px; }
+#tab-preview2 { left: 181px; width: 180px; }
+#tab-preview3 { left: 362px; width: 180px; }
+#model { position: absolute; top: 95px; left: 25px; width: 380px; border-collapse: collapse; border: medium none; }
+#model td { border: medium none; padding: 0pt; text-align: center; vertical-align: top; }
+#model a { display: block; border: medium none; width: 50px; margin: auto; padding: 55px 0pt 0pt; background: url('model.png') no-repeat scroll 0pt 0pt transparent; font-size: 9px; color: rgb(128, 128, 128); text-decoration: none; }
+#model a.sel { color: rgb(204, 204, 204); }
+#model a:hover { color: white; text-decoration: underline; }
+#model a.sel:hover { color: rgb(204, 204, 204); text-decoration: none; }
+a#m2 { background-position: -50px 0pt; }
+a#m3 { background-position: -100px 0pt; }
+a#m4 { background-position: -150px 0pt; }
+a#m5 { background-position: -200px 0pt; }
+a#m6 { background-position: -250px 0pt; }
+a#m1.sel, a#m1:hover { background-position: -300px 0pt; }
+a#m2.sel, a#m2:hover { background-position: -350px 0pt; }
+a#m3.sel, a#m3:hover { background-position: -400px 0pt; }
+a#m4.sel, a#m4:hover { background-position: -450px 0pt; }
+a#m5.sel, a#m5:hover { background-position: -500px 0pt; }
+a#m6.sel, a#m6:hover { background-position: -550px 0pt; }
+#pane-wheel { position: absolute; top: 205px; left: 25px; width: 380px; height: 380px; }
+#wheel { width: 100%; height: 100%; background: url('wheel_bkgr.png') no-repeat scroll center center transparent; }
+#wh1 { position: absolute; top: 0pt; left: 0pt; width: 190px; height: 190px; background: url('wheel1.png') no-repeat scroll right bottom transparent; }
+#wh2 { position: absolute; top: 0pt; left: 190px; width: 190px; height: 190px; background: url('wheel2.png') no-repeat scroll left bottom transparent; }
+#wh3 { position: absolute; top: 190px; left: 0pt; width: 190px; height: 190px; background: url('wheel3.png') no-repeat scroll right top transparent; }
+#wh4 { position: absolute; top: 190px; left: 190px; width: 190px; height: 190px; background: url('wheel4.png') no-repeat scroll left top transparent; }
+.dot, .dotv { position: absolute; width: 13px; height: 13px; background: url('dot1.png') no-repeat scroll 0pt 0pt transparent; }
+.dot { cursor: pointer; }
+#wheel #dot2 { display: none; background-image: url('dot3.png'); }
+#wheel #dot3, #wheel #dot4 { display: none; background-image: url('dot2.png'); }
+#sample { position: absolute; top: 120px; left: 120px; z-index: 0; width: 140px; height: 140px; background: none repeat scroll 0% 0% gray; }
+#wheel .val { position: absolute; z-index: 10; font-size: 11px; line-height: 1; color: rgb(128, 128, 128); text-align: left; cursor: pointer; }
+#wheel .val span { color: rgb(204, 204, 204); }
+#wheel #hue-val { top: 5px; left: 0pt; }
+#wheel #dist-val { top: 5px; right: 0pt; text-align: right; }
+#wheel #rgb-val { bottom: 5px; right: 0pt; }
+#rgb-parts { position: absolute; z-index: 10; bottom: 10px; left: 0pt; border-collapse: collapse; border: medium none; }
+#rgb-parts th, #rgb-parts td { padding: 1px 3px 0pt 0pt; text-align: right; font-weight: normal; color: rgb(128, 128, 128); font-size: 9px; line-height: 1; }
+#pane-vars { display: none; }
+.slider .dot { background-image: url('dot3.png'); }
+.slider .dotv { display: none; background-image: url('dot4.png'); }
+#presets { position: absolute; top: 25px; left: 5px; z-index: 100; text-align: left; }
+#presets select { font-size: 12px; line-height: 1.1; font-weight: normal; }
+#saturation-cover { position: absolute; left: -3px; top: 95px; width: 190px; height: 240px; background: none repeat scroll 0% 0% rgb(40, 40, 40); }
+#saturation-cover h4 { position: absolute; left: 0pt; top: 10px; margin: 0pt; width: 100%; font-size: 11px; line-height: 13px; font-weight: normal; text-align: center; }
+#ttl-c2 { display: none; }
+#saturation { position: absolute; left: 28px; top: 65px; width: 140px; height: 140px; }
+#saturation .slider { position: absolute; left: -26px; top: -28px; width: 190px; height: 190px; background: url('sv_slider_alpha.png') no-repeat scroll center top transparent; }
+#contrast-cover { position: absolute; left: 193px; top: 95px; width: 190px; height: 240px; background: none repeat scroll 0% 0% rgb(40, 40, 40); }
+#tabs-contrast { position: absolute; left: 0pt; top: 0pt; }
+#tabs-contrast a { width: 95px; height: 25px; padding: 6px 0pt 4px; font-size: 9px; line-height: 11px; background: none repeat scroll 0% 0% rgb(51, 51, 51); }
+#tab-c1 { left: 0pt; }
+#tab-c2 { left: 95px; }
+#tabs-contrast a.sel { padding: 10px 0pt 0pt; background: none repeat scroll 0% 0% rgb(40, 40, 40); font-size: 11px; line-height: 13px; }
+#contrast { position: absolute; left: 0pt; top: 35px; width: 190px; height: 190px; background: url('c_slider.png') no-repeat scroll center top transparent; }
+#manualvars { display: none; position: absolute; left: 0pt; top: 45px; width: 190px; }
+#pane-info { display: none; }
+#palette { position: absolute; top: 55px; left: 500px; border-collapse: collapse; border: medium none; }
+#palette td { border: 2px solid rgb(51, 51, 51); width: 85px; height: 85px; }
+#schemeid { position: absolute; top: 150px; left: 445px; width: 480px; margin: 0pt; font-size: 9px; font-weight: normal; text-align: center; }
+#preview-palette-canvas { position: absolute; top: 210px; left: 460px; width: 490px; height: 360px; }
+#preview-palette-bg1 { position: absolute; top: 0pt; left: 0pt; width: 85%; height: 80%; background: none repeat scroll 0% 0% white; }
+#preview-palette-bg2 { position: absolute; bottom: 0pt; right: 0pt; width: 85%; height: 85%; background: none repeat scroll 0% 0% black; }
+#preview-palette { position: absolute; top: 4px; left: 4px; width: 480px; border-collapse: collapse; border: medium none; }
+#preview-palette td { padding: 0pt; text-align: center; vertical-align: middle; overflow: hidden; border: medium none; }
+#preview-palette td.bg-pri-0 { width: 56%; }
+#preview-palette td.bg-pri-1, #preview-palette td.bg-pri-3 { width: 22%; }
+#preview-palette.scheme-m1 tr.pri td { height: 175px; }
+#preview-palette.scheme-m1 tr.sec td { display: none; }
+#preview-palette.scheme-m1 tr.compl td { display: none; }
+#showtext { position: absolute; top: 575px; left: 460px; width: 490px; text-align: right; color: rgb(85, 85, 85); }
+#fps { position: absolute; top: 7px; left: 520px; white-space: nowrap; font-size: 9px; color: rgb(85, 85, 85); text-align: left; }
+#cb-warning { display: none; position: absolute; top: 612px; left: 445px; width: 15px; height: 15px; background: url('warning.png') no-repeat scroll center center transparent; }
+#donate { position: absolute; top: 660px; left: 10px; text-align: left; }
+#donate .btn { width: 122px; height: 40px; background: url('donate.png') no-repeat scroll 0pt -60px transparent; }
+#donate .btn:hover { height: 60px; background-position: 0pt 0pt; }
+#relatedlinks { position: absolute; top: 680px; right: 10px; width: 820px; text-align: right; vertical-align: middle; white-space: nowrap; color: rgb(85, 85, 85); font-size: 100%; }
+#relatedlinks a { color: rgb(85, 85, 85); }
+#relatedlinks a:hover { color: rgb(128, 128, 128); }
+.select-replace { padding: 5px 30px 5px 10px; background: url('ddarrow.png') no-repeat scroll 98% 50% transparent; color: rgb(153, 153, 153); border: 1px dotted rgb(85, 85, 85); }
+#help { display: none; }
+#tooltip { position: absolute; z-index: 9999; width: 200px; padding: 10px 15px; opacity: 0.9; background: none repeat scroll 0% 0% rgb(0, 0, 0); color: rgb(204, 204, 204); border: 1px solid rgb(102, 102, 102); font-size: 95%; line-height: 1.66; }
+#form { display: none; }
+#shoplink2 { position: absolute; top: 50px; left: 910px; display: block; width: 98px; height: 106px; background: url('banner.png') no-repeat scroll 0pt 0pt transparent; }
+#shoplink2:hover { background-position: -100px 0pt; }
+#shoplink2:active { background-position: -200px 0pt; }

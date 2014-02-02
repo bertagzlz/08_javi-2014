@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="iso-8859-1"?><exam id_exam="202" title="Departamento de Idiomas. Escuela de Guerra | INGLÉS" fecha="EXAMEN COMPRENSION TEXTOS JUNIO II 2013" tipo="Textos">
+<intro1><![CDATA[En las sucesivas presentaciones usted encontrará preguntas de relacionadas con el texto redactado.]]></intro1>
+<intro2><![CDATA[Después de leer y comprender el texto presentado deberá responder a una de las preguntas de la parte inferior.]]></intro2>
+<intro3><![CDATA[Gracias por su colaboración. A continuación podrá <strong>imprimir</strong> las respuestas que han sido seleccionadas, o bien imprimirlas en un archivo <strong>pdf</strong> para su entrega al profesor correspondiente.]]></intro3>
+<tiempoGlobal><![CDATA[75]]></tiempoGlobal>
+<timeOver><![CDATA[Su tiempo ha terminado. Pulse finalizar e imprima sus respuestas]]></timeOver>
+<autoCheck>0</autoCheck>
+<user id= "1">LABRADO GOMEZ, CARLOS TIM: 51358887#</user>
+<user id= "2">LAGUNA PEREZ, JAVIER TIM: 51652408#</user>
+
+<user id= "3">CAP TOVAR HERNÁNDEZ, GERARDO TIM: 09279594#</user>
+
+<user id= "4">MERINO TORO, LA BEGO TIM: 52104944#</user>
+
+<user id= "5">TCOL. D. ANTONIO PIÑA SANCHEZ TIM: 43012165#</user>
+
+<user id= "6">TCOL. D. ANGEL FERNANDEZ TUR TIM: 45068182#</user>
+
+<user id= "7">T TE. D. ANDRES TORRES CASO TIM: 28800128#</user>
+
+<user id= "8">TCOL. D. JAVIER JESUS GARCIA Y ESPINAR TIM: 50804079#</user>
+
+<user id= "9">TCOL. D. RAFAEL EMILIO PUIG-TERRERO VALERO TIM: 19846754#</user>
+
+<user id= "10">TCOL. D. JOSE CARLOS ESPINOSA BARRUECO TIM: 5239315#</user>
+
+<user id= "11">TCOL. D. RAFAEL ANGEL CASERMEIRO ANTA TIM: 24216223#</user>
+
+<user id= "12">CTE. D. JAVIER EUGENIO CASTILLO MESEGUER TIM: 45271341#</user>
+
+<user id= "13">CTE. D. FRANCISCO JAVIER CORRAL GOMEZ TIM: 30532231#</user>
+
+<user id= "14">CTE. D. FAUSTINO GONZALEZ RODRIGUEZ TIM: 24250490#</user>
+
+<user id= "15">CTE. D. LUIS  MORA RUIZ TIM: 5237343#</user>
+
+<user id= "16">CTE. D. RAFAEL  BLASCO MACIAS TIM: 28913069#</user>
+
+<user id= "17">CAP. D. FRANCISCO  NEBRERA PARRA TIM: 75065799#</user>
+
+<user id= "18">CAP. D. DIEGO JOSE PECERO SANTIAGO TIM: 17437250#</user>
+
+<user id= "19">CAP. D. CARLOS FERNANDEZ ABAD TIM: 52090932#</user>
+
+<user id= "20">CAP. D. GERMAN FRANCISCO  MUÑOZ RIBAS TIM: 52970216#</user>
+
+<user id= "21">CAP. D. JESUS PINEDO DE LA TORRE TIM: 04578411#</user>
+
+<user id= "22">CAP. D. ANTONIO JESUS SECILLA CABEZUELO TIM: 30538628#</user>
+
+<user id= "23">CAP. D. JESUS MANUEL BURGOS GARCIA TIM: 05407510#</user>
+
+<user id= "24">CAP. D. CESAR TUNDIDOR SANZ TIM: 71132778#</user>
+
+<user id= "25">CAP. D. ENRIQE BERNARDO  LOPEZ SAEZ TIM: 07501019#</user>
+
+<user id= "26">CAP. D. JUAN ANTONIO ARRIBAS RUIZ TIM: 50060870#</user>
+
+<user id= "27">TTE. D. OSCAR DIAZ MIRANDA TIM: 75752662#</user>
+
+<user id= "28">TTE. D. BORJA MORENO LOPEZ TIM: 52960260#</user>
+
+<user id= "29">SBMY. D. JESUS GARCIA COLLADO TIM: 27433397#</user>
+
+<user id= "30">SBMY. D. MARCOS SIMARRO PI TIM: 17438982#</user>
+
+<user id= "31">STTE. D. JOSE MANUEL MONTES IGLESIAS TIM: 24182896#</user>
+
+<user id= "32">STTE. D. EMILIO JOSE VERDASCO SANCHEZ TIM: 02210960#</user>
+
+<user id= "33">STTE. D. CARLOS ANTONIO VICH ALBALATE TIM: 17438294#</user>
+
+<user id= "34">STTE. D. JOSE RUIZ DE LARRINAGA ESCUDERO TIM: 16258421#</user>
+
+<user id= "35">BG. D. JOSE SANTIAGO  REVILLA GARCIA TIM: 13112121#</user>
+
+<user id= "36">BG. D. JAVIER ISAAC RODRIGUEZ ROMERO TIM: 18437758#</user>
+
+<user id= "37">SGT 1. D. FERNANDO TOMAS GARCIA VAZQUEZ TIM: 52692317#</user>
+
+<user id= "38">SGT 1. D. LUCAS MANUEL  RODRIGUEZ RODRIGUEZ TIM: 43822481#</user>
+
+<user id= "39">SGT 1. D. JOSE JAVIER ARRIA LAFUENTE TIM: 17746129#</user>
+
+<user id= "40">SGT 1. D. RAFAEL ALBA GOMEZ TIM: 30792574#</user>
+
+<user id= "41">SGT 1. D. FRANCISCO JAVIER BUENO CANDELA TIM: 22973892#</user>
+
+<user id= "42">SGT 1. D. VICENTE MANZANARES ALVAREZ TIM: 52372243#</user>
+
+<user id= "43">SGT 1. D. ALBERTO BORJABAD CARBALLO TIM: 50851721#</user>
+
+<user id= "44">SGT 1. D. FERNANDO  FERNANDEZ BARRIO TIM: 32671645#</user>
+
+<user id= "45">SGTO . D. JOSE MANUEL VALERO BONILLA TIM: 04206333#</user>
+
+<user id= "46">SGTO . D. LUIS  RODILES LOZANO TIM: 13169637#</user>
+
+<user id= "47">SGTO . D. JAVIER CAYON GELI TIM: 46358087#</user>
+
+<user id= "48">SGTO . D. PEDRO QUINTERO FLORIDO TIM: 48872401#</user>
+
+<user id= "49">SGTO . Dña. MARIA DE LA ALMUDENA REYES GONZALEZ TIM: 04595135#</user>
+
+<user id= "50">SGTO . D. MANUEL VICENTE SANCHEZ MIGALLON TIM: 07485786#</user>
+
+<user id= "51">SGTO. D. ENRIQUE LOPEZ RUIZ TIM: 50971798#</user>
+
+<user id= "52">SGTO . D. ISAAC  MIRANDA COBANO TIM: 48812258#</user>
+
+<user id= "53">CTE. Dña. MARIA ISABEL HERNANDEZ GARCIA TIM: 50707844#</user>
+
+<user id= "54">TTE. Dña. LARA ISABEL DURAN RODRIGUEZ TIM: 75482917#</user>
+
+<user id= "55">yo TIM: 11111111#</user>
+
+<question nquest="1">
+	<Text><![CDATA[<b>Baby Elephant Was Saved. </b><br>A baby elephant fell into a hole and it could not get out. After the other elephants unsuccessful help, local residents came to help. People reacted quickly. They used ropes to pull the elephant out of the hole. The exhausted elephant was taken for a medical examination and then it was fed. It is fine now.]]></Text>
+	<question1><![CDATA[1.       What is said about the elephant?]]></question1>
+	<answers1>
+	<answ1><![CDATA[It is old]]></answ1>
+	<answ2><![CDATA[It was injured]]></answ2>
+	<answ3><![CDATA[It wouldn't eat]]></answ3>
+	<answ4><![CDATA[It was tired]]></answ4>
+	</answers1>
+	<rightAnsw>a</rightAnsw>
+	<question2><![CDATA[1.       What is said about the elephant?]]></question2>
+	<answers2>
+	<answ1><![CDATA[It is old]]></answ1>
+	<answ2><![CDATA[It was injured]]></answ2>
+	<answ3><![CDATA[It wouldn't eat]]></answ3>
+	<answ4><![CDATA[It was tired]]></answ4>
+	</answers2>
+	<rightAnsw2>a</rightAnsw2>
+</question>
+<question nquest="2">
+	<Text><![CDATA[<b>Nurse Saved a Man. </b><br>A trainee nurse saved a man who fell onto the railway tracks at a Brisbane station. A security camera recorded the whole incident. It shows how the man lost his balance on the platform. Then he fell down onto the tracks. A young nurse went down and she helped the man. A rail employee quickly stopped the coming trains. This was helpful but it was the trainee nurse who risked her life to get the man to safety.]]></Text>
+	<question1><![CDATA[2.       Which statement is true?]]></question1>
+	<answers1>
+	<answ1><![CDATA[A rail employee filmed the incident]]></answ1>
+	<answ2><![CDATA[A nurse fell onto the tracks]]></answ2>
+	<answ3><![CDATA[The man stopped the trains]]></answ3>
+	<answ4><![CDATA[A nurse rescued the man]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[2.       Which statement is true?]]></question2>
+	<answers2>
+	<answ1><![CDATA[A rail employee filmed the incident]]></answ1>
+	<answ2><![CDATA[A nurse fell onto the tracks]]></answ2>
+	<answ3><![CDATA[The man stopped the trains]]></answ3>
+	<answ4><![CDATA[A nurse rescued the man]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="3">
+	<Text><![CDATA[<b>Living in Okinawa.</b><br>People in Okinawa, Japan, do not have big meals. They usually just have vegetables and fish. They are very active and usually work until they are 80 years old. But they also relax every day, meet their friends and meditate. They are very healthy, happy and they are never in a hurry.]]></Text>
+	<question1><![CDATA[3.       What is said about people from Okinawa, Japan?]]></question1>
+	<answers1>
+	<answ1><![CDATA[They are stressed]]></answ1>
+	<answ2><![CDATA[They are lazy]]></answ2>
+	<answ3><![CDATA[They are contented]]></answ3>
+	<answ4><![CDATA[They are vegetarians]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[3.       What is said about people from Okinawa, Japan?]]></question2>
+	<answers2>
+	<answ1><![CDATA[They are stressed]]></answ1>
+	<answ2><![CDATA[They are lazy]]></answ2>
+	<answ3><![CDATA[They are contented]]></answ3>
+	<answ4><![CDATA[They are vegetarians]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="4">
+	<Text><![CDATA[<b>‘Bionic’ Woman Finishes London Marathon After 16 Days.</b><br>A paralyzed woman has completed the London Marathon after 16 days with the help of a ‘bionic’ suit. Claire Lomas was paralyzed from the chest down in a horse-riding accident in 2007 and did the marathon to raise money for charity. So far, she has raised about 80,000 pounds for Spinal Research, a charity which helps to find treatments for people with back and neck injuries. Claire didn’t get an official medal for finishing. Organizers say that only those who finish on the same day can get one. But she will go down in history as the first person to complete the marathon in a ‘bionic’ suit.]]></Text>
+	<question1><![CDATA[4.       What is said about the ‘bionic’ woman, Claire Lomas and the marathon?]]></question1>
+	<answers1>
+	<answ1><![CDATA[She had an accident during the marathon]]></answ1>
+	<answ2><![CDATA[She participated for a cause]]></answ2>
+	<answ3><![CDATA[She won the marathon]]></answ3>
+	<answ4><![CDATA[She was disqualified]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[4.       What is said about the ‘bionic’ woman, Claire Lomas and the marathon?]]></question2>
+	<answers2>
+	<answ1><![CDATA[She had an accident during the marathon]]></answ1>
+	<answ2><![CDATA[She participated for a cause]]></answ2>
+	<answ3><![CDATA[She won the marathon]]></answ3>
+	<answ4><![CDATA[She was disqualified]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="5">
+	<Text><![CDATA[<b>40,000-Year-Old Baby Mammoth Goes on Display. </b><br>The body of the world’s most well-preserved baby mammoth is being exhibited in Asia. The 40,000-year-old baby mammoth was discovered in 2007 by a reindeer herder in northwestern Siberia. It’s thought that the calf probably drowned while having a mud bath, and the mud preserved her body. Experts named her Lyuba and consider her the best-preserved mammoth ever discovered. Lyuba is a very important scientific discovery.  Lyuba will be exhibited at IFC Mall in Hong Kong before being sent to China, Indonesia, Singapore and Taiwan.]]></Text>
+	<question1><![CDATA[5.       What is said about the baby mammoth?]]></question1>
+	<answers1>
+	<answ1><![CDATA[It is in good condition]]></answ1>
+	<answ2><![CDATA[It is now on display in China]]></answ2>
+	<answ3><![CDATA[It is not genuine]]></answ3>
+	<answ4><![CDATA[It was damaged by mud]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[5.       What is said about the baby mammoth?]]></question2>
+	<answers2>
+	<answ1><![CDATA[It is in good condition]]></answ1>
+	<answ2><![CDATA[It is now on display in China]]></answ2>
+	<answ3><![CDATA[It is not genuine]]></answ3>
+	<answ4><![CDATA[It was damaged by mud]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="6">
+	<Text><![CDATA[<b>Heavy School Bags Danger for Kids. </b><br>Heavy school bags are ‘dangerous’ for children and lead to back problems in later life, a health charity has warned. Backcare say 120,000 kids could need treatment, with the problem worst among 11 and 12-year-olds. They recommend carrying no more than 10 percent of your bodyweight on your back but found some kids carry as much as 60 percent. The charity wants schools to give more advice to pupils. A spokesman for Backcare said: “More than 120,000 school children will see a doctor before the age of 16 for back pain. And yet, Backcare has discovered that schools receive no advice at all on the impact of heavy school bags on back health.]]></Text>
+	<question1><![CDATA[6.       What is said about heavy school bags?]]></question1>
+	<answers1>
+	<answ1><![CDATA[Schools are telling children not to carry them]]></answ1>
+	<answ2><![CDATA[Health charities are concerned  about their effects]]></answ2>
+	<answ3><![CDATA[16-year-olds carry the heaviest bags]]></answ3>
+	<answ4><![CDATA[It is safe for them to be up to 60% of one’s bodyweight]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[6.       What is said about heavy school bags?]]></question2>
+	<answers2>
+	<answ1><![CDATA[Schools are telling children not to carry them]]></answ1>
+	<answ2><![CDATA[Health charities are concerned  about their effects]]></answ2>
+	<answ3><![CDATA[16-year-olds carry the heaviest bags]]></answ3>
+	<answ4><![CDATA[It is safe for them to be up to 60% of one’s bodyweight]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="7">
+	<Text><![CDATA[<b>Karen Saunders’ Holidays.   </b><br>Karen Saunders has her own travel agency in London. She travels a lot for her work. She explains that her ideal holiday has a bit of everything. She likes relaxing on the beach with a pile of books. She likes exploring new places and visiting churches, shops, museums and restaurants. She also enjoys cooking and so she loves going to markets and food stores. But she confesses that he favorite holiday destination is home.]]></Text>
+	<question1><![CDATA[7.       What is said about Karen Saunders?]]></question1>
+	<answers1>
+	<answ1><![CDATA[She dislikes travelling for work]]></answ1>
+	<answ2><![CDATA[Her work involves cooking]]></answ2>
+	<answ3><![CDATA[She prefers spending her holidays at home]]></answ3>
+	<answ4><![CDATA[She would like to travel more often]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[7.       What is said about Karen Saunders?]]></question2>
+	<answers2>
+	<answ1><![CDATA[She dislikes travelling for work]]></answ1>
+	<answ2><![CDATA[Her work involves cooking]]></answ2>
+	<answ3><![CDATA[She prefers spending her holidays at home]]></answ3>
+	<answ4><![CDATA[She would like to travel more often]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="8">
+	<Text><![CDATA[<b>Alfred Bernhard Nobel.            </b><br>Alfred Bernhard Nobel is the man behind the Nobel prizes. He was an engineer, inventor and poet. He was born in Stockholm in 1833 and left at the age of nine when his family moved to Russia. He was educated by private tutors and later studied in the U.S.A. and France. He went on to invent dynamite and he died a very wealthy man.]]></Text>
+	<question1><![CDATA[8.       What is said about Alfred Bernhard Nobel?]]></question1>
+	<answers1>
+	<answ1><![CDATA[He attended public school]]></answ1>
+	<answ2><![CDATA[He migrated from Russia]]></answ2>
+	<answ3><![CDATA[He was educated abroad]]></answ3>
+	<answ4><![CDATA[He died poor]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[8.       What is said about Alfred Bernhard Nobel?]]></question2>
+	<answers2>
+	<answ1><![CDATA[He attended public school]]></answ1>
+	<answ2><![CDATA[He migrated from Russia]]></answ2>
+	<answ3><![CDATA[He was educated abroad]]></answ3>
+	<answ4><![CDATA[He died poor]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="9">
+	<Text><![CDATA[<b>A Tree Destroys A House.     </b><br>Yesterday afternoon a 35-year-old housewife narrowly escaped death when a tree was blown over by the wind and fell on her house. The tree completely destroyed the house. The woman said that it was very windy and she heard a strange noise coming from the tree. Suddenly the wind blew harder and she saw the tree crash onto the roof. The woman and her family are now staying with friends while their house is rebuilt.]]></Text>
+	<question1><![CDATA[9.       Which statement is true?]]></question1>
+	<answers1>
+	<answ1><![CDATA[The woman was killed by the tree]]></answ1>
+	<answ2><![CDATA[The house has been rebuilt]]></answ2>
+	<answ3><![CDATA[A car crashed into the tree]]></answ3>
+	<answ4><![CDATA[The woman witnessed the tree falling]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[9.       Which statement is true?]]></question2>
+	<answers2>
+	<answ1><![CDATA[The woman was killed by the tree]]></answ1>
+	<answ2><![CDATA[The house has been rebuilt]]></answ2>
+	<answ3><![CDATA[A car crashed into the tree]]></answ3>
+	<answ4><![CDATA[The woman witnessed the tree falling]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="10">
+	<Text><![CDATA[<b>African Elephant Poaching On the Rise. </b><br>Elephant poaching in Africa is on the rise because more and more people want to get hold of their tusks. Even though there’s been an international ban on trading ivory for nearly 25 years, there’s still a big demand from Asia. China is becoming richer and it means more people can afford to buy ivory, mainly as carved decorations. Tusks can sell for thousands of pounds and that’s what drives the poachers to kill the elephants. Conservation experts face a harder and harder challenge to protect them. One Kenyan district called Samburu has lost more than an quarter of its elephants over the past three years.]]></Text>
+	<question1><![CDATA[10.   Which statement is true?]]></question1>
+	<answers1>
+	<answ1><![CDATA[Selling ivory is officially forbidden]]></answ1>
+	<answ2><![CDATA[Elephant poaching is now under control]]></answ2>
+	<answ3><![CDATA[Ivory sales are declining in China]]></answ3>
+	<answ4><![CDATA[Elephants in Kenya are now better protected]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[10.   Which statement is true?]]></question2>
+	<answers2>
+	<answ1><![CDATA[Selling ivory is officially forbidden]]></answ1>
+	<answ2><![CDATA[Elephant poaching is now under control]]></answ2>
+	<answ3><![CDATA[Ivory sales are declining in China]]></answ3>
+	<answ4><![CDATA[Elephants in Kenya are now better protected]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="11">
+	<Text><![CDATA[<b>Insect Bite Relief Cream Doesn’t Work, Say Experts. </b><br>When you are bitten by an insect, many of us would reach for some cream to rub on the bite and stop the pain. But a new study has found that most insect bite treatments don’t really work and some hadn’t even been tested for helping bites. Researchers for the Drug and Therapeutics Bulletin say people might be better off using a cold, wet cloth to treat bites instead. They also said that most bite reactions just get better by themselves. Researchers did point out that if serious symptoms- such as infections-develop from bites, people should seek medical help. The National Health Service still suggest that treatments such as creams should be used.]]></Text>
+	<question1><![CDATA[11.   What is said about insect bites?]]></question1>
+	<answers1>
+	<answ1><![CDATA[Cream is effective against them]]></answ1>
+	<answ2><![CDATA[Applying a warm cloth can heal them]]></answ2>
+	<answ3><![CDATA[They usually cause serious symptoms]]></answ3>
+	<answ4><![CDATA[It is not necessary to treat them]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[11.   What is said about insect bites?]]></question2>
+	<answers2>
+	<answ1><![CDATA[Cream is effective against them]]></answ1>
+	<answ2><![CDATA[Applying a warm cloth can heal them]]></answ2>
+	<answ3><![CDATA[They usually cause serious symptoms]]></answ3>
+	<answ4><![CDATA[It is not necessary to treat them]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="12">
+	<Text><![CDATA[<b>Forest Fires Started By Squatters Destroy Mexico’s Parks. </b><br>A forest park in Mexico has been seriously damaged by a fire started by squatters. More than 700 firefighters have tackled a massive fire in La Primavera forest, Mexico. The fire was started by squatters and has raged uncontrolled for several days. More than 500 hectares have already been destroyed by the blaze. Firefighters have been prevented from  putting out the fire by gangs of squatters who have threatened them and blocked their way. Many schools and businesses have been forced to close because of smoke and ash. La Primavera forest is an ‘urban forest’. This means that it is a forest/park in a city which is open for the public to enjoy.]]></Text>
+	<question1><![CDATA[12.   What is said about the forest fire?]]></question1>
+	<answers1>
+	<answ1><![CDATA[It has been extinguished]]></answ1>
+	<answ2><![CDATA[It has destroyed schools]]></answ2>
+	<answ3><![CDATA[It has stopped businesses operating]]></answ3>
+	<answ4><![CDATA[Squatters are trying to put it out]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[12.   What is said about the forest fire?]]></question2>
+	<answers2>
+	<answ1><![CDATA[It has been extinguished]]></answ1>
+	<answ2><![CDATA[It has destroyed schools]]></answ2>
+	<answ3><![CDATA[It has stopped businesses operating]]></answ3>
+	<answ4><![CDATA[Squatters are trying to put it out]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="13">
+	<Text><![CDATA[<b>Scientists Test New Ways to Make Earthquake Proof Buildings. </b><br>Scientists have just finished this new five-storey building, complete with intensive care unit and operating theatre, air conditioning and a lift. Now that it’s finished, they’re going to put it through an earthquake and set fire to it. The project has been designed to test new ways of making a building cope with a massive earthquake. The whole building sits on top of a giant ‘shake table’, which can copy the violent movement of the ground during an earthquake. More than 500 sensors and 70 cameras will monitor the building during the tests. One of the aims of this three-million-pound project is to see if new techniques can stop this happening. Sophisticated fire prevention systems have also been built into the structure, as electrical faults and gas leaks caused by earth quakes can often lead to fires.]]></Text>
+	<question1><![CDATA[13.   What is said about the new building?]]></question1>
+	<answers1>
+	<answ1><![CDATA[It was created for test purposes]]></answ1>
+	<answ2><![CDATA[It was destroyed in an earthquake]]></answ2>
+	<answ3><![CDATA[It will be used as a hospital]]></answ3>
+	<answ4><![CDATA[It is still under construction]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[13.   What is said about the new building?]]></question2>
+	<answers2>
+	<answ1><![CDATA[It was created for test purposes]]></answ1>
+	<answ2><![CDATA[It was destroyed in an earthquake]]></answ2>
+	<answ3><![CDATA[It will be used as a hospital]]></answ3>
+	<answ4><![CDATA[It is still under construction]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="14">
+	<Text><![CDATA[<b>Scientists Discover More about Asteroid Vesta.</b><br>Results from the Dawn space probe have given scientists much more information about the asteroid Vesta, which has fascinated astronomers for hundreds of years. Vesta is a giant asteroid that was first discovered in 1807. NASA’s Dawn spacecraft set off on its journey to Vesta in 2007 and reached its destination in the middle of 2011. At a recent meeting in Austria, mission scientists revealed the latest visible and infrared images of Vesta. They feature details on the surface and in craters that show layers of rock and minerals. Some of these older layers help scientists to look further back into Vesta’s history and learn more about how it formed. Temperatures on Vesta range from  -100 C to just  - 23 C, not an ideal holiday destination!]]></Text>
+	<question1><![CDATA[14.   What is said about the asteroid Vesta?]]></question1>
+	<answers1>
+	<answ1><![CDATA[Scientists can now study its past]]></answ1>
+	<answ2><![CDATA[It was discovered in 2007]]></answ2>
+	<answ3><![CDATA[It is excessively hot]]></answ3>
+	<answ4><![CDATA[Information about it is unavailable]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[14.   What is said about the asteroid Vesta?]]></question2>
+	<answers2>
+	<answ1><![CDATA[Scientists can now study its past]]></answ1>
+	<answ2><![CDATA[It was discovered in 2007]]></answ2>
+	<answ3><![CDATA[It is excessively hot]]></answ3>
+	<answ4><![CDATA[Information about it is unavailable]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="15">
+	<Text><![CDATA[<b>Mysterious Blue Sheep Appear in Germany. </b><br>A flock of blue sheep have appeared outside a castle in Germany. Locals were puzzled after a flock of blue plastic sheep mysteriously appeared in front of Schwerin Castle. The sheep, created German Rainer Bonk and Bertamaria Reetz, are part of an art project that has been touring Europe for three years. According to the artists, the blue sheep represent the message that all are equal and everyone is important. The sheep will visit more than 50 European cities and one sheep will be left behind in each place as a peace ambassador.]]></Text>
+	<question1><![CDATA[15.   What is said about the sheep?]]></question1>
+	<answers1>
+	<answ1><![CDATA[No-one knows where they came from]]></answ1>
+	<answ2><![CDATA[They will remain at Schwerin Castle]]></answ2>
+	<answ3><![CDATA[They stand for equality]]></answ3>
+	<answ4><![CDATA[The artists lost them]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[15.   What is said about the sheep?]]></question2>
+	<answers2>
+	<answ1><![CDATA[No-one knows where they came from]]></answ1>
+	<answ2><![CDATA[They will remain at Schwerin Castle]]></answ2>
+	<answ3><![CDATA[They stand for equality]]></answ3>
+	<answ4><![CDATA[The artists lost them]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="16">
+	<Text><![CDATA[<b>Boy’s Football Lost in Tsunami Found in Alaska.         </b><br>A football swept away by last year’s tsunami and found on a remote Alaskan island is to be returned after it teenage Japanese owner was identified. Sixteen-year-old Misaki Murakami’s name was written on the ball that was swept out to sea in March 2011.David Baxter from the U.S.  found it more than a year later on Alaska’s Middleton Island, 70 miles from the mainland. Mr. Murakami told Japanese media he was sure the ball was his and would be happy to have it back. It was given to him by his classmates in 2005 when he changed schools. Mr. Baxter’s Japanese wife translated the writing on the ball, which included a school name and a ‘good luck’ message.]]></Text>
+	<question1><![CDATA[16.   What is said about the football?]]></question1>
+	<answers1>
+	<answ1><![CDATA[Its owner can’t be located]]></answ1>
+	<answ2><![CDATA[It was found by its owner’s classmates]]></answ2>
+	<answ3><![CDATA[No-one can interpret the message written on it]]></answ3>
+	<answ4><![CDATA[The owner originally received it from classmates]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[16.   What is said about the football?]]></question2>
+	<answers2>
+	<answ1><![CDATA[Its owner can’t be located]]></answ1>
+	<answ2><![CDATA[It was found by its owner’s classmates]]></answ2>
+	<answ3><![CDATA[No-one can interpret the message written on it]]></answ3>
+	<answ4><![CDATA[The owner originally received it from classmates]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="17">
+	<Text><![CDATA[<b>Car Drivers Told to Top Up on Fuel Before Strike. </b><br>The government is warning car drivers to top up their petrol tanks to prepare for a strike by tanker drivers. Drivers are unhappy with pay and working conditions and are threatening to stop delivering fuel which could lead to shortages. The government has said storing fuel would be a sensible thing to do but also that there is no need to queue up to get it. Some petrol stations are already experiencing shortages though. Officials are working on an emergency plan to get fuel delivered if the strike goes ahead. Royal Air Force drivers might be used to make some deliveries. The tanker drivers haven’t decided when the strikes will take place. The last time a major strike happened was in 2000 when many petrol stations ran out of fuel.]]></Text>
+	<question1><![CDATA[17.   Which of the following is true?]]></question1>
+	<answers1>
+	<answ1><![CDATA[The tanker drivers are now on strike]]></answ1>
+	<answ2><![CDATA[Car drivers are queuing for fuel]]></answ2>
+	<answ3><![CDATA[Car drivers are advised to reserve fuel]]></answ3>
+	<answ4><![CDATA[Petrol stations are running out of fuel]]></answ4>
+	</answers1>
+	<rightAnsw>c</rightAnsw>
+	<question2><![CDATA[17.   Which of the following is true?]]></question2>
+	<answers2>
+	<answ1><![CDATA[The tanker drivers are now on strike]]></answ1>
+	<answ2><![CDATA[Car drivers are queuing for fuel]]></answ2>
+	<answ3><![CDATA[Car drivers are advised to reserve fuel]]></answ3>
+	<answ4><![CDATA[Petrol stations are running out of fuel]]></answ4>
+	</answers2>
+	<rightAnsw2>c</rightAnsw2>
+</question>
+<question nquest="18">
+	<Text><![CDATA[<b>London Turns Seawater into Drinking Water. </b><br>A new water desalination plant in Beckton, East London, is helping to ease the current drought by turning seawater into drinking water. The plant takes seawater from the Thames Estuary at low tide, filters it and pumps it through a membrane. The process makes the water so clean that essential minerals have to be put back in it. Around 150 million liters of water will be produced in this way each day, supplying 1.4 million people with water. With summer fast approaching, the project has been developed to help the widespread drought across the U.K. Seven water companies have announced water restrictions and hosepipe bans are likely to be announced. The ban could affect one in three homes and people caught breaking the rules could face a fine of up to 1,000 pounds. As the desalination process is expensive to run and uses a lot of energy, it will only be used in times of drought.]]></Text>
+	<question1><![CDATA[18.   Which of the following is true?]]></question1>
+	<answers1>
+	<answ1><![CDATA[The desalination plant is energy efficient]]></answ1>
+	<answ2><![CDATA[Many people are breaking the hosepipe ban]]></answ2>
+	<answ3><![CDATA[The desalination process retains essential minerals]]></answ3>
+	<answ4><![CDATA[The plant is only for use when water is scarce]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[18.   Which of the following is true?]]></question2>
+	<answers2>
+	<answ1><![CDATA[The desalination plant is energy efficient]]></answ1>
+	<answ2><![CDATA[Many people are breaking the hosepipe ban]]></answ2>
+	<answ3><![CDATA[The desalination process retains essential minerals]]></answ3>
+	<answ4><![CDATA[The plant is only for use when water is scarce]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="19">
+	<Text><![CDATA[<b>Rare Final Letter From Captain Scott to be Sold at Auction.</b><br>The final letter written by Captain Robert Falcon Scott before his death is being sold at a famous auction house in London. The letter was written by Captain Scott to Sir Edgar Speyer. It is important because it contains the line: ‘We have seen the Pole and we shall die like gentlemen’. One hundred years ago, on January 17 1912, Captain Scott and his team of explorers famously reached the South Pole. Unfortunately, the whole team died on the return journey. The letter was found eight months later by a search party. Scott also left behind a letter to his wife, in which he talked about his two-year-old son, Peter: ‘Make the boy interested in natural history if you can. It is better than games.” Peter Scott grew up to become a famous conservationist and ornithologist.]]></Text>
+	<question1><![CDATA[19.   What is said about Captain Scott?]]></question1>
+	<answers1>
+	<answ1><![CDATA[His team didn’t reach the South Pole]]></answ1>
+	<answ2><![CDATA[He didn’t want his son to be an explorer]]></answ2>
+	<answ3><![CDATA[He didn’t return from the expedition]]></answ3>
+	<answ4><![CDATA[His letter was found by Sir Edgar Speyer]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[19.   What is said about Captain Scott?]]></question2>
+	<answers2>
+	<answ1><![CDATA[His team didn’t reach the South Pole]]></answ1>
+	<answ2><![CDATA[He didn’t want his son to be an explorer]]></answ2>
+	<answ3><![CDATA[He didn’t return from the expedition]]></answ3>
+	<answ4><![CDATA[His letter was found by Sir Edgar Speyer]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="20">
+	<Text><![CDATA[<b>Pizzas Are Saltier Than the Sea. First News. </b><br>A survey has warned that takeaway pizzas often contain as much salt as seawater. The survey by Consensus Action on Salt and Health compared 199 margherita and pepperoni pizzas. It found that pizzas from chains and fast-food restaurants can contain up to two-and-a-half times more salt than supermarket pizzas. The recommended intake of salt is six grams per day for anyone over 11 years old and five grams per day for seven to ten-year-olds and even less for young children and babies. However, the average person in the U.K. consumes eight grams of salt each day. Unlike most supermarket pizzas, takeaway pizzas do not usually have ingredients listed on packaging. The British Dietetic Association says: ‘A lot of everyday foods are not obviously salty, but do contain high amounts of hidden salt. Reducing your intake of salty foods is an important part of a health diet.’]]></Text>
+	<question1><![CDATA[20.   Which statement is true?]]></question1>
+	<answers1>
+	<answ1><![CDATA[Takeaway pizzas often don’t display their ingredients]]></answ1>
+	<answ2><![CDATA[Supermarket pizzas contain the most salt]]></answ2>
+	<answ3><![CDATA[People in the U.K. need to consume more salt]]></answ3>
+	<answ4><![CDATA[Takeaway pizzas are more popular than supermarket ones]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[20.   Which statement is true?]]></question2>
+	<answers2>
+	<answ1><![CDATA[Takeaway pizzas often don’t display their ingredients]]></answ1>
+	<answ2><![CDATA[Supermarket pizzas contain the most salt]]></answ2>
+	<answ3><![CDATA[People in the U.K. need to consume more salt]]></answ3>
+	<answ4><![CDATA[Takeaway pizzas are more popular than supermarket ones]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="21">
+	<Text><![CDATA[<b>Australia’s PM Visits Wildfire-Hit Parts of Tasmania. </b><br>Australia’s Prime Minister Julia Gillard is visiting parts of the country hit by big wildfires. More than 100 buildings have been destroyed and whole communities cut off by the fires, which broke out on the island of Tasmania. Ms Gillard said help would be given to those in need. There are warnings of more hot weather across Australia that could lead to further wildfires. Ms Gillard pointed out that fires were still being fought in some areas.  A total ban on the lighting of fires is to be put into place in New South Wales as well as the Canberra region. Australia’s by wildfires every year as temperatures climb, drying out the land and making it easier for fires to start. In February 2009, 173 people were killed in fires in the state of Victoria. So far, no deaths have been reported in the latest wildfires.]]></Text>
+	<question1><![CDATA[21.   What is said in the report?]]></question1>
+	<answers1>
+	<answ1><![CDATA[The fires are now under control]]></answ1>
+	<answ2><![CDATA[People will be forbidden from lighting fires]]></answ2>
+	<answ3><![CDATA[Wildfires are unusual in Australia]]></answ3>
+	<answ4><![CDATA[173 people have been killed in the recent fires]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[21.   What is said in the report?]]></question2>
+	<answers2>
+	<answ1><![CDATA[The fires are now under control]]></answ1>
+	<answ2><![CDATA[People will be forbidden from lighting fires]]></answ2>
+	<answ3><![CDATA[Wildfires are unusual in Australia]]></answ3>
+	<answ4><![CDATA[173 people have been killed in the recent fires]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="22">
+	<Text><![CDATA[<b>Hamlet: The Play Stalin Hated. </b><br>Behind the iron curtain, Shakespeare’s plays were a way to send secret messages about Soviet society to theater audiences. Now a Lithuanian staging of Hamlet- designed to make Stalin, who hated the play, turn in his grave- will be performed in the UK. Why do these 400-year-old plays resonate in the former Eastern Bloc? In Soviet-era Lithuania, there were productions of Shakespeare for which people queued through the night for tickets. Shakespeare was culture with official approval, but as one of the few alternatives to tales about earnest Soviet heroes, it was also a way for theatre directors to symbolically address forbidden issues. Another appeal of Shakespeare was its soundtrack. Rock music was sometimes smuggled into productions in an era when many western acts were banned.]]></Text>
+	<question1><![CDATA[22.   What is said about the play, ‘Hamlet’ in the Soviet Union?]]></question1>
+	<answers1>
+	<answ1><![CDATA[Tickets could only be obtained illegally]]></answ1>
+	<answ2><![CDATA[It never held great appeal in the Soviet Union]]></answ2>
+	<answ3><![CDATA[Productions of it were forbidden in the Soviet Union]]></answ3>
+	<answ4><![CDATA[It provided a means to express prohibited matters]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[22.   What is said about the play, ‘Hamlet’ in the Soviet Union?]]></question2>
+	<answers2>
+	<answ1><![CDATA[Tickets could only be obtained illegally]]></answ1>
+	<answ2><![CDATA[It never held great appeal in the Soviet Union]]></answ2>
+	<answ3><![CDATA[Productions of it were forbidden in the Soviet Union]]></answ3>
+	<answ4><![CDATA[It provided a means to express prohibited matters]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="23">
+	<Text><![CDATA[<b>Nicolas Sarkozy Says France has too many Foreigners.  </b><br>French President Nicolas Sarkozy has said there are too many foreigners in France and the system for integrating them is “working more and more badly”. In a TV debate, Mr. Sarkozy defended his plan to almost halve the number of new arrivals if re-elected next month. Mr. Sarkozy is trailing in the opinion polls behind the Socialist candidate Francois Hollande. He is also competing for conservative voters with the far-right National Front party led by Marine le Pen. The president said while immigration is a boon for France, it needed to be controlled more tightly through tougher qualification rules for residency. Mr. Sarkozy, whose father was a Hungarian immigrant, also said he wanted to restrict some benefit payments to immigrants who had been in the country for 10 years.]]></Text>
+	<question1><![CDATA[23.   What is said about President Sarkozy?]]></question1>
+	<answers1>
+	<answ1><![CDATA[He is ahead of the Socialist candidate in the opinion polls]]></answ1>
+	<answ2><![CDATA[He believes most immigrants are well-integrated]]></answ2>
+	<answ3><![CDATA[He stated that immigration is generally positive]]></answ3>
+	<answ4><![CDATA[He will increase benefit payments to immigrants]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[23.   What is said about President Sarkozy?]]></question2>
+	<answers2>
+	<answ1><![CDATA[He is ahead of the Socialist candidate in the opinion polls]]></answ1>
+	<answ2><![CDATA[He believes most immigrants are well-integrated]]></answ2>
+	<answ3><![CDATA[He stated that immigration is generally positive]]></answ3>
+	<answ4><![CDATA[He will increase benefit payments to immigrants]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="24">
+	<Text><![CDATA[<b>Signs of Ice Found on Mercury. </b><br>A NASA spacecraft has found signs that there may be ice on Mercury. The planet is the nearest to the Sun and its surface temperature can be very hot- over 400C. But there are craters at Mercury’s poles that are always in shadow, turning them into what’s known as cold traps. Some areas on the planet reflect radar – which is a sign that ice could be there. And now NASA has found that these areas are in the same places as the shadowed craters –giving more signs that there may be ice on Mercury.]]></Text>
+	<question1><![CDATA[24.   What is said about Mercury?]]></question1>
+	<answers1>
+	<answ1><![CDATA[It has been found to have ice]]></answ1>
+	<answ2><![CDATA[It is distant from the sun]]></answ2>
+	<answ3><![CDATA[Its poles are is the shade]]></answ3>
+	<answ4><![CDATA[It shows no evidence of ice]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[24.   What is said about Mercury?]]></question2>
+	<answers2>
+	<answ1><![CDATA[It has been found to have ice]]></answ1>
+	<answ2><![CDATA[It is distant from the sun]]></answ2>
+	<answ3><![CDATA[Its poles are is the shade]]></answ3>
+	<answ4><![CDATA[It shows no evidence of ice]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="25">
+	<Text><![CDATA[<b>First World Cornish Pasty Championship Held. </b><br>The World Cornish Pasty  Championships have been held at The Eden Project in St. Austell, England. More than 100 cooks from around the world flew into Cornwall to celebrate the popular local delicacy, the Cornish pasty, at the first World Cornish Pasty Championships. While judges were looking for the best traditional recipe, there were some rather unusual recipes on offer, such as pasties made with squirrel meat. The championship was won by a chef, Graham Cornish with his traditional beef and smoked fish pasties. Cornish pasties were given protected status under EU law in 2011 and are said to date back as far as the 1300s.]]></Text>
+	<question1><![CDATA[25.   What is said about the Cornish Pasty Championships?]]></question1>
+	<answers1>
+	<answ1><![CDATA[The winner used an unusual recipe]]></answ1>
+	<answ2><![CDATA[The Championship was first held in the 1300s]]></answ2>
+	<answ3><![CDATA[It was open to international entrants]]></answ3>
+	<answ4><![CDATA[Almost 100 cooks entered the competition]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[25.   What is said about the Cornish Pasty Championships?]]></question2>
+	<answers2>
+	<answ1><![CDATA[The winner used an unusual recipe]]></answ1>
+	<answ2><![CDATA[The Championship was first held in the 1300s]]></answ2>
+	<answ3><![CDATA[It was open to international entrants]]></answ3>
+	<answ4><![CDATA[Almost 100 cooks entered the competition]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="26">
+	<Text><![CDATA[<b>Nicaragua Bids to Stem Deforestation With Eco-Soldiers. </b><br>Deep inside the verdant vegetation of Nicaragua’s Mosquito Coast, a specially trained army unit is waging a new kind of war against a new type of enemy. Operation Green Gold is the inaugural mission of Nicaragua’s newly formed Ecological Battalion. The Green Guard, a unit of 580 environmental soldiers, recently won its first ‘battlefield victory’ by netting  3,165 cubic meters of illegal lumber felled by loggers. The trees were chopped down in a nature reserve that is being plundered to supply the black market for construction materials. The eco-battalion, working in conjunction with state prosecutors and forestry officials, discovered the lumber contraband hidden under netting and brush to avoid detection from the air. The troops are now reportedly on the trail of the criminal organization that was extracting the wood from the jungle on riverboats. “There are unscrupulous people who are taking advantage of the economic limitations of the people in this region. And in the end, it’s the outsiders who benefit,” says Colonel Nestor Lopez.]]></Text>
+	<question1><![CDATA[26.   What is said about the Green Guard?]]></question1>
+	<answers1>
+	<answ1><![CDATA[They are involved in illegal activities]]></answ1>
+	<answ2><![CDATA[They are battling against forestry officials]]></answ2>
+	<answ3><![CDATA[They operate mainly in riverboats]]></answ3>
+	<answ4><![CDATA[They are fighting illicit ventures]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[26.   What is said about the Green Guard?]]></question2>
+	<answers2>
+	<answ1><![CDATA[They are involved in illegal activities]]></answ1>
+	<answ2><![CDATA[They are battling against forestry officials]]></answ2>
+	<answ3><![CDATA[They operate mainly in riverboats]]></answ3>
+	<answ4><![CDATA[They are fighting illicit ventures]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="27">
+	<Text><![CDATA[<b>The Evolution of the Cuban Cigar. </b><br>Cuban cigars, long a sign of luxury are increasing their sales even as the global economy struggles. Havana’s Palacio de Convenciones normally plays host to Communist Party congresses. This week it has been converted into an exclusive emporium. Milling around the display stands are hundreds of visitors to the island’s annual international cigar festival. Western Europe is still the key market for the cigars but the economic crisis and the spread of anti-smoking laws are creating changes. Distributor Habanos opened the festival by announcing a 9% increase in sales generally. The firm says emerging markets like China are now making up for others in decline. Sales to China rose by 39% last year even as sales to Habanos’ biggest buyer, Spain, plunged 20%. There is also a busload of Russians. “There is no smoking ban in Russia,” says Riad Bou Karam who runs the Casa de Habanos outlet in Moscow where he says sales are strong.]]></Text>
+	<question1><![CDATA[27.   What is said about the Cuban cigar market?]]></question1>
+	<answers1>
+	<answ1><![CDATA[Sales are generally declining]]></answ1>
+	<answ2><![CDATA[China is now a key customer]]></answ2>
+	<answ3><![CDATA[Sales continue to increase in Spain]]></answ3>
+	<answ4><![CDATA[Russia is the biggest buyer]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[27.   What is said about the Cuban cigar market?]]></question2>
+	<answers2>
+	<answ1><![CDATA[Sales are generally declining]]></answ1>
+	<answ2><![CDATA[China is now a key customer]]></answ2>
+	<answ3><![CDATA[Sales continue to increase in Spain]]></answ3>
+	<answ4><![CDATA[Russia is the biggest buyer]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="28">
+	<Text><![CDATA[<b>Google Admits Profiting From Illegal Olympic Ticket Ads.</b><br>Google is profiting from ads for illegal products generated by its flagship automated advertising system, the BBC has found. The ads include unofficial London 2012 Olympic ticket resellers, as well as cannabis and fake ID card sellers. These ads were promptly removed by Google after the BBC brought them to the company’s attention. Google has also taken down links to illegal Olympic ticket resellers following requests from the police. But the search giant told ‘5 Live Investigates’ that the company keeps any money it might make from companies advertising illegal services before such adverts are removed. Selling tickets on the open market without permission from the Olympic authorities is a criminal offence n the UK under the London Olympic and Paralympic Games Act 2006.]]></Text>
+	<question1><![CDATA[28.   The report states that;]]></question1>
+	<answers1>
+	<answ1><![CDATA[Google has been charged with false advertising.]]></answ1>
+	<answ2><![CDATA[Google reported the false adverts to the police.]]></answ2>
+	<answ3><![CDATA[Google remains in possession of earnings from false adverts.]]></answ3>
+	<answ4><![CDATA[Google has given the revenue from false adverts to the authorities.]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[28.   The report states that;]]></question2>
+	<answers2>
+	<answ1><![CDATA[Google has been charged with false advertising.]]></answ1>
+	<answ2><![CDATA[Google reported the false adverts to the police.]]></answ2>
+	<answ3><![CDATA[Google remains in possession of earnings from false adverts.]]></answ3>
+	<answ4><![CDATA[Google has given the revenue from false adverts to the authorities.]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="29">
+	<Text><![CDATA[<b>Orange Juice Prices Hit Record. </b><br>The price of orange juice on the global markets has hit a record high, after surging over the past few days. Traders say the main reasons are safety concerns about juice from Brazil, the world’s largest producer of orange juice, and cold weather in Florida. The US Food and Drug Administration said carbendazim,  a fungicide, has been found in shipments from Brazil. Orange juice has risen by about 25% since the beginning of the year, to $2.12 as pound. Carbendazim is banned in the US, but is used legally in Brazil to treat black spot, a type of mould that grows on trees. The FDA said any orange juice which could be a risk to the public would be removed from supermarket shelves. The FDA said it would “deny entry to shipments that test positive fro carbendazim.” This is what has spooked the market. The US is the second-largest producer of orange juice, with production mainly concentrated in Florida. A few days of cold weather in Florida has led to ice being found in some fruit and damage to tree leaves.]]></Text>
+	<question1><![CDATA[29.   According to the report;]]></question1>
+	<answers1>
+	<answ1><![CDATA[Orange juice can be legally treated with carbendazim in Florida.]]></answ1>
+	<answ2><![CDATA[Orange juice prices have been rising steadily for some time.]]></answ2>
+	<answ3><![CDATA[Orange juice shipments from Brazil will be denied entry into the U.S.A.]]></answ3>
+	<answ4><![CDATA[Orange juice prices have recently risen sharply.]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[29.   According to the report;]]></question2>
+	<answers2>
+	<answ1><![CDATA[Orange juice can be legally treated with carbendazim in Florida.]]></answ1>
+	<answ2><![CDATA[Orange juice prices have been rising steadily for some time.]]></answ2>
+	<answ3><![CDATA[Orange juice shipments from Brazil will be denied entry into the U.S.A.]]></answ3>
+	<answ4><![CDATA[Orange juice prices have recently risen sharply.]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+<question nquest="30">
+	<Text><![CDATA[<b>Honduras Bans Motorcycle Passengers in Anti-Crime Move. </b><br>The Honduran Congress has voted to ban motorcyclists from riding with passengers in a bid to curb a spate of drive-by killings. The move follows two high-profile murders this week, both blamed on gunmen on motorbikes. Honduras has the world’s highest murder rate: 82 per 100,000 people a year. During a session held in private because of security fears, legislators approved a decree limiting the number of people allowed on a motorbike to just one. The measure, which will last for six months, was requested by President Porfirio Lobo, whose government is facing rising crime. Motorcycles have been used in several high-profile murders. Honduras is a key transit country for cocaine smuggled from South America and on to the US market. In November the Honduran authorities began deploying troops to carry out policing duties. The police force itself is undergoing a purge amid efforts to root out officers with links to organized crime.]]></Text>
+	<question1><![CDATA[30.   Which of the following is true?]]></question1>
+	<answers1>
+	<answ1><![CDATA[The Honduran Congress is moving to protect privacy.]]></answ1>
+	<answ2><![CDATA[Efforts are being made to eliminate corruption in the military.]]></answ2>
+	<answ3><![CDATA[The military is now active in tackling crime problems in Honduras.]]></answ3>
+	<answ4><![CDATA[Motorbike riding will be banned for six months in Honduras.]]></answ4>
+	</answers1>
+	<rightAnsw>b</rightAnsw>
+	<question2><![CDATA[30.   Which of the following is true?]]></question2>
+	<answers2>
+	<answ1><![CDATA[The Honduran Congress is moving to protect privacy.]]></answ1>
+	<answ2><![CDATA[Efforts are being made to eliminate corruption in the military.]]></answ2>
+	<answ3><![CDATA[The military is now active in tackling crime problems in Honduras.]]></answ3>
+	<answ4><![CDATA[Motorbike riding will be banned for six months in Honduras.]]></answ4>
+	</answers2>
+	<rightAnsw2>b</rightAnsw2>
+</question>
+</exam>

@@ -1,0 +1,105 @@
+  .noPrint { 
+          display: none; 
+          } 
+/*Now in your HTML pages just wrap DIVs around elements you don't want printed:
+        <div class='noPrint'> 
+        	<p>Text that I don't want printed.</p> 
+				</div> 
+*/
+body { font-family: Georgia, "Times New Roman", Times, serif;  font-size: 14px; color: #000000; background-color: #FFFFFF; } 
+/*If you used font tags or set your font color on other tags (with CSS) in your HTML page you will have to change those as well, for example:*/
+H1 { color: #000000; } 
+      
+body {	letter-spacing:0.1em;	font-family: arial, sans-serif;	font-size: 80%;	line-height: 1.25em; }
+h1, h2, p, pre {	display:block;	width:730px;}
+h1 {	font:225%/1.25em garamond, georgia, 'times new roman', serif;	text-align:center;	color:#333;	margin:0 auto 15px;}
+h2 {	font:200%/1.25em garamond, georgia, 'times new roman', serif;	text-align:center;	color:#AAA;	margin:30px auto 15px;}
+h3 {	font:150%/1.25em garamond, georgia, 'times new roman', serif;	text-align:center;	color:#333333;	margin:30px auto 15px;}
+p {	margin:15px auto;	padding:15px;	border-top:1px dotted #DDD;	border-bottom:1px dotted #DDD;}
+.pregunta {	border:0 none;	display:block;	margin:0 26px 5px 27%;	padding:0;	width:70%;
+/*background-color:#E2E2E2;*/
+/*border-color:#666666;*/
+/*border-style:solid;*/
+/*border-width:10px 1px 1px 10px;*/
+/*margin:10px 10%;
+padding:0 10px 5px 25px;*/
+}
+li {	list-style-type:none;	color: #333333;}
+.numero {background-color:#666666;
+color:white;display:inline;float:left;font-family:Tahoma,Verdana,Helvetica,Arial,"sans-serif";
+font-size:20px;font-weight:bolder;margin-left:10%;padding:3px;text-align:center;width:20px;}
+p.highlight {	  border:1px solid #FFD;	  padding:15px;	  background:#FFE;	  color:#820;	}
+p.footer {		display:block;		text-align:center;		border:none;	}
+pre {	margin:15px auto;}
+/*
+ * Color, Border, and Button Rules
+ */
+.contentslider {
+  padding:10px; /* This acts as a border for the content slider */
+  background:#333; /* This is the color of said border */
+}
+.cs_wrapper, .cs_article {
+  background:#FFF; /* Background color for the entries */
+}
+.cs_leftBtn, .cs_rightBtn {
+  width:30px; /* Should be as wide as the button graphic being used */
+  background:#333; /* This will probably match the contentslider bg color */
+}
+/*
+ * Article styles (font, color, etc.)
+ *
+ * If textResize is set to TRUE, sizing shouldn't need to be touched. However,
+ * depending on the sizes you have defined, additional tweaking may be
+ * required in order to get the text to display properly.
+ */
+.cs_article h2 {  font-size:200%;  line-height:1.125em;}
+.cs_article h2_inicial {  font-size:200%;  line-height:1.125em;}
+.cs_article h2 a {    color:#333;    text-decoration:none;  }
+.cs_article h2_inicial a {    color:#333;    text-decoration:none;  }
+.cs_article p {	font-size:85%;	line-height:1.5em;	color:#333333;}
+.cs_article .readmore {  font-size:80%;}
+/*
+ ******************************************************************************
+ * These styles may be affected by the plugin, so avoid changing them if 
+ * it's not absolutely necessary.
+ ******************************************************************************
+ */
+.contentslider {  position:relative;  display:block;  width:900px;  height:400px;  margin:0 auto;  overflow:hidden;}
+.cs_wrapper {  position:relative;  display:block;  width:100%;  height:100%;  margin:0;  padding:0;  overflow:hidden;}
+.cs_slider {  position:absolute;  width:10000px;  height:100%;  margin:0;  padding:0;}
+.cs_article {  float:left;  position:relative;  top:0;  left:0;  display:block;  width:900px; height:400px;  margin:0 auto;  padding:0; }
+.cs_article .container {  padding: 20px; }
+.cs_article h2 {	display:block;	width:50%;	margin:30px 26px 15px 47%;	text-align:left; }
+.cs_article h2_inicial {
+	display:block;
+	width:26%;
+	margin:30px 26px 15px 67%;
+	text-align:left;
+}
+.cs_article .respuestas {	display:block;	width:80%;	margin:0 26px 5px 10%;	padding:20px;	border:0;}
+.respuestas h2 {	display:block;	width:40%;	margin:30px 26px 15px 20%;	text-align:left;}
+.cs_article .respuestas p {	display:block;	width:40%;	margin:30px 26px 15px 20%;	text-align:left;}
+.cs_article .respuestas .notas {
+	color: #002F75;
+	font-family:"Times New Roman", Times, serif;
+	font-size:120%;
+	width:40%;
+	text-align:left;
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
+	margin-top: 30px;
+	margin-right: 26px;
+	margin-bottom: 15px;
+	margin-left: 20%;
+}
+
+.cs_article h3 {  display:block;  width:26%;  margin:10px 26px 5px 67%;  text-align:left;}
+.cs_article p_right {	display:block;	width:26%;	margin:10px 26px 5px 67%;	padding:0;	border:0;}
+.cs_article img {  position:absolute;  top:0;  left:0;  width:66%;  border:0;  -ms-interpolation-mode:bicubic;}
+.cs_article .flash { border: 0px none;	float: left;	margin-right: 10px;	left: 15px;	position:relative;}
+.cs_article p {	display:block;	width:45%;	margin:0 26px 5px 47%;	padding:0;	border:0;}
+.cs_article .readmore {	display:block;	width:45%;	margin:0 6% 1% 48%;	text-align:right;}
+.cs_leftBtn, .cs_rightBtn {  position:absolute;  top:0;  height:400px;  padding:10px 0;  z-index:10000;}
+.cs_leftBtn {  left:0;  outline:0;}
+.cs_rightBtn {  right:0;  outline:0;}
+.cs_leftBtn img, .cs_rightBtn img {  border:0;  position:relative;  top:200px;  margin:0;}

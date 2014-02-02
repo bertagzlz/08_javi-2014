@@ -1,0 +1,49 @@
+.pagination {  font-size: 100%; padding:3px;
+ position:relative;  display:block;  width:900px;  height:50px; /* puesto de 40 a 50 para tener las 40 preguntas*/
+   margin:0 auto;  
+	 /* con esto si no cabe en una fila de 900px salta a nueva línea; otra opción es hacerlo + pequeño*/
+	 overflow:visible;
+
+}
+.pagination a {    /*text-decoration: none;	border: solid 1px #AAE;	color: #333;*/
+	background:url("../images/input.gif") no-repeat scroll -2px -2px #FFFFFF; /* fondo del cuadro de texto*/
+	border:1px solid #999999; /* borde gris del cuadro de texto*/
+	font-family:Arial,verdana;
+	font-size:105%;
+}
+.resp {
+	color:#528E15;
+	font-weight:bold;
+}
+/*.pagination .visitado { 
+background-color:#A44033;
+border:1px solid #82190B;
+color:#333333;
+}*/
+.respondido { background-color:#A44033; border:1px solid #82190B; color:#333333; }
+
+.pagination a, .pagination span { display: block; float: left; padding: 0.2em 0.27em; margin-right: 1px;	margin-bottom: 5px; }
+.pagination .current { background: no-repeat scroll -2px -2px #333;
+	font-family:Arial,verdana;
+	font-size:115%;
+		background-color: #428BCA;
+    border-color: #357EBD;
+    color: #FFFFFF;
+	/*color: #fff;	border: solid 1px #AAE;*/
+	}
+	
+	.pagination .current:active,.pagination .current:focus,.pagination .current:hover { 
+		background: no-repeat scroll -2px -2px #333;
+		font-family:Arial,verdana;
+		font-size:115%;
+ 		background-color: #3276B1;    border-color: #285E8E;    color: #FFFFFF;
+	}
+	
+.pagination .current.prev, .pagination .current.next{	color:#333;	border-color:#333; background:#fff; }
+#Searchresult { margin-top:15px; margin-bottom:15px; border:solid 1px #eef; padding:5px; background:#eef; width:40%; }
+#Searchresult dt {            font-weight:bold;        }
+#Searchresult dd {            margin-left:25px;        }
+/*		#footer {			margin-top:20px;			font-size:60%;			color:#15B;		}*/
+
+
+/*form p {			clear:both;		} ojo que lo he quitado para la inicial*/

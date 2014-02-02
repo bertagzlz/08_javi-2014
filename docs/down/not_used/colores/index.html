@@ -1,0 +1,399 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Color Scheme Designer 3</title>
+	
+	<script type="text/javascript" src="jquery-1.3.min.js"></script>
+	<script type="text/javascript" src="jquery.styledselect.js"></script>
+	<script type="text/javascript" src="jquery.floatbox.js"></script>
+	<script type="text/javascript" src="jquery.tooltip.js"></script>
+	<script type="text/javascript" src="jquery.droppy.js"></script>
+	<script type="text/javascript" src="color.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="app_pro.js"></script>
+
+<link rel="stylesheet" type="text/css" href="index.css" media="all">
+</head><body>
+
+<div style="display: none;" id="jscheck">
+	<h1>Color Scheme Designer 3</h1>
+	<div id="load"><p>Wait please. Loading...</p></div>
+</div>
+
+<script type="text/javascript">
+<!--
+
+var elm = document.getElementById('load')
+if (elm) elm.innerHTML = '<p>Wait please. Loading...<'+'/p>';
+
+//-->
+</script>
+
+<div id="canvas" style="">
+
+	<h2>2002–2009 © <a indepth="true" href="index-en.html">Petr Stanicek</a> • <a indepth="true" href="default.html#history">Version 3.1</a> • <a indepth="true" href="default.html#news"><strong>NEWS</strong></a></h2>
+
+	<table id="model"><tbody><tr>
+		<td><a id="m1" class="help sel" href="#">mono</a></td>
+		<td><a id="m2" class="help" href="#">complement</a></td>
+		<td><a id="m3" class="help" href="#">triad</a></td>
+		<td><a id="m4" class="help" href="#">tetrad</a></td>
+		<td><a id="m5" class="help" href="#">analogic</a></td>
+		<td><a id="m6" class="help" href="#">accented analogic</a></td>
+	</tr></tbody></table>
+
+	<div id="pane-wheel" class="pane"><div id="wheel">
+		<div style="background-color: rgb(255, 0, 0);" id="sample" class="bg-pri-0"></div>
+		<div id="wh1"></div>
+		<div id="wh2"></div>
+		<div id="wh3"></div>
+		<div id="wh4"></div>
+		<img style="left: 183px; top: 74px;" class="dot help" id="dot1" src="e.png">
+		<img style="display: none;" class="dot help" id="dot2" src="e.png">
+		<img style="display: none;" class="dot help" id="dot3" src="e.png">
+		<img style="display: none;" class="dot help" id="dot4" src="e.png">
+		<div class="val help" id="hue-val">Hue: <span>0°</span></div>
+		<div style="display: none;" class="val help" id="dist-val">Angle: <span>30°</span></div>
+		<table id="rgb-parts" class="help">
+			<tbody><tr><th>R:</th><td id="rgb-r">100 %</td></tr>
+			<tr><th>G:</th><td id="rgb-g">0 %</td></tr>
+			<tr><th>B:</th><td id="rgb-b">0 %</td></tr>
+		</tbody></table>
+		<div class="val help" id="rgb-val">RGB: <span>FF0000</span></div>
+	</div></div>
+
+	<div id="pane-vars" class="pane">
+		<div id="presets" class="help">
+			Preset: 
+			<span style="display: inline-block; position: relative; top: 0px; left: 0px; z-index: 0; vertical-align: middle; text-align: left; width: 0px;" class="select-replace-cover"><span style="display: inline-block; position: relative; top: 0px; left: 0px; z-index: 0; vertical-align: middle; text-align: left; width: 0px;" class="select-replace-cover"><span style="display: inline-block; position: relative; top: 0px; left: 0px; z-index: 0; vertical-align: middle; text-align: left; width: 0px;" class="select-replace-cover"><select style="opacity: 0; visibility: visible; position: absolute; top: 0px; left: 0px; display: inline; z-index: 1;"><option value="">- custom -</option><option value="default" selected="selected">Default scheme</option><option value="hcontrast1">More Contrast</option><option value="hcontrast2">High Contrast</option><option value="hcontrast3">Max Contrast</option><option value="lcontrast1">Less Contrast</option><option value="lcontrast2">Low Contrast</option><option value="lcontrast3">Min Contrast</option><option value="msatur">Medium Dark (saturated)</option><option value="dsatur">Dark (saturated)</option><option value="vdsatur">Very Dark (saturated)</option><option value="pastel">Pastel</option><option value="mpastel">Medium Dark Pastel</option><option value="dpastel">Dark Pastel</option><option value="vdpastel">Very Dark Pastel</option><option value="palepastel">Light Pale Pastel</option><option value="mpalepastel">Medium Pale Pastel</option><option value="dpalepastel">Dark Pale Pastel</option><option value="vdpalepastel">Very Dark Pale Pastel</option><option value="lgray">Almost Grays (light)</option><option value="lagray">Almost Grays with Color Accents (light)</option><option value="mgray">Almost Grays (medium)</option><option value="magray">Almost Grays with Color Accents (medium)</option><option value="dgray">Almost Grays (dark)</option><option value="dagray">Almost Grays with Color Accents (dark)</option><option value="">- custom -</option><option value="default" selected="selected">Default scheme</option><option value="hcontrast1">More Contrast</option><option value="hcontrast2">High Contrast</option><option value="hcontrast3">Max Contrast</option><option value="lcontrast1">Less Contrast</option><option value="lcontrast2">Low Contrast</option><option value="lcontrast3">Min Contrast</option><option value="msatur">Medium Dark (saturated)</option><option value="dsatur">Dark (saturated)</option><option value="vdsatur">Very Dark (saturated)</option><option value="pastel">Pastel</option><option value="mpastel">Medium Dark Pastel</option><option value="dpastel">Dark Pastel</option><option value="vdpastel">Very Dark Pastel</option><option value="palepastel">Light Pale Pastel</option><option value="mpalepastel">Medium Pale Pastel</option><option value="dpalepastel">Dark Pale Pastel</option><option value="vdpalepastel">Very Dark Pale Pastel</option><option value="lgray">Almost Grays (light)</option><option value="lagray">Almost Grays with Color Accents (light)</option><option value="mgray">Almost Grays (medium)</option><option value="magray">Almost Grays with Color Accents (medium)</option><option value="dgray">Almost Grays (dark)</option><option value="dagray">Almost Grays with Color Accents (dark)</option><option value="">- custom -</option><option value="default" selected="selected">Default scheme</option><option value="hcontrast1">More Contrast</option><option value="hcontrast2">High Contrast</option><option value="hcontrast3">Max Contrast</option><option value="lcontrast1">Less Contrast</option><option value="lcontrast2">Low Contrast</option><option value="lcontrast3">Min Contrast</option><option value="msatur">Medium Dark (saturated)</option><option value="dsatur">Dark (saturated)</option><option value="vdsatur">Very Dark (saturated)</option><option value="pastel">Pastel</option><option value="mpastel">Medium Dark Pastel</option><option value="dpastel">Dark Pastel</option><option value="vdpastel">Very Dark Pastel</option><option value="palepastel">Light Pale Pastel</option><option value="mpalepastel">Medium Pale Pastel</option><option value="dpalepastel">Dark Pale Pastel</option><option value="vdpalepastel">Very Dark Pale Pastel</option><option value="lgray">Almost Grays (light)</option><option value="lagray">Almost Grays with Color Accents (light)</option><option value="mgray">Almost Grays (medium)</option><option value="magray">Almost Grays with Color Accents (medium)</option><option value="dgray">Almost Grays (dark)</option><option value="dagray">Almost Grays with Color Accents (dark)</option></select><span style="display: block; white-space: nowrap;" class="select-replace">Default scheme</span></span><span style="display: block; white-space: nowrap;" class="select-replace">Default scheme</span></span><span style="display: block; white-space: nowrap;" class="select-replace">Default scheme</span></span>
+		</div>
+		<div id="saturation-cover">
+			<h4><span id="ttl-c1">Scheme</span><span id="ttl-c2">Selected Variant</span><br>Saturation/Brightness</h4>
+			<div style="background-color: rgb(255, 0, 0);" id="saturation"><div class="slider">
+				<img style="left: 145px; top: 35px;" class="dot help" id="dots" src="e.png">
+				<img class="dotv" id="dotv0" src="e.png">
+				<img class="dotv" id="dotv1" src="e.png">
+				<img class="dotv" id="dotv2" src="e.png">
+				<img class="dotv" id="dotv3" src="e.png">
+				<img class="dotv" id="dotv4" src="e.png">
+			</div></div>
+		</div>
+
+		<div id="contrast-cover">
+			<div class="tabs" id="tabs-contrast">
+				<a id="tab-c1" class="sel help" href="#">Scheme<br>Contrast</a>
+				<a id="tab-c2" class="help" href="#">Adjust<br>Variants</a>
+			</div>
+			<div id="contrast" class="slider">
+				<img style="left: 89px; top: 91px;" class="dot help" id="dotc" src="e.png">
+			</div>
+			<div id="manualvars" class="help">
+			</div>
+		</div>
+	</div>
+
+	<div id="pane-info" class="pane">
+		<div id="coltable"></div>
+	</div>
+
+	<div class="tabs" id="tabs-color">
+		<a id="tab-wheel" class="sel help" href="#">Hues</a>
+		<a id="tab-vars" class="help" href="#">Adjust Scheme</a>
+		<a id="tab-info" class="help" href="#">Color List</a>
+	</div>
+
+	<table id="palette" class="help"><tbody><tr>
+		<td style="background-color: rgb(255, 0, 0);" class="cbox bg-pri-0"></td>
+		<td style="background-color: rgb(255, 64, 64);" class="cbox bg-sec1-0"></td>
+		<td style="background-color: rgb(255, 115, 115);" class="cbox bg-sec2-0"></td>
+		<td style="background-color: rgb(166, 0, 0);" class="cbox bg-compl-0"></td>
+	</tr></tbody></table>
+
+	<h4 id="schemeid" class="help">Scheme ID: <a href="/C:/Users/jose/AppData/Roaming/Mozilla/Firefox/Profiles/nnk09fqc.default/ScrapBook/data/20100716111353/index.html#0011Tw0w0w0w0" target="_top">0011Tw0w0w0w0</a></h4>
+
+	<div id="preview-palette-canvas" class="help">
+		<div id="preview-palette-bg1"></div>
+		<div id="preview-palette-bg2"></div>
+	
+		<table class="scheme-m1" id="preview-palette">
+
+		<tbody><tr class="pri">
+			<td style="background-color: rgb(255, 64, 64);" class="cbox bg-pri-3" rel="pri-3"></td>
+			<td style="background-color: rgb(255, 0, 0);" class="cbox bg-pri-0" rel="pri-0" rowspan="2"></td>
+			<td style="background-color: rgb(191, 48, 48);" class="cbox bg-pri-1" rel="pri-1"></td>
+		</tr>
+		<tr class="pri">
+			<td style="background-color: rgb(255, 115, 115);" class="cbox bg-pri-4" rel="pri-4"></td>
+			<td style="background-color: rgb(166, 0, 0);" class="cbox bg-pri-2" rel="pri-2"></td>
+		</tr>
+
+		<tr class="sec sec1">
+			<td style="background-color: rgb(255, 64, 64);" class="cbox bg-sec1-1" rel="sec1-1"></td>
+			<td style="background-color: rgb(255, 64, 64);" class="cbox bg-sec1-0" rel="sec1-0" rowspan="2"></td>
+			<td style="background-color: rgb(255, 64, 64);" class="cbox bg-sec1-3" rel="sec1-3"></td>
+		</tr>
+		<tr class="sec sec1">
+			<td style="background-color: rgb(255, 64, 64);" class="cbox bg-sec1-2" rel="sec1-2"></td>
+			<td style="background-color: rgb(255, 64, 64);" class="cbox bg-sec1-4" rel="sec1-4"></td>
+		</tr>
+
+		<tr class="sec sec2">
+			<td style="background-color: rgb(255, 115, 115);" class="cbox bg-sec2-1" rel="sec2-1"></td>
+			<td style="background-color: rgb(255, 115, 115);" class="cbox bg-sec2-0" rel="sec2-0" rowspan="2"></td>
+			<td style="background-color: rgb(255, 115, 115);" class="cbox bg-sec2-3" rel="sec2-3"></td>
+		</tr>
+		<tr class="sec sec2">
+			<td style="background-color: rgb(255, 115, 115);" class="cbox bg-sec2-2" rel="sec2-2"></td>
+			<td style="background-color: rgb(255, 115, 115);" class="cbox bg-sec2-4" rel="sec2-4"></td>
+		</tr>
+
+		<tr class="compl">
+			<td style="background-color: rgb(166, 0, 0);" class="cbox bg-compl-1" rel="compl-1"></td>
+			<td style="background-color: rgb(166, 0, 0);" class="cbox bg-compl-0" rel="compl-0" rowspan="2"></td>
+			<td style="background-color: rgb(166, 0, 0);" class="cbox bg-compl-3" rel="compl-3"></td>
+		</tr>
+		<tr class="compl">
+			<td style="background-color: rgb(166, 0, 0);" class="cbox bg-compl-2" rel="compl-2"></td>
+			<td style="background-color: rgb(166, 0, 0);" class="cbox bg-compl-4" rel="compl-4"></td>
+		</tr>
+
+		</tbody></table>
+
+	</div>
+
+	<div class="tabs" id="tabs-preview">
+		<a id="tab-preview" class="sel help" href="#">Scheme preview</a>
+		<a id="tab-preview2" class="help" href="#">Light page example</a>
+		<a id="tab-preview3" class="help" href="#">Dark page example</a>
+	</div>
+
+	<div id="cb-warning" title="Vision simulation active"></div>
+
+	<div id="showtext" class="help">
+		<input id="chk-showtext" type="checkbox"><label for="chk-showtext">Show text</label>
+	</div>
+
+	<div id="fps" class="help">fps: 19</div>
+
+	<ul id="menu" class="">
+		<li><a href="#" id="menu-undo" class="disabled">Undo</a></li>
+		<li><a href="#" id="menu-redo" class="disabled">Redo</a></li>
+		<li><a class="" href="#">Random</a>
+			<ul>
+				<li><a class="" href="#" id="menu-random-now">Randomize Palette</a></li>
+				<li><a class="" href="#" id="menu-random-set">Randomization Settings…</a></li>
+			</ul>
+		</li>
+		<li><a class="" href="#" id="menu-vision">Vision Simulation</a>
+			<ul id="colorblind"><li><a class="" href="#" onclick="useColorBlind(0);return false">Normal vision (cca 85.5 % of population)</a></li><li class="sep"><hr></li><li><a class="" href="#" onclick="useColorBlind(1);return false">Protanopy (1 % of men)</a></li><li><a class="" href="#" onclick="useColorBlind(2);return false">Deuteranopy (1 % of men)</a></li><li><a class="" href="#" onclick="useColorBlind(3);return false">Tritanopy (cca 0,003 % of population)</a></li><li><a class="" href="#" onclick="useColorBlind(4);return false">Protanomaly (1 % of men)</a></li><li><a class="" href="#" onclick="useColorBlind(5);return false">Deuteranomaly (5 % of men, 0.4 % of women)</a></li><li><a class="" href="#" onclick="useColorBlind(6);return false">Tritanomaly (almost 0 %)</a></li><li><a class="" href="#" onclick="useColorBlind(7);return false">Full colorblindness (0,005% of population)</a></li><li><a class="" href="#" onclick="useColorBlind(8);return false">Atypical monochromatism</a></li></ul>
+		</li>
+		<li><a class="" href="#">Export</a>
+			<ul>
+				<li><a id="menu-export-html" class="help" href="#">HTML+CSS…</a></li>
+				<li><a id="menu-export-xml" class="help" href="#">XML…</a></li>
+				<li><a id="menu-export-txt" class="help" href="#">Text…</a></li>
+				<li><a id="menu-export-aco" class="help" href="#">ACO (Photoshop palette)…</a></li>
+				<li><a id="menu-export-gpl" class="help" href="#">GPL (GIMP palette)…</a></li>
+			</ul>
+		</li>
+		<li class="enable"><a class="" href="#">About &amp; Help</a>
+			<ul>
+				<li><a class="" href="#" id="menu-tooltips">Show Tooltips</a></li>
+				<li><a indepth="true" href="default_001.html" class="link">Instant Designer Shop…</a></li>
+				<li class="sep"><hr></li>
+				<li><a indepth="true" class="" href="previous.html" id="menu-about">About…</a></li>
+<!-- 
+				<li><a href="#" id="menu-getpro"><strong>Get Pro Version…</strong></a></li>
+ -->
+			</ul>
+		</li>
+	</ul>
+
+
+	<form action="http://colorschemedesigner.com/" id="form"><input id="form-data" name="data" type="hidden"></form>
+
+	<form id="donate" class="help" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+	<input name="cmd" value="_s-xclick" type="hidden">
+	<input name="hosted_button_id" value="3879757" type="hidden">
+	<input name="page_style" value="ColorSchemeDesigner" type="hidden">
+	<input src="e.png" class="btn" name="submit" alt="PayPal - The safer, easier way to pay online." type="image" border="0">
+	<img alt="" src="pixel.gif" border="0" height="1" width="1">
+	</form>
+
+	<div id="relatedlinks">
+		Related sources:
+<!-- 1Y -->
+		<a indepth="true" href="add-text.html">FREE Logo Design</a> |
+<!-- /1Y -->
+<!-- MM -->
+<!-- 
+		<a href="http://www.rapidweb.biz">Web Design Stafford</a> |
+		<a href="http://www.8ball.co.uk">funny t-shirts designs</a>
+ -->
+<!-- /MM -->
+	</div>
+
+<a indepth="true" id="shoplink2" href="matrix.html"></a><a indepth="true" id="shoplink2" href="matrix.html"></a><a indepth="true" id="shoplink2" href="matrix.html"></a></div>
+
+
+
+<div id="help" style="display: none;">
+
+	<div id="help-m1">
+		<strong>Monochromatic model.</strong>
+		This scheme is based on a single color tint, and uses only variations made by changing its saturation and brightness.
+		<p>The result is comfortable for eyes, even when using aggressive color. However, it's harder to find accents and highlights.</p>
+		<p>Monochromatic variations are made for each color in other schemes, too.</p>
+	</div>
+	<div id="help-m2">
+		<strong>Complementary (contrast) model.</strong>
+		The primary color is supplemented with its complement (color on the opposite side of the wheel). One warm and one cold color is always created – we have to consider, which one will be dominant, and whether the design should look warm, or cold.
+		<p>The complementary color should be used carefully in the design, only as the accent, it shouldn't be overused.</p>
+	</div>
+	<div id="help-m3">
+		<strong>Triad (soft contrast) model.</strong>
+		The primary color is supplemented with two colors, placed identically on both sides of its complement. Unlike the "sharp" contrast, this scheme is often more comfortable for the eyes, it's softer, and there is more space for balancing warm/cold colors.
+		<p>You can set the distance from the complement. The less the angle is, the more similar the secondary colors are. For best results, the angle should be 15 to 60 degree. The exact value of 60 degree makes a special color scheme:</p>
+		<p><strong>The Triade</strong> is made by three colors evenly distributed the color wheel (by 120 degrees). The triade schemes are vibrating, full of energy, and have a lot of possibilities to make contrasts, accents and warm/cold balance.</p>
+	</div>
+	<div id="help-m4">
+		<strong>Tetrad (double-contrast) model.</strong>
+		This scheme is made by a pair of colors and their complements. It's based on <strong>the Tetrade</strong> – the foursome of colors evenly distributed on the color wheel (by 90 degreees). The Tetrade is very <em>aggressive</em> color scheme, requiring very good planning and very sensitive approach to relations of these colors.
+		<p>Less distance between colors causes less tension in the result. However, this scheme is always more "nervous" and "action" than other schemes. While working with it, we have to take care of relations between one color and its adjacent color complement. In case of the Tetrade (angle 90°), good feeling and very sensitive approach are necessary.</p>
+	</div>
+	<div id="help-m5">
+		<strong>Analogic model.</strong>
+		This scheme is made by the primary color and its adjacent colors – two colors identically on both sides. It always looks very elegantly and clear, the result has less tension and it's uniformly warm, or cold. If a color on the warm-cold border is chosen, the color with opposite "temperature" may be used for accenting the other two colors.
+		<p>You can set the distance of adjacent (secondary) colors, the angle shouldn't exceed 60 degree.</p>
+	</div>
+	<div id="help-m6">
+		<strong>Accented analogic model.</strong>
+		This is the Analogic model with complementary (contrast) color added. It must be treated as a complement only – it adds tension to the palette, and it's too aggressive when overused. However, used in details and as the accent, it can be very effective and elegant.
+	</div>
+
+
+	<div id="help-tab-wheel">
+		<strong>Hue.</strong> Click this tab to display the color wheel pane to adjust hues of Primary, Complementary and Secondary colors.
+	</div>
+	<div id="help-tab-vars">
+		<strong>Adjust Scheme.</strong> Click this pane to adjust brightness and saturation of colors and the contrast of the scheme, or just select from predefined presets.
+	</div>
+	<div id="help-tab-info">
+		<strong>Scheme Info.</strong> Click this pane to display color values of actual scheme and export them in various formats.
+	</div>
+
+
+	<div id="help-dot1">
+		<strong>Primary color hue.</strong> Click and drag the spot around the color wheel to change the value. Double-click to type the numeric value.
+	</div>
+	<div id="help-dot2">
+		<strong>Complementary color hue.</strong> Click and drag the spot around the color wheel to change the value. Double-click to type the numeric value.
+	</div>
+	<div id="help-dot3">
+		<strong>Secondary color hue.</strong> Click and drag the spot farther or closer to the primary color to change the angle/distance. Double-click to type the numeric value.
+	</div>
+	<div id="help-dot4">
+		<strong>Secondary color hue.</strong> Click and drag the spot farther or closer to the primary color to change the angle/distance. Double-click to type the numeric value.
+	</div>
+
+	<div id="help-hue-val">
+		<strong>Primary color hue value.</strong> Click to type the numeric value.
+	</div>
+	<div id="help-dist-val">
+		<strong>Secondary color hues angle/distance.</strong> Click to type the numeric value. Makes sense only with schemes which use secondary colors.
+	</div>
+	<div id="help-rgb-val">
+		<strong>Primary color RGB value.</strong> Click to type the numeric value. <p><strong>Warning:</strong> due to rounding error during the color conversion, the RGB value used in the scheme may slightly differ from the entered value.</p>
+	</div>
+	<div id="help-rgb-parts">
+		<strong>Primary color RGB values.</strong>
+	</div>
+
+	<div id="help-presets">
+		<strong>Scheme Presets.</strong> Click and select from predefined combinations of brightness, saturation and contrast of the scheme.
+	</div>
+	<div id="help-dots">
+		<strong>Brightness and Saturation.</strong> Click and drag the spot around the square to adjust brightness (up=lighter, down=darker) and saturation (right=saturate, left=desaturate).
+	</div>
+	<div id="help-dotc">
+		<strong>Scheme contrast.</strong> Click and drag the spot around the square to adjust the contrast of color variants in the scheme (up/down for dark variants, left/right for light variants).
+	</div>
+
+	<div id="help-tab-c1">
+		<strong>Scheme Contrast.</strong> Click this pane to adjust brightness and saturation of all color variants in the scheme at once.
+	</div>
+	<div id="help-tab-c2">
+		<strong>Adjust Variants.</strong> Click this pane to adjust brightness and saturation individually for each color.
+	</div>
+	<div id="help-manualvars">
+		<strong>Color Variants List.</strong> Click any color variant to select and then adjust its saturation and brightness using the slider on the left.
+	</div>
+
+	<div id="help-export-txt">
+		<strong>Export as text.</strong> Export the scheme as text to copy/paste values from it later, or to send the values to someone else by email etc.
+	</div>
+	<div id="help-export-html">
+		<strong>Export HTML+CSS.</strong> Export the scheme as HTML table with CSS stylesheet. You can save the generated HTML file for later use.
+	</div>
+	<div id="help-export-xml">
+		<strong>Export XML.</strong> Export the scheme as XML to be processed by a XML parser.
+	</div>
+	<div id="help-export-aco">
+		<strong>Export ACO.</strong> Export the scheme as Photoshop color palette. Save the file and import it to the Photoshop, Fireworks or any other application supporting this format.
+	</div>
+	<div id="help-export-gpl">
+		<strong>Export GPL.</strong> Export the scheme as GIMP color palette. Save the file and import it to the GIMP editor.
+	</div>
+
+
+	<div id="help-palette">
+		<strong>The scheme palette.</strong> Just the four main colors of the scheme are shown to easily identify the scheme impression.
+	</div>
+	<div id="help-schemeid">
+		<strong>Link to the scheme.</strong> There is an unique ID for each scheme. Use this link to bookmark current scheme or send it to someone else.
+	</div>
+
+	<div id="help-preview-palette-canvas">
+		<strong>Palette preview.</strong> See how selected colors and their variants work together.
+	</div>
+	<div id="help-tab-preview">
+		<strong>Palette preview.</strong> See how selected colors and their variants work together.
+	</div>
+	<div id="help-tab-preview2">
+		<strong>Web page example (light/positive).</strong> Click to view an example web page created using current color scheme. This is only an example, the palette colors may be used in hundreds of variantions.
+	</div>
+	<div id="help-tab-preview3">
+		<strong>Web page example (dark/negative).</strong> Click to view an example web page created using current color scheme. This is only an example, the palette colors may be used in hundreds of variantions.
+	</div>
+
+	<div id="help-showtext">
+		<strong>Show text sample.</strong> Check to see white, black and 50% gray text displayed within the preview above.
+	</div>
+	<div id="help-colorblind">
+		<strong>"Color-blind" preview.</strong> Click and select an item from the list to simulate how people with common color vision deficiency will see the color scheme.
+	</div>
+	<div id="help-showtooltips">
+		<strong>Show tooltips.</strong> Check and move the cursor over controls and parts of the application to see helpful tooltips. 
+	</div>
+	<div id="help-fps">
+		<strong>UI speed (frames per second).</strong> Indicates the response speed of your graphic interface. The higher value, the better. Low values appear on slower computers. With lower values (5–10 or less) use the mouse controls with patience and drag them slowly.
+	</div>
+	<div id="help-randomize-now">
+		<strong>Randomize.</strong> Click to create random palette according to the randomize settings.
+	</div>
+	<div id="help-randomize-set">
+		<strong>Randomize settings.</strong> Click to set up what parameters should be randomized.
+	</div>
+	<div id="help-donate">
+		<strong>Donate.</strong> Are you satisfied with this free application? Send a donation to the author via the PayPal Secure Payments.
+	</div>
+
+
+</div>
+
+<div class="" style="display: none; top: 287px; left: 685px; right: auto;" id="tooltip"><h3 style="display: none;"></h3><div class="body">#FF4040</div><div style="display: none;" class="url"></div></div><div style="display: none;" id="tooltip"><h3></h3><div class="body"></div><div class="url"></div></div><div style="display: none;" id="tooltip"><h3></h3><div class="body"></div><div class="url"></div></div></body></html>

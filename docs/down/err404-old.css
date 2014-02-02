@@ -1,0 +1,108 @@
+.beast {
+    float: right;
+    margin: 20px 0 20px 20px;
+}
+
+
+
+/* 404 - Animate the tumbeast's eyes. Original animation by J Zeller. */
+@-moz-keyframes crazylefteye {
+	0% {left:320px;top:120px;}	
+	10% {left:313px;top:111px;}	
+	20% {left:313px;top:111px;}	
+	40% {left:343px;top:117px;}	
+	50% {left:340px;top:127px;}	
+	60% {left:316px;top:125px;}	
+	70% {left:320px;top:120px;}	
+	100%{left:320px;top:120px;}	
+}		
+@-moz-keyframes crazyrighteye {		
+	0% {left:426px;top:123px;}	
+	10% {left:407px;top:117px;}	
+	20% {left:407px;top:117px;}	
+	40% {left:434px;top:119px;}	
+	50% {left:435px;top:135px;}	
+	60% {left:410px;top:128px;}	
+	70% {left:426px;top:123px;}	
+	100% {left:426px;top:123px;}	
+}		
+@-webkit-keyframes crazylefteye {		
+	0% {left:320px;top:120px;}	
+	10% {left:313px;top:111px;}	
+	20% {left:313px;top:111px;}	
+	40% {left:343px;top:117px;}	
+	50% {left:340px;top:127px;}	
+	60% {left:316px;top:125px;}	
+	70% {left:320px;top:120px;}	
+	100%{left:320px;top:120px;}	
+}		
+@-webkit-keyframes crazyrighteye {		
+	0% {left:426px;top:123px;}	
+	10% {left:407px;top:117px;}	
+	20% {left:407px;top:117px;}	
+	40% {left:434px;top:119px;}	
+	50% {left:435px;top:135px;}	
+	60% {left:410px;top:128px;}	
+	70% {left:426px;top:123px;}	
+	100% {left:426px;top:123px;}	
+}		
+@keyframes crazylefteye {		
+	0% {left:320px;top:120px;}	
+	10% {left:313px;top:111px;}	
+	20% {left:313px;top:111px;}	
+	40% {left:343px;top:117px;}	
+	50% {left:340px;top:127px;}	
+	60% {left:316px;top:125px;}	
+	70% {left:320px;top:120px;}	
+	100%{left:320px;top:120px;}	
+}		
+@keyframes crazyrighteye {		
+	0% {left:426px;top:123px;}	
+	10% {left:407px;top:117px;}	
+	20% {left:407px;top:117px;}	
+	40% {left:434px;top:119px;}	
+	50% {left:435px;top:135px;}	
+	60% {left:410px;top:128px;}	
+	70% {left:426px;top:123px;}	
+	100% {left:426px;top:123px;}	
+
+
+}
+#beast404re{
+	-moz-animation-name: crazyrighteye;
+	-moz-animation-delay: 6s;
+	-moz-animation-duration: 7s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-play-state: running;
+	-webkit-animation-name: crazyrighteye;
+	-webkit-animation-delay: 6s;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;
+	animation-name: crazyrighteye;
+	animation-delay: 6s;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+}
+#beast404le{
+	-moz-animation-name: crazylefteye;
+	-moz-animation-delay: 6s;
+	-moz-animation-duration: 7s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-play-state: running;
+	-webkit-animation-name: crazylefteye;
+	-webkit-animation-delay: 6s;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;
+	animation-name: crazylefteye;
+	animation-delay: 6s;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+}
+/*#beastainer{position:relative;float:right;}*/
+#beast404re, #beast404le{position:absolute;}
+#beast404le{left:320px;top:115px;} /*+75*/ /*+35*/
+#beast404re{left:436px;top:123px;}

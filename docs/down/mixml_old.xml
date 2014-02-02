@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="iso-8859-1"?><exam id_exam="1" title="Departamento de Idiomas. Escuela de Guerra | INGLÉS" fecha="EXAMEN DE 6/SEP/2010" tipo="listening">
+<intro1>En las sucesivas presentaciones usted encontrará preguntas de tipo test relacionadas con la conversación que debe escuchar previamente en la parte izquierda de la misma.</intro1>
+<intro2>Después de escuchar la conversación en inglés deberá responder a una de las preguntas de la parte derecha.</intro2>
+<intro3>Gracias por su colaboración. A continuación podrá <strong>imprimir</strong> las respuestas que han sido seleccionadas, o bien imprimirlas en un archivo <strong>pdf</strong> para su entrega al profesor correspondiente.</intro3>
+<tiempoGlobal>60</tiempoGlobal>
+<timeOver>Su tiempo ha terminado. Pulse finalizar e imprima sus respuestas</timeOver>
+<user id= "1">ARGUESO CANO ALEJANDRO TIM: 11111111#</user>
+
+<user id= "2">MARTINEZ HERCULES DE SOLAS PEDRO LUIS TIM: 45270458#</user>
+
+<user id= "3">FERNANDEZ FERNANDEZ JUAN CARLOS TIM: 31320901#</user>
+
+<user id= "4">ARIAS FERNANDEZ JESUS TIM: 39675809#</user>
+
+<user id= "5">ORAA SANCHEZ-CANO LUIS TIM: 05637886#</user>
+
+<user id= "6">ARENAS GARCIA JESUS TIM: 03817506#</user>
+
+<user id= "7">CARRASCO HUEROS JUAN LUIS TIM: 00679471#</user>
+
+<user id= "8">VERA SIBAJAS CARLOS TIM: 27517451#</user>
+
+<user id= "9">RUIZ LAPRESTA CARLOS TIM: 04543058#</user>
+
+<user id= "10">DE MIGUEL DE LUCAS JUAN CARLOS TIM: 03433039#</user>
+
+<user id= "11">QUINTERO VILLARROYA JOSE LUIS TIM: 01099820#</user>
+
+<user id= "12">SOTO RODIL JUAN CARLOS TIM: 34247774#</user>
+
+<user id= "13">DE LUCAS LOBO RAFAEL TIM: 50416386#</user>
+
+<user id= "14">GIL GONZALEZ JOSE RAMON TIM: 10810287#</user>
+
+<user id= "15">GARCIA SANSON JOSE LUIS TIM: 76231421#</user>
+
+<user id= "16">HERRAIZ REYES JOSE ANTONIO TIM: 45270414#</user>
+
+<user id= "17">HERMOSA BARRIOS ANDRES IGNACIO TIM: 42989353#</user>
+
+<user id= "18">ESPEJO ROIG JOSE FRANCISCO TIM: 27271949#</user>
+
+<user id= "19">DE PABLOS EPALZA JOSE MARIA TIM: 00690728#</user>
+
+<user id= "20">PORRAS GIL LOPE JUAN TIM: 01103166#</user>
+
+<user id= "21">FERNANDEZ LOPEZ JOSE MANUEL TIM: 00687927#</user>
+
+<user id= "22">RODRIGO DE AZPIAZU JOSE JAVIER TIM: 50700002#</user>
+
+<user id= "23">CARRASCO LLOPIS LUIS RAMON TIM: 24306459#</user>
+
+<user id= "24">JUSTE PEREZ-SLOCKER LUIS JAVIER TIM: 45063168#</user>
+
+<user id= "25">VELAZQUEZ PEREZ MANUEL AGUISTIN TIM: 51365168#</user>
+
+<user id= "26">GARCIA DEL CASTILLO CESAR TIM: 51372361#</user>
+
+<user id= "27">ATIENZA RODRIGUEZ EMILIO TIM: 05245186#</user>
+
+<user id= "28">PEREZ-VILLACASTIN DOMINGUEZ FRANCISCO TIM: 15952169#</user>
+
+<user id= "29">GUITART LORENTE JOSE LUIS TIM: 02617278#</user>
+
+<user id= "30">ACITORES GARCIA MIGUEL ANGEL TIM: 32651506#</user>
+
+<user id= "31">CREGO CASCON VICTOR JOSE TIM: 08105217#</user>
+
+<user id= "32">MONTILLA JIMENEZ FRANCISCO TIM: 51364283#</user>
+
+<user id= "33">DE LA PISA PEREZ DE LOS COBOS PEDRO TIM: 51374685#</user>
+
+<user id= "34">TENORIO CAMINO MANUEL TIM: 22947716#</user>
+
+<user id= "35">MARTIN ARIAS JOSE MIGUEL TIM: 11069636#</user>
+
+<user id= "36">DORDA ECHAVARRI JOSE MARIA TIM: 03822555#</user>
+
+<user id= "37">PEREZ AGUADO JOSE MARIA TIM: 11941725#</user>
+
+<user id= "38">RECIO GONZALEZ LUIS TIM: 07218043#</user>
+
+<user id= "39">GARRIS MOZOTA JORGE TIM: 25437989#</user>
+
+<user id= "40">LESTAU MORELL PABLO FERNANDO TIM: 31648311#</user>
+
+<user id= "41">RODRIGUEZ GALAN JOSE ANTONIO TIM: 25141402#</user>
+
+<user id= "42">DIZ MONJE EMILIO TIM: 50820284#</user>
+
+<user id= "43">CORTES DELGADO RAFAEL TIM: 31246713#</user>
+
+<user id= "44">LAGO ESPEJO SAAVEDRA JOSE RAMON TIM: 03831447#</user>
+
+<user id= "45">PALMERO MOLINE FERNANDO TIM: 50827308#</user>
+
+<user id= "46">DE PADURA Y DIEGUEZ JUAN ANTONIO TIM: 00819566#</user>
+
+<user id= "47">CERCENADO SORANDO GABRIEL TIM: 50432593#</user>
+
+<user id= "48">DIAZ CRUZ FRANCISCO JAVIER TIM: 03800136#</user>
+
+<question nquest="1" Question="1.">
+	<url>EXAMEN 1/MP3/Q-1 EXAMEN 1.mp3</url>
+	<repeat>1</repeat>
+	<delay>15</delay>
+	<answers>
+	<answ1>A. My Uncle Percy is married to a Welsh woman.</answ1>
+	<answ2>B. My Uncle Percy met his spouse in Wales.</answ2>
+	<answ3>C. She is related to a Welsh uncle of mine.</answ3>
+	<answ4>D. My uncle and his son are in Wales on holiday</answ4>
+	</answers></question>
+<question nquest="2" Question="2.">
+	<url>EXAMEN 1/MP3/Q-2 EXAMEN 1.mp3</url>
+	<repeat>1</repeat>
+	<delay>15</delay>
+	<answers>
+	<answ1>A. The authorities kept the disease under control</answ1>
+	<answ2>B. The authorities' predictions about the disease were wrong.</answ2>
+	<answ3>C. The authorities were fast to find the source of the disease.</answ3>
+	<answ4>D. The authorities were quick to inform the population about the disease.</answ4>
+	</answers></question>
+<question nquest="3" Question="3.">
+	<url>EXAMEN 1/MP3/Q-3 EXAMEN 1.mp3</url>
+	<repeat>1</repeat>
+	<delay>15</delay>
+	<answers>
+	<answ1>A. Mrs. Peters bought a grandfather clock for five hundred dollars.</answ1>
+	<answ2>B. Mrs. Peters’ grandfather clock is priceless.</answ2>
+	<answ3>C. The grandfather clock Mrs. Peters inherited was sold for five hundred dollars.</answ3>
+	<answ4>D. Mrs. Peters was asked to sell her grandfather clock for five hundred dollars.</answ4>
+	</answers></question>
+<question nquest="4" Question="4.">
+	<url>EXAMEN 1/MP3/Q-4 EXAMEN 1.mp3</url>
+	<repeat>1</repeat>
+	<delay>15</delay>
+	<answers>
+	<answ1>A. You can buy tapes easily in some countries.</answ1>
+	<answ2>B. There’s a lot of bureaucracy when you want to enter some countries.</answ2>
+	<answ3>C. Credit cards are red in some countries.</answ3>
+	<answ4>D. Getting a credit card is difficult if you’re in the red.</answ4>
+	</answers></question>
+<question nquest="5" Question="5. What is the situation?">
+	<url>EXAMEN 1/MP3/Q-5 EXAMEN 1.mp3</url>
+	<repeat>1</repeat>
+	<delay>15</delay>
+	<answers>
+	<answ1>A. The meeting has been postponed.</answ1>
+	<answ2>B. The boss has been called away.</answ2>
+	<answ3>C. The boss had to make a phone call.</answ3>
+	<answ4>D. The meeting has been cancelled.</answ4>
+	</answers></question>
+<question nquest="6" Question="6.">
+	<url>EXAMEN 1/MP3/Q-6 EXAMEN 1.mp3</url>
+	<repeat>1</repeat>
+	<delay>15</delay>
+	<answers>
+	<answ1>A. He is on his way, but he will arrive late</answ1>
+	<answ2>B. He has never arrived late to the office</answ2>
+	<answ3>C. He still arrives late to the office</answ3>
+	<answ4>D. He arrived late to the office once</answ4>
+	</answers></question>
+<question nquest="7" Question="7.">
+	<url>EXAMEN 1/MP3/Q-7 EXAMEN 1.mp3</url>
+	<repeat>1</repeat>
+	<delay>15</delay>
+	<answers>
+	<answ1>A. This time I have to drive my car</answ1>
+	<answ2>B. This time I need to buy a new car</answ2>
+	<answ3>C. I need to offer a service with my car</answ3>
+	<answ4>D. My car needs a mechanical check</answ4>
+	</answers></question>
+
+</exam>

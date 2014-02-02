@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="iso-8859-1"?><exam id_exam="2" title="Departamento de Idiomas. Escuela de Guerra | INGLÉS" fecha="EXAMEN DE 21/09/2010" tipo="listening">
+<intro1>En las sucesivas presentaciones usted encontrará preguntas de tipo test relacionadas con la conversación que debe escuchar previamente en la parte izquierda de la misma.</intro1>
+<intro2>Después de escuchar la conversación en inglés deberá responder a una de las preguntas de la parte derecha.</intro2>
+<intro3>Gracias por su colaboración. A continuación podrá <strong>imprimir</strong> las respuestas que han sido seleccionadas, o bien imprimirlas en un archivo <strong>pdf</strong> para su entrega al profesor correspondiente.</intro3>
+<tiempoGlobal>75</tiempoGlobal>
+<timeOver>Su tiempo ha terminado. Pulse finalizar e imprima sus respuestas</timeOver>
+<user id= "1">ARGUESO CANO ALEJANDRO TIM: 25375454#</user>
+
+<user id= "2">MARTINEZ HERCULES DE SOLAS PEDRO LUIS TIM: 45270458#</user>
+
+<user id= "3">FERNANDEZ FERNANDEZ JUAN CARLOS TIM: 31320901#</user>
+
+<user id= "4">ARIAS FERNANDEZ JESUS TIM: 39675809#</user>
+
+<user id= "5">ORAA SANCHEZ-CANO LUIS TIM: 05637886#</user>
+
+<user id= "6">ARENAS GARCIA JESUS TIM: 03817506#</user>
+
+<user id= "7">CARRASCO HUEROS JUAN LUIS TIM: 00679471#</user>
+
+<user id= "8">VERA SIBAJAS CARLOS TIM: 27517451#</user>
+
+<user id= "9">RUIZ LAPRESTA CARLOS TIM: 04543058#</user>
+
+<user id= "10">DE MIGUEL DE LUCAS JUAN CARLOS TIM: 03433039#</user>
+
+<user id= "11">QUINTERO VILLARROYA JOSE LUIS TIM: 01099820#</user>
+
+<user id= "12">SOTO RODIL JUAN CARLOS TIM: 34247774#</user>
+
+<user id= "13">DE LUCAS LOBO RAFAEL TIM: 50416386#</user>
+
+<user id= "14">GIL GONZALEZ JOSE RAMON TIM: 10810287#</user>
+
+<user id= "15">GARCIA SANSON JOSE LUIS TIM: 76231421#</user>
+
+<user id= "16">HERRAIZ REYES JOSE ANTONIO TIM: 45270414#</user>
+
+<user id= "17">HERMOSA BARRIOS ANDRES IGNACIO TIM: 42989353#</user>
+
+<user id= "18">ESPEJO ROIG JOSE FRANCISCO TIM: 27271949#</user>
+
+<user id= "19">DE PABLOS EPALZA JOSE MARIA TIM: 00690728#</user>
+
+<user id= "20">PORRAS GIL LOPE JUAN TIM: 01103166#</user>
+
+<user id= "21">FERNANDEZ LOPEZ JOSE MANUEL TIM: 00687927#</user>
+
+<user id= "22">RODRIGO DE AZPIAZU JOSE JAVIER TIM: 50700002#</user>
+
+<user id= "23">CARRASCO LLOPIS LUIS RAMON TIM: 24306459#</user>
+
+<user id= "24">JUSTE PEREZ-SLOCKER LUIS JAVIER TIM: 45063168#</user>
+
+<user id= "25">VELAZQUEZ PEREZ MANUEL AGUISTIN TIM: 51365168#</user>
+
+<user id= "26">GARCIA DEL CASTILLO CESAR TIM: 51372361#</user>
+
+<user id= "27">ATIENZA RODRIGUEZ EMILIO TIM: 05245186#</user>
+
+<user id= "28">PEREZ-VILLACASTIN DOMINGUEZ FRANCISCO TIM: 15952169#</user>
+
+<user id= "29">GUITART LORENTE JOSE LUIS TIM: 02617278#</user>
+
+<user id= "30">ACITORES GARCIA MIGUEL ANGEL TIM: 32651506#</user>
+
+<user id= "31">CREGO CASCON VICTOR JOSE TIM: 08105217#</user>
+
+<user id= "32">MONTILLA JIMENEZ FRANCISCO TIM: 51364283#</user>
+
+<user id= "33">DE LA PISA PEREZ DE LOS COBOS PEDRO TIM: 51374685#</user>
+
+<user id= "34">TENORIO CAMINO MANUEL TIM: 22947716#</user>
+
+<user id= "35">MARTIN ARIAS JOSE MIGUEL TIM: 11069636#</user>
+
+<user id= "36">DORDA ECHAVARRI JOSE MARIA TIM: 03822555#</user>
+
+<user id= "37">PEREZ AGUADO JOSE MARIA TIM: 11941725#</user>
+
+<user id= "38">RECIO GONZALEZ LUIS TIM: 07218043#</user>
+
+<user id= "39">GARRIS MOZOTA JORGE TIM: 25437989#</user>
+
+<user id= "40">LESTAU MORELL PABLO FERNANDO TIM: 31648311#</user>
+
+<user id= "41">RODRIGUEZ GALAN JOSE ANTONIO TIM: 25141402#</user>
+
+<user id= "42">DIZ MONJE EMILIO TIM: 50820284#</user>
+
+<user id= "43">CORTES DELGADO RAFAEL TIM: 31246713#</user>
+
+<user id= "44">LAGO ESPEJO SAAVEDRA JOSE RAMON TIM: 03831447#</user>
+
+<user id= "45">PALMERO MOLINE FERNANDO TIM: 50827308#</user>
+
+<user id= "46">DE PADURA Y DIEGUEZ JUAN ANTONIO TIM: 00819566#</user>
+
+<user id= "47">CERCENADO SORANDO GABRIEL TIM: 50432593#</user>
+
+<user id= "48">DIAZ CRUZ FRANCISCO JAVIER TIM: 03800136#</user>
+
+<user id= "49">DE MIGUEL SEBASTIAN TIM: 42956311#</user>
+
+<user id= "50">LABRADO GOMEZ, CARLOS TIM: 51358887#</user>
+
+<question nquest="1" Question="1. Choose the correct statement">
+	<url>EXAMEN 2/MP3/Q-1 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. It was okay where I left my car</answ1>
+	<answ2>B. It was not okay where I left my car</answ2>
+	<answ3>C. I left my car and walked</answ3>
+	<answ4>D. I always drive on the left</answ4>
+	</answers></question>
+<question nquest="2" Question="2. Choose the correct statement">
+	<url>EXAMEN 2/MP3/Q-2 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. We helped the bulldog</answ1>
+	<answ2>B. The Bulldog was feeble.</answ2>
+	<answ3>C. The Bulldog was lying in the middle of the road.</answ3>
+	<answ4>D. The Bulldog was a week old pup.</answ4>
+	</answers></question>
+<question nquest="3" Question="3. Choose the correct statement">
+	<url>EXAMEN 2/MP3/Q-3 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. I haven’t drunk too much coffee.</answ1>
+	<answ2>B. I would feel nervous if I didn’t drink so much coffee.</answ2>
+	<answ3>C. I wouldn’t be nervous if I drank coffee.</answ3>
+	<answ4>D. I have drunk a lot of coffee.</answ4>
+	</answers></question>
+<question nquest="4" Question="4. Choose the correct statement">
+	<url>EXAMEN 2/MP3/Q-4 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. Motivation and experience determine success.</answ1>
+	<answ2>B. Motivation doesn’t determine success.</answ2>
+	<answ3>C. Experience alone often determines success.</answ3>
+	<answ4>D. Motivation usually determines success.</answ4>
+	</answers></question>
+<question nquest="5" Question="5. Choose the correct statement">
+	<url>EXAMEN 2/MP3/Q-5 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. I’m dying to get the new Harry Potter book.</answ1>
+	<answ2>B. I’ll wait to get the new Harry Potter book.</answ2>
+	<answ3>C. I couldn’t wait to buy the new Harry Potter book.</answ3>
+	<answ4>D. I have just bought the new Harry Potter book.</answ4>
+	</answers></question>
+<question nquest="6" Question="6. Choose the correct statement">
+	<url>EXAMEN 2/MP3/Q-6 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. Before long it will be summer.</answ1>
+	<answ2>B. You can tell it will be a long summer.</answ2>
+	<answ3>C. We will have to wait for the long days of summer.</answ3>
+	<answ4>D. I long for the days of summer</answ4>
+	</answers></question>
+<question nquest="7" Question="7. What can be deduced from this conversation?">
+	<url>EXAMEN 2/MP3/Q-7 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. John has forgotten the man</answ1>
+	<answ2>B. John will be back for the man</answ2>
+	<answ3>C. John is waiting for the man.</answ3>
+	<answ4>D. John is holding the man up.</answ4>
+	</answers></question>
+<question nquest="8" Question="8. Choose the correct statement">
+	<url>EXAMEN 2/MP3/Q-8 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. Weather permitting, the barbecue will take place.</answ1>
+	<answ2>B. The barbecue is taking place because of the weather.</answ2>
+	<answ3>C. The barbecue was called off.</answ3>
+	<answ4>D. The barbecue took place despite the weather.</answ4>
+	</answers></question>
+<question nquest="9" Question="9. What does the man mean?">
+	<url>EXAMEN 2/MP3/Q-9 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. He is faced with a wide selection of hats.</answ1>
+	<answ2>B. He can’t decide until he sees more hats.</answ2>
+	<answ3>C. It’s hard to choose from so few hats.</answ3>
+	<answ4>D. The hats he has seen are spoiled.</answ4>
+	</answers></question>
+<question nquest="10" Question="10. What does the man mean?">
+	<url>EXAMEN 2/MP3/Q-10 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. The woman’s offer fell short.</answ1>
+	<answ2>B. The woman's offer was over the top.</answ2>
+	<answ3>C. The man has decided not to sell the house.</answ3>
+	<answ4>D. The man prefers to wait for a higher offer.</answ4>
+	</answers></question>
+<question nquest="11" Question="11. What does the man mean?">
+	<url>EXAMEN 2/MP3/Q-11 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. Mike’s Porsche is red not black</answ1>
+	<answ2>B. Mike’s car is parked opposite the bookstore.</answ2>
+	<answ3>C. The red Porsche is unfamiliar.</answ3>
+	<answ4>D. Mike could be in the book store.</answ4>
+	</answers></question>
+<question nquest="12" Question="12. What does the woman infer?">
+	<url>EXAMEN 2/MP3/Q-12 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. This war was shorter than the last.</answ1>
+	<answ2>B. The woman will be surprised when the war finishes.</answ2>
+	<answ3>C. The latest war was long-lasting.</answ3>
+	<answ4>D. The latest war was brief.</answ4>
+	</answers></question>
+<question nquest="13" Question="13. What does the woman mean?">
+	<url>EXAMEN 2/MP3/Q-13 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. She has trouble with her eyesight</answ1>
+	<answ2>B. She doesn’t believe the couple took their flight.</answ2>
+	<answ3>C. Debbie and Jeff often fight.</answ3>
+	<answ4>D. She was taken aback by their fight.</answ4>
+	</answers></question>
+<question nquest="14" Question="14. What does the man mean?">
+	<url>EXAMEN 2/MP3/Q-14 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. He will fix the problem with the lift himself</answ1>
+	<answ2>B. He will go to maintenance and report the problem</answ2>
+	<answ3>C. He’ll arrange for a new elevator to be installed</answ3>
+	<answ4>D. He’ll phone for someone to fix the electrical problem</answ4>
+	</answers></question>
+<question nquest="15" Question="15. What is the man waiting for?">
+	<url>EXAMEN 2/MP3/Q-15 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. A TV programme to begin.</answ1>
+	<answ2>B. His friends to watch a TV programme with him.</answ2>
+	<answ3>C. A TV programme to finish.</answ3>
+	<answ4>D. Some friends to pay a call.</answ4>
+	</answers></question>
+<question nquest="16" Question="16. What does the man mean?">
+	<url>EXAMEN 2/MP3/Q-16 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. Wars are being presented as entertainment.</answ1>
+	<answ2>B. Television confuses people’s perception of things.</answ2>
+	<answ3>C. Television influences the outcome of most wars</answ3>
+	<answ4>D. Television is to blame for the outbreak of war.</answ4>
+	</answers></question>
+<question nquest="17" Question="17. What does the woman say?">
+	<url>EXAMEN 2/MP3/Q-17 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. Her client is confessing his guilt.</answ1>
+	<answ2>B. Her client is aiding the investigation.</answ2>
+	<answ3>C. Her client is hindering the investigation.</answ3>
+	<answ4>D. Her client is recording the conversation.</answ4>
+	</answers></question>
+<question nquest="18" Question="18. What does the woman say?">
+	<url>EXAMEN 2/MP3/Q-18 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. Strides have been made in modern warfare.</answ1>
+	<answ2>B. The enemy was able to retaliate.</answ2>
+	<answ3>C. Methods of warfare remain unchanged.</answ3>
+	<answ4>D. Modern warfare has gone downhill.</answ4>
+	</answers></question>
+<question nquest="19" Question="19. What does the man mean?">
+	<url>EXAMEN 2/MP3/Q-19 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. He guesses their friends will be over for an hour.</answ1>
+	<answ2>B. Their friends will stay for less than an hour.</answ2>
+	<answ3>C. Their friends will turn up in barely an hour.</answ3>
+	<answ4>D. Things won’t start for at least an hour.</answ4>
+	</answers></question>
+<question nquest="20" Question="20. What can be inferred from what the man says?">
+	<url>EXAMEN 2/MP3/Q-20 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. Journalists cover wars for financial reasons.</answ1>
+	<answ2>B. The chances of being wounded are not high.</answ2>
+	<answ3>C. Excitement is not the most important aspect of war journalism.</answ3>
+	<answ4>D. Prestige is not the most important aspect of war journalism.</answ4>
+	</answers></question>
+<question nquest="21" Question="21 Which of the following statements is true according to what you have heard?">
+	<url>EXAMEN 2/MP3/Q-21 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. The Andes mountain range is 7,000 miles long</answ1>
+	<answ2>B. Michael Jacobs witnessed extreme events</answ2>
+	<answ3>C. The journey took six months</answ3>
+	<answ4>D. Humbolt  explored  only deserts and ice-fields in the Andes</answ4>
+	</answers></question>
+<question nquest="22" Question="22. Which statement is true according to what you have heard?">
+	<url>EXAMEN 2/MP3/Q-22 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. Teams of Afghans searched for minerals in dozens of sites</answ1>
+	<answ2>B. It is unclear how much the mineral resources are worth</answ2>
+	<answ3>C. Economic viability has always been part of the counterinsurgency effort</answ3>
+	<answ4>D. The resources are set to become economically viable</answ4>
+	</answers></question>
+<question nquest="23" Question="23. Which of the statements is true according to what you have heard?">
+	<url>EXAMEN 2/MP3/Q-23 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. The Obama inauguration took place on a weekend and collapsed the Internet</answ1>
+	<answ2>B. There Is less Internet traffic at the weekend because people see matches on TV</answ2>
+	<answ3>C. People have TV sets at work so they can see the matches</answ3>
+	<answ4>D. Twitter’s recent problems were caused by the spike in traffic due to the World Cup</answ4>
+	</answers></question>
+<question nquest="24" Question="24. Which of the statements is true according to what you have heard?">
+	<url>EXAMEN 2/MP3/Q-24 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. Coins or credit cards will not be used in Washington DC as of October</answ1>
+	<answ2>B. Pay-by-phone parking has been the norm in European cities for a long time</answ2>
+	<answ3>C. Westminster sold all its old parking metres on eBay</answ3>
+	<answ4>D. There are no coin-operated parking meters in Westminster anymore</answ4>
+	</answers></question>
+<question nquest="25" Question="25. Which of the following statements is true according to what you have heard?">
+	<url>EXAMEN 2/MP3/Q-25 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. The American ambassador in Afghanistan is single</answ1>
+	<answ2>B. McChrystal was fired for revealing details of war policy</answ2>
+	<answ3>C. Petreaus has a proven track record in civilian- military relations</answ3>
+	<answ4>D. Relations between McChrystal and President Karazi were tense</answ4>
+	</answers></question>
+<question nquest="26" Question="26. Which of the following statements is true according to what you have heard?">
+	<url>EXAMEN 2/MP3/Q-26 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. Teachers will have to take part in gun fighting if it is near their classrooms</answ1>
+	<answ2>B. Officially the number of blockades set up by the Zetas was 40</answ2>
+	<answ3>C. Drivers were dragged out of their cars by gunmen</answ3>
+	<answ4>D. Trucks buses and cars were set alight after the drivers had been removed</answ4>
+	</answers></question>
+<question nquest="27" Question="27. Which one of the following statements is true according to what you have heard?">
+	<url>EXAMEN 2/MP3/Q-27 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. Having a friend perform the ceremony is ideal for couples of different religions</answ1>
+	<answ2>B. The clergy believe this causes couples to  lose their faith</answ2>
+	<answ3>C. Uncertified people performing wedding ceremonies is not a problem</answ3>
+	<answ4>D. You can become a clergyman in a matter of seconds over the Internet</answ4>
+	</answers></question>
+<question nquest="28" Question="28. Which statement  is true according to what you have heard?">
+	<url>EXAMEN 2/MP3/Q-28 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. Gene’s dad was quite talkative and outgoing</answ1>
+	<answ2>B. Gene’s description of the mine is first hand</answ2>
+	<answ3>C. The coalmines were subject to frequent explosions</answ3>
+	<answ4>D. After dinner Gene’s father returned to the mine to work for a few more hours</answ4>
+	</answers></question>
+<question nquest="29" Question="29. Which statement is true according to what you have heard?">
+	<url>EXAMEN 2/MP3/Q-29 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. The president of FIFA believes human error makes soccer exciting</answ1>
+	<answ2>B. A microchip in the ball has changed the nature of the game</answ2>
+	<answ3>C. English fans reject experiments in football</answ3>
+	<answ4>D. FIFA is willing to adopt new technologies in football</answ4>
+	</answers></question>
+<question nquest="30" Question="30. Which statement is correct according to what you have heard?">
+	<url>EXAMEN 2/MP3/Q-30 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. All of the countries have rising government debt</answ1>
+	<answ2>B. Maternal and child health is on the agenda for discussion</answ2>
+	<answ3>C. The Middle East will not be discussed this time round</answ3>
+	<answ4>D. Protests against the summit have been a headache for security</answ4>
+	</answers></question>
+<question nquest="31" Question="31. Which statement is true according to what you have heard?">
+	<url>EXAMEN 2/MP3/Q-31 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. 200 people have been laid off at the Pilkington Tiles factory</answ1>
+	<answ2>B. Bolton Council will have to cut savings by 40 % in the next five years</answ2>
+	<answ3>C. There was rioting after England lost to Germany in a World Cup match</answ3>
+	<answ4>D. Bolton Council has introduced temporary contracts</answ4>
+	</answers></question>
+<question nquest="32" Question="32. Which of the following statements is true about the student’s plight?">
+	<url>EXAMEN 2/MP3/Q-32 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. He has lived all his life in the United States</answ1>
+	<answ2>B. He refuses to use United States identification</answ2>
+	<answ3>C. He has never had a passport</answ3>
+	<answ4>D. He will get a Harvard lawyer to plead his case</answ4>
+	</answers></question>
+<question nquest="33" Question="33. Which statement is true according to what you have heard?">
+	<url>EXAMEN 2/MP3/Q-33 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. The head discovered is made of bronze</answ1>
+	<answ2>B. After the discovery of the heads Europeans rewrote art history</answ2>
+	<answ3>C. The head symbolizes a culture that left us no evidence in writing</answ3>
+	<answ4>D. Heads were discovered in Ife at the turn of the last century</answ4>
+	</answers></question>
+<question nquest="34" Question="34. Which statement is true according to what Gettleman says?">
+	<url>EXAMEN 2/MP3/Q-34 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. Current conflicts show a sense of ideology</answ1>
+	<answ2>B. Previous liberation movements wanted to change society</answ2>
+	<answ3>C. In the Congo rebel groups have a lot of popular support</answ3>
+	<answ4>D. Rebel groups in Somalia have a certain amount of support among the population</answ4>
+	</answers></question>
+<question nquest="35" Question="35. Why is Randy Borman  an important figure for the Cofan Indians?">
+	<url>EXAMEN 2/MP3/Q-35 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. He likes to wear the traditional dress of the Cofan Indians</answ1>
+	<answ2>B. He helps them to acquire rainforest territory</answ2>
+	<answ3>C. He can communicate with them in fluent Cofan</answ3>
+	<answ4>D. He doesn’t mind living in a forest infested with jaguars and bears</answ4>
+	</answers></question>
+<question nquest="36" Question="36. What was revealed in the FBI files?">
+	<url>EXAMEN 2/MP3/Q-36 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. Several assassination attempts on Ted Kennedy’s life</answ1>
+	<answ2>B. That Ted Kennedy was a security threat</answ2>
+	<answ3>C. The Kennedys  were partial to being monitored</answ3>
+	<answ4>D. How  the FBI actually operated</answ4>
+	</answers></question>
+<question nquest="37" Question="37. Which statement is true according to what you have heard?">
+	<url>EXAMEN 2/MP3/Q-37 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. Marcel was employed by BP for a long time</answ1>
+	<answ2>B. His preferred wedding spot is full of tar balls and oil mousse</answ2>
+	<answ3>C. He has filed a claim for business interruption</answ3>
+	<answ4>D. Crashing waves, ideal for weddings, are fewer</answ4>
+	</answers></question>
+<question nquest="38" Question="38. Which statement is true according to what you have heard?">
+	<url>EXAMEN 2/MP3/Q-38 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. The  last amnesty was in 1959 after Fidel Castro came to power</answ1>
+	<answ2>B. The EU wants to normalize relations so US citizens can travel to Cuba</answ2>
+	<answ3>C. Cuba has received international condemnation for its treatment of the prisoners</answ3>
+	<answ4>D. The US Congress has passed a law which annuls  the travel ban</answ4>
+	</answers></question>
+<question nquest="39" Question="39. Choose the correct statement">
+	<url>EXAMEN 2/MP3/Q-39 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A.  Shiite Muslims make frequent pilgrimages to Bagdhad</answ1>
+	<answ2>B. The shrine is in a neighbourhood previously controlled by Shiites</answ2>
+	<answ3>C. The most direct route to the Shiite shrine is through a Sunni area</answ3>
+	<answ4>D. Sunni insurgents joined forces with the Americans</answ4>
+	</answers></question>
+<question nquest="40" Question="40. Choose the correct statement">
+	<url>EXAMEN 2/MP3/Q-40 EXAMEN 2.mp3</url>
+	<repeat>1</repeat>
+	<delay>8</delay>
+	<answers>
+	<answ1>A. The pilot glided for 26 hours over the Swiss Alps</answ1>
+	<answ2>B. The plane is the size of an Airbus and travelled at 78 miles an hour</answ2>
+	<answ3>C. The plane is part of a long-term  energy-saving  project</answ3>
+	<answ4>D. It was unpleasant for the pilot to hear no noise</answ4>
+	</answers></question>
+</exam>
